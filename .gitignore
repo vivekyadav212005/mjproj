@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+venv/
+.venv/
+
+# ChromaDB (binary vector store files - regenerable)
+chromadb/
+
+# HuggingFace / ML training artifacts
+security/training/checkpoints/
+security/training/hf_dataset/
+
+# Raw & processed data (large files)
+data/raw/
+data/processed/
+
+# Xet logs
+data/raw/xet/
+
