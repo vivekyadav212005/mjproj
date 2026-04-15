@@ -27,3 +27,5 @@ data/raw/xet/
 
 knowledge_base/corpora/finance_raw.json
 knowledge_base/chunks/finance_chunks.json
+knowledge_base/corpora/
+knowledge_base/chunks/
