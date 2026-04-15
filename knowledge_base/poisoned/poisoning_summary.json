@@ -1,0 +1,29 @@
+{
+  "clean_count": 89500,
+  "poisoned_variants": {
+    "1pct": {
+      "n_injected": 905,
+      "n_unique_docs": 63,
+      "total_chunks": 90405,
+      "actual_rate": 1.0,
+      "target_rate": 1.0,
+      "chromadb_path": "chromadb/poisoned_1pct"
+    },
+    "5pct": {
+      "n_injected": 4711,
+      "n_unique_docs": 63,
+      "total_chunks": 94211,
+      "actual_rate": 5.0,
+      "target_rate": 5.0,
+      "chromadb_path": "chromadb/poisoned_5pct"
+    },
+    "10pct": {
+      "n_injected": 9945,
+      "n_unique_docs": 63,
+      "total_chunks": 99445,
+      "actual_rate": 10.0,
+      "target_rate": 10.0,
+      "chromadb_path": "chromadb/poisoned_10pct"
+    }
+  }
+}
