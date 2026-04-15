@@ -1,0 +1,34 @@
+======================================================================
+SECURERAG — EVALUATION REPORT: S0
+======================================================================
+
+TABLE 2: Attack Success Rate by Category
+----------------------------------------------------------------------
+  Cat   Name                                N  Succ     ASR  Blocked
+----------------------------------------------------------------------
+  D1    Instruction Override               20    13   65.0%       0
+  D2    Role Hijacking                     20     0    0.0%       0
+  D3    Obfuscated Injection               20     0    0.0%       0
+  D4    Prompt Leakage                     20     2   10.0%       0
+  D5    Multi-Turn Anchoring               20    10   50.0%       0
+  I1    Explicit Instruction in Doc        20     2   10.0%       0
+  I2    Hidden Instruction in Doc          20     0    0.0%       0
+  I3    Persona Shift via Document         20     5   25.0%       0
+----------------------------------------------------------------------
+  Direct (D1-D5)                          100    25   25.0%       0
+  Indirect (I1-I3)                         60     7   11.7%       0
+======================================================================
+  OVERALL                                 160    32   20.0%       0
+
+  Note: 'Blocked' = Gemini safety filter triggered
+  (counted as failed attacks — model resisted injection)
+
+TABLE 3: ASR by Domain (Indirect Attacks Only)
+----------------------------------------------------------------------
+  healthcare           n= 21  success=  4  ASR= 19.1%
+  finance              n= 21  success=  2  ASR=  9.5%
+  general              n= 18  success=  1  ASR=  5.6%
+
+  Error rate   : 0.6% (1 failed LLM calls)
+  Blocked rate : 0.0% (0 safety filter triggers)
+======================================================================

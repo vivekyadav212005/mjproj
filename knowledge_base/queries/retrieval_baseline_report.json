@@ -1,0 +1,2736 @@
+{
+  "overall": {
+    "top1_recall": 0.7,
+    "top3_recall": 0.7466666666666667,
+    "top5_recall": 0.78,
+    "mean_rank_when_found": 1.21
+  },
+  "by_domain": {
+    "healthcare": {
+      "total": 50,
+      "top1_recall": 0.9,
+      "top3_recall": 0.92,
+      "top5_recall": 0.94,
+      "mean_rank": 1.11
+    },
+    "finance": {
+      "total": 50,
+      "top1_recall": 0.6,
+      "top3_recall": 0.6,
+      "top5_recall": 0.6,
+      "mean_rank": 1.0
+    },
+    "general": {
+      "total": 50,
+      "top1_recall": 0.6,
+      "top3_recall": 0.72,
+      "top5_recall": 0.8,
+      "mean_rank": 1.48
+    }
+  },
+  "total_queries": 150,
+  "top_k": 5,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "per_query_results": [
+    {
+      "query_id": "hc_000",
+      "domain": "healthcare",
+      "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+      "source_doc_id": "pubmed_10593212",
+      "retrieved_doc_ids": [
+        "pubmed_10593212",
+        "pubmed_23735520",
+        "pubmed_24977765",
+        "pubmed_25588461",
+        "pubmed_26079501"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3758
+    },
+    {
+      "query_id": "hc_001",
+      "domain": "healthcare",
+      "question": "A comparison of 500 prefilled textured saline breast implants versus 500 standard textured saline br",
+      "source_doc_id": "pubmed_16772913",
+      "retrieved_doc_ids": [
+        "pubmed_16772913",
+        "pubmed_26471488",
+        "pubmed_24946973",
+        "pubmed_25887165",
+        "pubmed_19854401"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1881
+    },
+    {
+      "query_id": "hc_002",
+      "domain": "healthcare",
+      "question": "Can tailored interventions increase mammography use among HMO women?",
+      "source_doc_id": "pubmed_10808977",
+      "retrieved_doc_ids": [
+        "pubmed_10808977",
+        "finance_alpaca_40030",
+        "pubmed_10749257",
+        "finance_alpaca_33103",
+        "pubmed_26471488"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3482
+    },
+    {
+      "query_id": "hc_003",
+      "domain": "healthcare",
+      "question": "\"Occult\" posttraumatic lesions of the knee: can magnetic resonance substitute for diagnostic arthros",
+      "source_doc_id": "pubmed_9465206",
+      "retrieved_doc_ids": [
+        "pubmed_9465206",
+        "pubmed_22668712",
+        "pubmed_24698298",
+        "pubmed_25043083",
+        "finance_alpaca_41143"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3849
+    },
+    {
+      "query_id": "hc_004",
+      "domain": "healthcare",
+      "question": "The Main Gate Syndrome: a new format in mass-casualty victim \"surge\" management?",
+      "source_doc_id": "pubmed_19106867",
+      "retrieved_doc_ids": [
+        "pubmed_19394934",
+        "finance_alpaca_64340",
+        "squad_56cf8304234ae51400d9bdd9",
+        "finance_alpaca_04412",
+        "pubmed_19106867"
+      ],
+      "found_rank": 5,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": true,
+      "top1_distance": 0.5757
+    },
+    {
+      "query_id": "hc_005",
+      "domain": "healthcare",
+      "question": "Does Residency Selection Criteria Predict Performance in Orthopaedic Surgery Residency?",
+      "source_doc_id": "pubmed_25940336",
+      "retrieved_doc_ids": [
+        "pubmed_25940336",
+        "pubmed_16678696",
+        "pubmed_16678696",
+        "pubmed_19712912",
+        "pubmed_24630333"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1586
+    },
+    {
+      "query_id": "hc_006",
+      "domain": "healthcare",
+      "question": "Could chest wall rigidity be a factor in rapid death from illicit fentanyl abuse?",
+      "source_doc_id": "pubmed_26999038",
+      "retrieved_doc_ids": [
+        "pubmed_26999038",
+        "pubmed_26999038",
+        "finance_alpaca_23999",
+        "finance_alpaca_62210",
+        "squad_572e9d48cb0c0d14000f136c"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1775
+    },
+    {
+      "query_id": "hc_007",
+      "domain": "healthcare",
+      "question": "Identification of racial disparities in breast cancer mortality: does scale matter?",
+      "source_doc_id": "pubmed_20602784",
+      "retrieved_doc_ids": [
+        "pubmed_20602784",
+        "pubmed_17598882",
+        "pubmed_24751724",
+        "squad_57293db73f37b3190047817b",
+        "pubmed_23347337"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2675
+    },
+    {
+      "query_id": "hc_008",
+      "domain": "healthcare",
+      "question": "Does context matter for the relationship between deprivation and all-cause mortality?",
+      "source_doc_id": "pubmed_21569408",
+      "retrieved_doc_ids": [
+        "pubmed_21569408",
+        "finance_alpaca_39937",
+        "finance_alpaca_55761",
+        "pubmed_16956164",
+        "finance_alpaca_44695"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4761
+    },
+    {
+      "query_id": "hc_009",
+      "domain": "healthcare",
+      "question": "Sub-classification of low-grade cerebellar astrocytoma: is it clinically meaningful?",
+      "source_doc_id": "pubmed_14631523",
+      "retrieved_doc_ids": [
+        "pubmed_14631523",
+        "pubmed_9427037",
+        "squad_56f8c90c9b226e1400dd0fdf",
+        "finance_alpaca_38532",
+        "pubmed_14968373"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2594
+    },
+    {
+      "query_id": "hc_010",
+      "domain": "healthcare",
+      "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+      "source_doc_id": "pubmed_21645374",
+      "retrieved_doc_ids": [
+        "pubmed_21645374",
+        "finance_alpaca_28033",
+        "finance_alpaca_43657",
+        "finance_alpaca_49842",
+        "finance_alpaca_28870"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2437
+    },
+    {
+      "query_id": "hc_011",
+      "domain": "healthcare",
+      "question": "Do liquid-based preparations of urinary cytology perform differently than classically prepared cases",
+      "source_doc_id": "pubmed_20073599",
+      "retrieved_doc_ids": [
+        "pubmed_20073599",
+        "pubmed_10759659",
+        "pubmed_23992109",
+        "pubmed_19643525",
+        "pubmed_17192736"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2743
+    },
+    {
+      "query_id": "hc_012",
+      "domain": "healthcare",
+      "question": "Can mental imagery functional magnetic resonance imaging predict recovery in patients with disorders",
+      "source_doc_id": "pubmed_23735520",
+      "retrieved_doc_ids": [
+        "pubmed_23735520",
+        "pubmed_25588461",
+        "pubmed_10593212",
+        "pubmed_21457946",
+        "pubmed_25752725"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2072
+    },
+    {
+      "query_id": "hc_013",
+      "domain": "healthcare",
+      "question": "Increased neutrophil migratory activity after major trauma: a factor in the etiology of acute respir",
+      "source_doc_id": "pubmed_12163782",
+      "retrieved_doc_ids": [
+        "pubmed_12163782",
+        "pubmed_12163782",
+        "pubmed_12836106",
+        "pubmed_21900017",
+        "pubmed_11481599"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1774
+    },
+    {
+      "query_id": "hc_014",
+      "domain": "healthcare",
+      "question": "Does cup-cage reconstruction with oversized cups provide initial stability in THA for osteoporotic a",
+      "source_doc_id": "pubmed_26194560",
+      "retrieved_doc_ids": [
+        "pubmed_26194560",
+        "pubmed_26606599",
+        "pubmed_26419377",
+        "pubmed_27832831",
+        "pubmed_24630333"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.346
+    },
+    {
+      "query_id": "hc_015",
+      "domain": "healthcare",
+      "question": "Chronic functional somatic symptoms: a single syndrome?",
+      "source_doc_id": "pubmed_15588538",
+      "retrieved_doc_ids": [
+        "pubmed_15588538",
+        "pubmed_12920330",
+        "squad_572f71d1b2c2fd140056812e",
+        "squad_572f926ab2c2fd1400568207",
+        "finance_alpaca_56914"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2874
+    },
+    {
+      "query_id": "hc_016",
+      "domain": "healthcare",
+      "question": "Profiling quality of care: Is there a role for peer review?",
+      "source_doc_id": "pubmed_15151701",
+      "retrieved_doc_ids": [
+        "pubmed_15151701",
+        "pubmed_15151701",
+        "pubmed_26518378",
+        "finance_alpaca_29927",
+        "pubmed_17355582"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4412
+    },
+    {
+      "query_id": "hc_017",
+      "domain": "healthcare",
+      "question": "Are WHO/UNAIDS/UNICEF-recommended replacement milks for infants of HIV-infected mothers appropriate ",
+      "source_doc_id": "pubmed_15112004",
+      "retrieved_doc_ids": [
+        "pubmed_15112004",
+        "pubmed_21658267",
+        "squad_57310d92a5e9cc1400cdbbef",
+        "squad_571ac0904faf5e1900b8ac48",
+        "pubmed_18019905"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2411
+    },
+    {
+      "query_id": "hc_018",
+      "domain": "healthcare",
+      "question": "Can increases in the cigarette tax rate be linked to cigarette retail prices?",
+      "source_doc_id": "pubmed_23076787",
+      "retrieved_doc_ids": [
+        "pubmed_23076787",
+        "finance_alpaca_26077",
+        "finance_alpaca_01143",
+        "finance_alpaca_34474",
+        "finance_alpaca_54833"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3282
+    },
+    {
+      "query_id": "hc_019",
+      "domain": "healthcare",
+      "question": "Does receipt of hospice care in nursing homes improve the management of pain at the end of life?",
+      "source_doc_id": "pubmed_11943048",
+      "retrieved_doc_ids": [
+        "pubmed_11943048",
+        "pubmed_21398266",
+        "pubmed_11943048",
+        "pubmed_21592383",
+        "finance_alpaca_08587"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3769
+    },
+    {
+      "query_id": "hc_020",
+      "domain": "healthcare",
+      "question": "Do microbiological factors account for poor pregnancy outcome among unmarried pregnant women in Pola",
+      "source_doc_id": "pubmed_12913347",
+      "retrieved_doc_ids": [
+        "pubmed_12913347",
+        "finance_alpaca_43572",
+        "pubmed_27405146",
+        "pubmed_18019905",
+        "squad_573431514776f41900661a3b"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2997
+    },
+    {
+      "query_id": "hc_021",
+      "domain": "healthcare",
+      "question": "Do healthier lifestyles lead to less utilization of healthcare resources?",
+      "source_doc_id": "pubmed_28359277",
+      "retrieved_doc_ids": [
+        "finance_alpaca_20849",
+        "finance_alpaca_53482",
+        "finance_alpaca_38690",
+        "finance_alpaca_47159",
+        "finance_alpaca_36813"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3916
+    },
+    {
+      "query_id": "hc_022",
+      "domain": "healthcare",
+      "question": "Aromatase inhibitor-related musculoskeletal symptoms: is preventing osteoporosis the key to eliminat",
+      "source_doc_id": "pubmed_19299238",
+      "retrieved_doc_ids": [
+        "pubmed_19299238",
+        "finance_alpaca_39511",
+        "pubmed_18041059",
+        "pubmed_23359100",
+        "pubmed_25371231"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3326
+    },
+    {
+      "query_id": "hc_023",
+      "domain": "healthcare",
+      "question": "Can PRISM predict length of PICU stay?",
+      "source_doc_id": "pubmed_14612308",
+      "retrieved_doc_ids": [
+        "finance_alpaca_40343",
+        "finance_alpaca_30155",
+        "finance_alpaca_22121",
+        "finance_alpaca_23078",
+        "finance_alpaca_25949"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.5463
+    },
+    {
+      "query_id": "hc_024",
+      "domain": "healthcare",
+      "question": "Is first-line single-agent mitoxantrone in the treatment of high-risk metastatic breast cancer patie",
+      "source_doc_id": "pubmed_12419743",
+      "retrieved_doc_ids": [
+        "pubmed_12419743",
+        "pubmed_18041059",
+        "pubmed_23347337",
+        "pubmed_24946973",
+        "pubmed_14692023"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1876
+    },
+    {
+      "query_id": "hc_025",
+      "domain": "healthcare",
+      "question": "Can dogs prime autistic children for therapy?",
+      "source_doc_id": "pubmed_21689015",
+      "retrieved_doc_ids": [
+        "pubmed_21689015",
+        "squad_56d639a01c85041400947016",
+        "squad_56d62f941c85041400946fae",
+        "finance_alpaca_42877",
+        "finance_alpaca_24289"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3116
+    },
+    {
+      "query_id": "hc_026",
+      "domain": "healthcare",
+      "question": "Does bone anchor fixation improve the outcome of percutaneous bladder neck suspension in female stre",
+      "source_doc_id": "pubmed_9722752",
+      "retrieved_doc_ids": [
+        "pubmed_9722752",
+        "pubmed_24809662",
+        "pubmed_21394762",
+        "pubmed_20497880",
+        "squad_56d5d7fa1c85041400946e24"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2807
+    },
+    {
+      "query_id": "hc_027",
+      "domain": "healthcare",
+      "question": "Is laparoscopic adrenalectomy safe and effective for adrenal masses larger than 7 cm?",
+      "source_doc_id": "pubmed_17704864",
+      "retrieved_doc_ids": [
+        "pubmed_17704864",
+        "pubmed_24827404",
+        "pubmed_18439500",
+        "pubmed_24476003",
+        "pubmed_25480629"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1753
+    },
+    {
+      "query_id": "hc_028",
+      "domain": "healthcare",
+      "question": "Immunohistochemical assessment of steroid hormone receptors in tissues of the anal canal. Implicatio",
+      "source_doc_id": "pubmed_9003088",
+      "retrieved_doc_ids": [
+        "pubmed_9003088",
+        "squad_5706e5b49e06ca38007e9205",
+        "pubmed_12377809",
+        "pubmed_21394762",
+        "pubmed_24809662"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.238
+    },
+    {
+      "query_id": "hc_029",
+      "domain": "healthcare",
+      "question": "Are laboratories reporting serum quantitative hCG results correctly?",
+      "source_doc_id": "pubmed_18375490",
+      "retrieved_doc_ids": [
+        "pubmed_18375490",
+        "pubmed_23761381",
+        "finance_alpaca_45790",
+        "finance_alpaca_60293",
+        "finance_alpaca_27037"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3686
+    },
+    {
+      "query_id": "hc_030",
+      "domain": "healthcare",
+      "question": "Could ESC (Electronic Stability Control) change the way we drive?",
+      "source_doc_id": "pubmed_19593710",
+      "retrieved_doc_ids": [
+        "pubmed_19593710",
+        "finance_alpaca_49988",
+        "squad_5726b8c9708984140094cf1f",
+        "finance_alpaca_34039",
+        "finance_alpaca_29860"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4335
+    },
+    {
+      "query_id": "hc_031",
+      "domain": "healthcare",
+      "question": "Is motion perception deficit in schizophrenia a consequence of eye-tracking abnormality?",
+      "source_doc_id": "pubmed_19054501",
+      "retrieved_doc_ids": [
+        "pubmed_19054501",
+        "pubmed_21457946",
+        "pubmed_19156007",
+        "finance_alpaca_36169",
+        "finance_alpaca_45625"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1594
+    },
+    {
+      "query_id": "hc_032",
+      "domain": "healthcare",
+      "question": "Are patients willing participants in the new wave of community-based medical education in regional a",
+      "source_doc_id": "pubmed_20121683",
+      "retrieved_doc_ids": [
+        "pubmed_20121683",
+        "pubmed_8245806",
+        "pubmed_19711462",
+        "finance_alpaca_64042",
+        "finance_alpaca_37013"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3281
+    },
+    {
+      "query_id": "hc_033",
+      "domain": "healthcare",
+      "question": "Can continuous physical training counteract aging effect on myoelectric fatigue?",
+      "source_doc_id": "pubmed_12690589",
+      "retrieved_doc_ids": [
+        "pubmed_12690589",
+        "finance_alpaca_59538",
+        "finance_alpaca_38657",
+        "finance_alpaca_25564",
+        "finance_alpaca_62802"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2531
+    },
+    {
+      "query_id": "hc_034",
+      "domain": "healthcare",
+      "question": "Are income-related differences in active travel associated with physical environmental characteristi",
+      "source_doc_id": "pubmed_26044262",
+      "retrieved_doc_ids": [
+        "pubmed_26044262",
+        "pubmed_26044262",
+        "finance_alpaca_48512",
+        "finance_alpaca_38504",
+        "finance_alpaca_27939"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2232
+    },
+    {
+      "query_id": "hc_035",
+      "domain": "healthcare",
+      "question": "Is muscle power related to running speed with changes of direction?",
+      "source_doc_id": "pubmed_12094116",
+      "retrieved_doc_ids": [
+        "pubmed_12094116",
+        "finance_alpaca_53271",
+        "finance_alpaca_46562",
+        "finance_alpaca_47715",
+        "finance_alpaca_42073"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3083
+    },
+    {
+      "query_id": "hc_036",
+      "domain": "healthcare",
+      "question": "Are performance measurement systems useful?",
+      "source_doc_id": "pubmed_28143468",
+      "retrieved_doc_ids": [
+        "finance_alpaca_28039",
+        "finance_alpaca_36994",
+        "finance_alpaca_47512",
+        "finance_alpaca_24759",
+        "finance_alpaca_40558"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4248
+    },
+    {
+      "query_id": "hc_037",
+      "domain": "healthcare",
+      "question": "Thoracic and thoracoabdominal aneurysm repair: is reimplantation of spinal cord arteries a waste of ",
+      "source_doc_id": "pubmed_17062225",
+      "retrieved_doc_ids": [
+        "pubmed_17062225",
+        "pubmed_14652839",
+        "pubmed_20594006",
+        "pubmed_24153338",
+        "pubmed_12607666"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4612
+    },
+    {
+      "query_id": "hc_038",
+      "domain": "healthcare",
+      "question": "Assessing joint line positions by means of the contralateral knee: a new approach for planning knee ",
+      "source_doc_id": "pubmed_24996865",
+      "retrieved_doc_ids": [
+        "pubmed_24996865",
+        "pubmed_25218577",
+        "pubmed_15687156",
+        "pubmed_24519615",
+        "pubmed_27281318"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2425
+    },
+    {
+      "query_id": "hc_039",
+      "domain": "healthcare",
+      "question": "Do hospitals provide lower quality care on weekends?",
+      "source_doc_id": "pubmed_17610439",
+      "retrieved_doc_ids": [
+        "finance_alpaca_28364",
+        "pubmed_17610439",
+        "finance_alpaca_16725",
+        "pubmed_7860319",
+        "squad_57268d09f1498d1400e8e382"
+      ],
+      "found_rank": 2,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.5032
+    },
+    {
+      "query_id": "hc_040",
+      "domain": "healthcare",
+      "question": "Attaining negative margins in breast-conservation operations: is there a consensus among breast surg",
+      "source_doc_id": "pubmed_19854401",
+      "retrieved_doc_ids": [
+        "pubmed_19854401",
+        "pubmed_26471488",
+        "pubmed_23177368",
+        "pubmed_23736032",
+        "pubmed_18243752"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2191
+    },
+    {
+      "query_id": "hc_041",
+      "domain": "healthcare",
+      "question": "Adjuvant radiation of stage III thymoma: is it necessary?",
+      "source_doc_id": "pubmed_15919266",
+      "retrieved_doc_ids": [
+        "pubmed_15919266",
+        "pubmed_8985020",
+        "pubmed_26285789",
+        "pubmed_27896825",
+        "pubmed_24946973"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2031
+    },
+    {
+      "query_id": "hc_042",
+      "domain": "healthcare",
+      "question": "Does hypoglycaemia increase the risk of cardiovascular events?",
+      "source_doc_id": "pubmed_23999452",
+      "retrieved_doc_ids": [
+        "pubmed_23999452",
+        "squad_57271de4dd62a815002e9930",
+        "pubmed_12006913",
+        "finance_alpaca_51536",
+        "pubmed_17894828"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3768
+    },
+    {
+      "query_id": "hc_043",
+      "domain": "healthcare",
+      "question": "Are hepatitis G virus and TT virus involved in cryptogenic chronic liver disease?",
+      "source_doc_id": "pubmed_11926574",
+      "retrieved_doc_ids": [
+        "pubmed_11926574",
+        "pubmed_25636371",
+        "squad_57342eb44776f41900661a2b",
+        "pubmed_17295865",
+        "pubmed_21850494"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.183
+    },
+    {
+      "query_id": "hc_044",
+      "domain": "healthcare",
+      "question": "Is adjustment for reporting heterogeneity necessary in sleep disorders?",
+      "source_doc_id": "pubmed_26852225",
+      "retrieved_doc_ids": [
+        "pubmed_26852225",
+        "finance_alpaca_53340",
+        "pubmed_20297950",
+        "finance_alpaca_57093",
+        "finance_alpaca_42213"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.379
+    },
+    {
+      "query_id": "hc_045",
+      "domain": "healthcare",
+      "question": "SPECT study with I-123-Ioflupane (DaTSCAN) in patients with essential tremor. Is there any correlati",
+      "source_doc_id": "pubmed_22382608",
+      "retrieved_doc_ids": [
+        "pubmed_22382608",
+        "pubmed_22382608",
+        "pubmed_23916653",
+        "pubmed_20382292",
+        "pubmed_26085176"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1797
+    },
+    {
+      "query_id": "hc_046",
+      "domain": "healthcare",
+      "question": "Characterization of the gender dimorphism after injury and hemorrhagic shock: are hormonal differenc",
+      "source_doc_id": "pubmed_18496363",
+      "retrieved_doc_ids": [
+        "pubmed_18496363",
+        "squad_57101c35b654c5140001f801",
+        "squad_5706e5b49e06ca38007e9205",
+        "finance_alpaca_53934",
+        "squad_570c4897fed7b91900d4582f"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3272
+    },
+    {
+      "query_id": "hc_047",
+      "domain": "healthcare",
+      "question": "Do risk calculators accurately predict surgical site\u00a0occurrences?",
+      "source_doc_id": "pubmed_27338535",
+      "retrieved_doc_ids": [
+        "pubmed_27338535",
+        "finance_alpaca_17720",
+        "pubmed_26222664",
+        "finance_alpaca_25943",
+        "pubmed_16678696"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4281
+    },
+    {
+      "query_id": "hc_048",
+      "domain": "healthcare",
+      "question": "Continuity of care experience of residents in an academic vascular department: are trainees learning",
+      "source_doc_id": "pubmed_16678696",
+      "retrieved_doc_ids": [
+        "pubmed_16678696",
+        "pubmed_10354335",
+        "pubmed_19712912",
+        "pubmed_20121683",
+        "pubmed_8245806"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2224
+    },
+    {
+      "query_id": "hc_049",
+      "domain": "healthcare",
+      "question": "Scrotal approach to both palpable and impalpable undescended testes: should it become our first choi",
+      "source_doc_id": "pubmed_20156655",
+      "retrieved_doc_ids": [
+        "pubmed_20156655",
+        "pubmed_18158048",
+        "pubmed_24851767",
+        "pubmed_16564683",
+        "pubmed_26708803"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3332
+    },
+    {
+      "query_id": "fin_000",
+      "domain": "finance",
+      "question": "Find the biggest chance of rain in the next 10 days.",
+      "source_doc_id": "finance_alpaca_22907",
+      "retrieved_doc_ids": [
+        "finance_alpaca_22907",
+        "finance_alpaca_35387",
+        "finance_alpaca_25185",
+        "finance_alpaca_19390",
+        "finance_alpaca_48434"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2341
+    },
+    {
+      "query_id": "fin_001",
+      "domain": "finance",
+      "question": "Describe how the following two words are different: \u201canalogy\u201d and \u201cmetaphor\u201d",
+      "source_doc_id": "finance_alpaca_25502",
+      "retrieved_doc_ids": [
+        "finance_alpaca_25502",
+        "finance_alpaca_33267",
+        "finance_alpaca_34204",
+        "finance_alpaca_53612",
+        "finance_alpaca_50897"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1536
+    },
+    {
+      "query_id": "fin_002",
+      "domain": "finance",
+      "question": "Can a custodian refuse prior-year IRA/HSA deposit postmarked April 15?",
+      "source_doc_id": "finance_alpaca_07096",
+      "retrieved_doc_ids": [
+        "finance_alpaca_07096",
+        "finance_alpaca_05557",
+        "finance_alpaca_05611",
+        "finance_alpaca_09128",
+        "finance_alpaca_06759"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.309
+    },
+    {
+      "query_id": "fin_003",
+      "domain": "finance",
+      "question": "Write a story about a man\u2019s high-stakes fight",
+      "source_doc_id": "finance_alpaca_34396",
+      "retrieved_doc_ids": [
+        "finance_alpaca_32136",
+        "finance_alpaca_30902",
+        "finance_alpaca_36266",
+        "finance_alpaca_46792",
+        "finance_alpaca_57771"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.458
+    },
+    {
+      "query_id": "fin_004",
+      "domain": "finance",
+      "question": "What are my risks of early assignment?",
+      "source_doc_id": "finance_alpaca_12700",
+      "retrieved_doc_ids": [
+        "finance_alpaca_19028",
+        "finance_alpaca_55119",
+        "finance_alpaca_20251",
+        "finance_alpaca_21691",
+        "finance_alpaca_32158"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.2913
+    },
+    {
+      "query_id": "fin_005",
+      "domain": "finance",
+      "question": "Explain why a given topic is important.",
+      "source_doc_id": "finance_alpaca_17296",
+      "retrieved_doc_ids": [
+        "finance_alpaca_43034",
+        "finance_alpaca_18976",
+        "finance_alpaca_24924",
+        "finance_alpaca_32798",
+        "finance_alpaca_38266"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4184
+    },
+    {
+      "query_id": "fin_006",
+      "domain": "finance",
+      "question": "What options do I have at 26 years old, with 1.2 million USD?",
+      "source_doc_id": "finance_alpaca_10893",
+      "retrieved_doc_ids": [
+        "finance_alpaca_04406",
+        "finance_alpaca_04811",
+        "finance_alpaca_16394",
+        "finance_alpaca_03646",
+        "finance_alpaca_06191"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3422
+    },
+    {
+      "query_id": "fin_007",
+      "domain": "finance",
+      "question": "Trouble sticking to a budget when using credit cards for day to day transactions?",
+      "source_doc_id": "finance_alpaca_13583",
+      "retrieved_doc_ids": [
+        "finance_alpaca_13583",
+        "finance_alpaca_10795",
+        "finance_alpaca_03791",
+        "finance_alpaca_08480",
+        "finance_alpaca_09611"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.301
+    },
+    {
+      "query_id": "fin_008",
+      "domain": "finance",
+      "question": "Create a mathematical representation of the sentence \"1 plus 1 equals 2\"",
+      "source_doc_id": "finance_alpaca_39074",
+      "retrieved_doc_ids": [
+        "finance_alpaca_39074",
+        "finance_alpaca_19648",
+        "finance_alpaca_43637",
+        "finance_alpaca_33880",
+        "finance_alpaca_38793"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1325
+    },
+    {
+      "query_id": "fin_009",
+      "domain": "finance",
+      "question": "How can big data be used to increase industry efficiency?",
+      "source_doc_id": "finance_alpaca_63912",
+      "retrieved_doc_ids": [
+        "finance_alpaca_63912",
+        "finance_alpaca_37852",
+        "finance_alpaca_20320",
+        "finance_alpaca_36158",
+        "finance_alpaca_57339"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1644
+    },
+    {
+      "query_id": "fin_010",
+      "domain": "finance",
+      "question": "Copy and paste the text below into a new document and highlight all the nouns.",
+      "source_doc_id": "finance_alpaca_45751",
+      "retrieved_doc_ids": [
+        "finance_alpaca_31332",
+        "finance_alpaca_62488",
+        "finance_alpaca_57612",
+        "finance_alpaca_26605",
+        "finance_alpaca_26564"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4814
+    },
+    {
+      "query_id": "fin_011",
+      "domain": "finance",
+      "question": "How are days counted when funding a new account within 10 days",
+      "source_doc_id": "finance_alpaca_05582",
+      "retrieved_doc_ids": [
+        "finance_alpaca_05582",
+        "finance_alpaca_05459",
+        "finance_alpaca_16977",
+        "finance_alpaca_44371",
+        "finance_alpaca_01418"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3313
+    },
+    {
+      "query_id": "fin_012",
+      "domain": "finance",
+      "question": "Name a dish that tastes sweet and sour",
+      "source_doc_id": "finance_alpaca_42335",
+      "retrieved_doc_ids": [
+        "finance_alpaca_42335",
+        "finance_alpaca_25168",
+        "finance_alpaca_20290",
+        "finance_alpaca_18608",
+        "finance_alpaca_59188"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3223
+    },
+    {
+      "query_id": "fin_013",
+      "domain": "finance",
+      "question": "Explain what kind of output a recommendation system can provide.",
+      "source_doc_id": "finance_alpaca_44811",
+      "retrieved_doc_ids": [
+        "finance_alpaca_44811",
+        "finance_alpaca_35404",
+        "finance_alpaca_21225",
+        "finance_alpaca_42658",
+        "finance_alpaca_25214"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2447
+    },
+    {
+      "query_id": "fin_014",
+      "domain": "finance",
+      "question": "Create an original story of a person named Kate who is a physician.",
+      "source_doc_id": "finance_alpaca_54640",
+      "retrieved_doc_ids": [
+        "finance_alpaca_54640",
+        "finance_alpaca_57352",
+        "finance_alpaca_61557",
+        "finance_alpaca_56126",
+        "finance_alpaca_59209"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.288
+    },
+    {
+      "query_id": "fin_015",
+      "domain": "finance",
+      "question": "Give an example of a project that an AI developer could do",
+      "source_doc_id": "finance_alpaca_31902",
+      "retrieved_doc_ids": [
+        "finance_alpaca_31902",
+        "finance_alpaca_50773",
+        "finance_alpaca_51882",
+        "finance_alpaca_28395",
+        "finance_alpaca_18376"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1707
+    },
+    {
+      "query_id": "fin_016",
+      "domain": "finance",
+      "question": "Describe the flavor profile of a licorice candy.",
+      "source_doc_id": "finance_alpaca_22231",
+      "retrieved_doc_ids": [
+        "finance_alpaca_22231",
+        "finance_alpaca_21962",
+        "finance_alpaca_52523",
+        "finance_alpaca_59247",
+        "finance_alpaca_25168"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2601
+    },
+    {
+      "query_id": "fin_017",
+      "domain": "finance",
+      "question": "Summarise the main argument.",
+      "source_doc_id": "finance_alpaca_44777",
+      "retrieved_doc_ids": [
+        "finance_alpaca_58962",
+        "finance_alpaca_52358",
+        "finance_alpaca_23708",
+        "finance_alpaca_18551",
+        "finance_alpaca_64325"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4027
+    },
+    {
+      "query_id": "fin_018",
+      "domain": "finance",
+      "question": "Explain how a human resources department handles onboarding new employees.",
+      "source_doc_id": "finance_alpaca_36410",
+      "retrieved_doc_ids": [
+        "finance_alpaca_36410",
+        "finance_alpaca_19714",
+        "finance_alpaca_45728",
+        "finance_alpaca_55453",
+        "finance_alpaca_22787"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1049
+    },
+    {
+      "query_id": "fin_019",
+      "domain": "finance",
+      "question": "What debts are both partners liable for in a 'community property' state?",
+      "source_doc_id": "finance_alpaca_11517",
+      "retrieved_doc_ids": [
+        "finance_alpaca_11517",
+        "finance_alpaca_06507",
+        "finance_alpaca_02226",
+        "finance_alpaca_44524",
+        "finance_alpaca_09084"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.397
+    },
+    {
+      "query_id": "fin_020",
+      "domain": "finance",
+      "question": "Resources on how to be a short term trader?",
+      "source_doc_id": "finance_alpaca_03224",
+      "retrieved_doc_ids": [
+        "finance_alpaca_03224",
+        "finance_alpaca_00028",
+        "finance_alpaca_09755",
+        "finance_alpaca_07436",
+        "finance_alpaca_14059"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.304
+    },
+    {
+      "query_id": "fin_021",
+      "domain": "finance",
+      "question": "What is the sector of the stock market that contains companies that offer essential services?",
+      "source_doc_id": "finance_alpaca_25802",
+      "retrieved_doc_ids": [
+        "finance_alpaca_25802",
+        "finance_alpaca_31376",
+        "finance_alpaca_22838",
+        "finance_alpaca_44249",
+        "finance_alpaca_52302"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1944
+    },
+    {
+      "query_id": "fin_022",
+      "domain": "finance",
+      "question": "Describe a possible use case of Natural Language Generation in corporate communications",
+      "source_doc_id": "finance_alpaca_23008",
+      "retrieved_doc_ids": [
+        "finance_alpaca_23008",
+        "finance_alpaca_62852",
+        "finance_alpaca_27428",
+        "finance_alpaca_46605",
+        "finance_alpaca_41189"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.237
+    },
+    {
+      "query_id": "fin_023",
+      "domain": "finance",
+      "question": "Collect two example of how AI is being used positively in healthcare.",
+      "source_doc_id": "finance_alpaca_46714",
+      "retrieved_doc_ids": [
+        "finance_alpaca_44155",
+        "finance_alpaca_18826",
+        "finance_alpaca_47825",
+        "finance_alpaca_39809",
+        "finance_alpaca_55402"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.2391
+    },
+    {
+      "query_id": "fin_024",
+      "domain": "finance",
+      "question": "Should I sell a 2nd home, or rent it out?",
+      "source_doc_id": "finance_alpaca_01183",
+      "retrieved_doc_ids": [
+        "finance_alpaca_08604",
+        "finance_alpaca_07208",
+        "finance_alpaca_15957",
+        "finance_alpaca_05846",
+        "finance_alpaca_07208"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3367
+    },
+    {
+      "query_id": "fin_025",
+      "domain": "finance",
+      "question": "What is the area of a rectangular room if its two sides are 10 meters and 7 meters?",
+      "source_doc_id": "finance_alpaca_42544",
+      "retrieved_doc_ids": [
+        "finance_alpaca_42544",
+        "finance_alpaca_58440",
+        "finance_alpaca_39406",
+        "finance_alpaca_17537",
+        "finance_alpaca_25249"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1435
+    },
+    {
+      "query_id": "fin_026",
+      "domain": "finance",
+      "question": "Reflect on the quote below and answer the question:",
+      "source_doc_id": "finance_alpaca_22182",
+      "retrieved_doc_ids": [
+        "finance_alpaca_60776",
+        "finance_alpaca_08279",
+        "finance_alpaca_61870",
+        "finance_alpaca_21693",
+        "finance_alpaca_27706"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3713
+    },
+    {
+      "query_id": "fin_027",
+      "domain": "finance",
+      "question": "(Almost) no credit unions in New York City, why?",
+      "source_doc_id": "finance_alpaca_08067",
+      "retrieved_doc_ids": [
+        "finance_alpaca_08067",
+        "finance_alpaca_16745",
+        "finance_alpaca_13273",
+        "finance_alpaca_14553",
+        "finance_alpaca_10647"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2552
+    },
+    {
+      "query_id": "fin_028",
+      "domain": "finance",
+      "question": "Should I sell when my stocks are growing?",
+      "source_doc_id": "finance_alpaca_04124",
+      "retrieved_doc_ids": [
+        "finance_alpaca_00606",
+        "finance_alpaca_02297",
+        "finance_alpaca_07450",
+        "finance_alpaca_15910",
+        "finance_alpaca_10868"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3214
+    },
+    {
+      "query_id": "fin_029",
+      "domain": "finance",
+      "question": "How to calculate money needed for bills, by day",
+      "source_doc_id": "finance_alpaca_08486",
+      "retrieved_doc_ids": [
+        "finance_alpaca_08486",
+        "finance_alpaca_07209",
+        "finance_alpaca_01967",
+        "finance_alpaca_13506",
+        "finance_alpaca_11760"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3415
+    },
+    {
+      "query_id": "fin_030",
+      "domain": "finance",
+      "question": "Name three activities you can do at home during quarantine.",
+      "source_doc_id": "finance_alpaca_45893",
+      "retrieved_doc_ids": [
+        "finance_alpaca_45893",
+        "finance_alpaca_53400",
+        "finance_alpaca_59385",
+        "finance_alpaca_39643",
+        "finance_alpaca_21012"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.179
+    },
+    {
+      "query_id": "fin_031",
+      "domain": "finance",
+      "question": "~$75k in savings - Pay off house before new home?",
+      "source_doc_id": "finance_alpaca_05830",
+      "retrieved_doc_ids": [
+        "finance_alpaca_16635",
+        "finance_alpaca_01711",
+        "finance_alpaca_10474",
+        "finance_alpaca_01711",
+        "finance_alpaca_15745"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3016
+    },
+    {
+      "query_id": "fin_032",
+      "domain": "finance",
+      "question": "How might trading volume affect future share price?",
+      "source_doc_id": "finance_alpaca_06629",
+      "retrieved_doc_ids": [
+        "finance_alpaca_06629",
+        "finance_alpaca_02935",
+        "finance_alpaca_16751",
+        "finance_alpaca_11172",
+        "finance_alpaca_08471"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3211
+    },
+    {
+      "query_id": "fin_033",
+      "domain": "finance",
+      "question": "Pretend that you are the subject of the following poem. Use the first person voice to write a respon",
+      "source_doc_id": "finance_alpaca_62262",
+      "retrieved_doc_ids": [
+        "finance_alpaca_52546",
+        "finance_alpaca_23871",
+        "finance_alpaca_32295",
+        "finance_alpaca_47637",
+        "finance_alpaca_35890"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4092
+    },
+    {
+      "query_id": "fin_034",
+      "domain": "finance",
+      "question": "How do you check the accuracy of a machine learning model?",
+      "source_doc_id": "finance_alpaca_28238",
+      "retrieved_doc_ids": [
+        "finance_alpaca_28238",
+        "finance_alpaca_40660",
+        "finance_alpaca_48863",
+        "finance_alpaca_23589",
+        "finance_alpaca_17554"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1915
+    },
+    {
+      "query_id": "fin_035",
+      "domain": "finance",
+      "question": "Generate an outline for a proposal on the benefits of diversifying the student body.",
+      "source_doc_id": "finance_alpaca_46942",
+      "retrieved_doc_ids": [
+        "finance_alpaca_46942",
+        "finance_alpaca_32187",
+        "finance_alpaca_44585",
+        "finance_alpaca_18529",
+        "finance_alpaca_19879"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2788
+    },
+    {
+      "query_id": "fin_036",
+      "domain": "finance",
+      "question": "What happen in this selling call option scenario",
+      "source_doc_id": "finance_alpaca_16762",
+      "retrieved_doc_ids": [
+        "finance_alpaca_07229",
+        "finance_alpaca_11840",
+        "finance_alpaca_16824",
+        "finance_alpaca_08260",
+        "finance_alpaca_10372"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3506
+    },
+    {
+      "query_id": "fin_037",
+      "domain": "finance",
+      "question": "Name 5 nouns that a robot can be used for.",
+      "source_doc_id": "finance_alpaca_59881",
+      "retrieved_doc_ids": [
+        "finance_alpaca_31226",
+        "finance_alpaca_42569",
+        "finance_alpaca_42493",
+        "finance_alpaca_46741",
+        "finance_alpaca_22780"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3909
+    },
+    {
+      "query_id": "fin_038",
+      "domain": "finance",
+      "question": "Why doesn't Japan just divide the Yen by 100?",
+      "source_doc_id": "finance_alpaca_16304",
+      "retrieved_doc_ids": [
+        "finance_alpaca_53913",
+        "finance_alpaca_22020",
+        "finance_alpaca_15490",
+        "finance_alpaca_28549",
+        "finance_alpaca_06818"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.2625
+    },
+    {
+      "query_id": "fin_039",
+      "domain": "finance",
+      "question": "Given a situation, discuss the impacts of technology on the situation.",
+      "source_doc_id": "finance_alpaca_37536",
+      "retrieved_doc_ids": [
+        "finance_alpaca_57590",
+        "finance_alpaca_48428",
+        "finance_alpaca_17783",
+        "finance_alpaca_44868",
+        "finance_alpaca_19763"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.2515
+    },
+    {
+      "query_id": "fin_040",
+      "domain": "finance",
+      "question": "Is there a country that uses the term \u201cdollar\u201d for currency without also using \u201ccents\u201d as fractional",
+      "source_doc_id": "finance_alpaca_02871",
+      "retrieved_doc_ids": [
+        "finance_alpaca_02871",
+        "finance_alpaca_01163",
+        "squad_5709a923ed30961900e843d0",
+        "finance_alpaca_09076",
+        "squad_5709bd0d200fba140036829d"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2165
+    },
+    {
+      "query_id": "fin_041",
+      "domain": "finance",
+      "question": "Write an algorithm to find all prime numbers less than or equal to a given integer n.",
+      "source_doc_id": "finance_alpaca_42648",
+      "retrieved_doc_ids": [
+        "finance_alpaca_42648",
+        "finance_alpaca_61451",
+        "finance_alpaca_42143",
+        "finance_alpaca_28851",
+        "finance_alpaca_43862"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2198
+    },
+    {
+      "query_id": "fin_042",
+      "domain": "finance",
+      "question": "What is the most common cause of death in the United States?",
+      "source_doc_id": "finance_alpaca_55979",
+      "retrieved_doc_ids": [
+        "finance_alpaca_55979",
+        "finance_alpaca_27957",
+        "pubmed_15995461",
+        "squad_57342fe6d058e614000b6ac2",
+        "finance_alpaca_34275"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.193
+    },
+    {
+      "query_id": "fin_043",
+      "domain": "finance",
+      "question": "Does lender care what I use the money for?",
+      "source_doc_id": "finance_alpaca_14224",
+      "retrieved_doc_ids": [
+        "finance_alpaca_09384",
+        "finance_alpaca_12311",
+        "finance_alpaca_13503",
+        "finance_alpaca_10110",
+        "finance_alpaca_01992"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3956
+    },
+    {
+      "query_id": "fin_044",
+      "domain": "finance",
+      "question": "Identify the capital of the United States.",
+      "source_doc_id": "finance_alpaca_24753",
+      "retrieved_doc_ids": [
+        "finance_alpaca_24753",
+        "finance_alpaca_33046",
+        "finance_alpaca_29931",
+        "finance_alpaca_53910",
+        "finance_alpaca_53852"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3032
+    },
+    {
+      "query_id": "fin_045",
+      "domain": "finance",
+      "question": "What's the benefit of opening a Certificate of Deposit (CD) Account?",
+      "source_doc_id": "finance_alpaca_03838",
+      "retrieved_doc_ids": [
+        "finance_alpaca_15167",
+        "finance_alpaca_06071",
+        "finance_alpaca_01858",
+        "finance_alpaca_14065",
+        "finance_alpaca_03347"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3735
+    },
+    {
+      "query_id": "fin_046",
+      "domain": "finance",
+      "question": "Explain the difference between an obligate aerobe and an obligate anaerobe.",
+      "source_doc_id": "finance_alpaca_50279",
+      "retrieved_doc_ids": [
+        "finance_alpaca_50279",
+        "finance_alpaca_22252",
+        "finance_alpaca_34942",
+        "squad_572fbdb704bcaa1900d76c55",
+        "finance_alpaca_42460"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.1385
+    },
+    {
+      "query_id": "fin_047",
+      "domain": "finance",
+      "question": "Rewrite the following sentence for clarity.",
+      "source_doc_id": "finance_alpaca_17459",
+      "retrieved_doc_ids": [
+        "finance_alpaca_39570",
+        "finance_alpaca_47327",
+        "finance_alpaca_62724",
+        "finance_alpaca_39327",
+        "finance_alpaca_30741"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3191
+    },
+    {
+      "query_id": "fin_048",
+      "domain": "finance",
+      "question": "Compare and contrast commercial banks and investment banks.",
+      "source_doc_id": "finance_alpaca_41031",
+      "retrieved_doc_ids": [
+        "finance_alpaca_41031",
+        "finance_alpaca_19676",
+        "finance_alpaca_58434",
+        "finance_alpaca_05446",
+        "finance_alpaca_03560"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2194
+    },
+    {
+      "query_id": "fin_049",
+      "domain": "finance",
+      "question": "Identify the person who said the following phrase.",
+      "source_doc_id": "finance_alpaca_61430",
+      "retrieved_doc_ids": [
+        "finance_alpaca_35016",
+        "finance_alpaca_49888",
+        "finance_alpaca_63016",
+        "finance_alpaca_20141",
+        "finance_alpaca_61285"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4006
+    },
+    {
+      "query_id": "gen_000",
+      "domain": "general",
+      "question": "What do present day Dominican Order associates do?",
+      "source_doc_id": "squad_5727d0d5ff5b5019007d95d6",
+      "retrieved_doc_ids": [
+        "squad_5727d0d5ff5b5019007d95d6",
+        "squad_572783e85951b619008f8bf9",
+        "squad_5727d1c94b864d1900163dde",
+        "squad_5727e3574b864d1900163f42",
+        "squad_572784efdd62a815002e9f5c"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2746
+    },
+    {
+      "query_id": "gen_001",
+      "domain": "general",
+      "question": "What have the peoples in the Americas been more vocal about since the 20th century?",
+      "source_doc_id": "squad_5731a8d20fdd8d15006c6435",
+      "retrieved_doc_ids": [
+        "squad_573127b2a5e9cc1400cdbcae",
+        "squad_57317254497a881900248eed",
+        "finance_alpaca_48922",
+        "squad_5731a8d20fdd8d15006c6435",
+        "squad_57313386e6313a140071cd02"
+      ],
+      "found_rank": 4,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": true,
+      "top1_distance": 0.4884
+    },
+    {
+      "query_id": "gen_002",
+      "domain": "general",
+      "question": "What event led Eisenhower to want to improve highways in the US?",
+      "source_doc_id": "squad_57326547e99e3014001e6776",
+      "retrieved_doc_ids": [
+        "squad_57326547e99e3014001e6776",
+        "squad_573285f357eb1f1400fd2d70",
+        "finance_alpaca_24191",
+        "squad_5727d3514b864d1900163dfa",
+        "squad_573260b5e17f3d140042290d"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.272
+    },
+    {
+      "query_id": "gen_003",
+      "domain": "general",
+      "question": "What could cause the failure of a capacitor?",
+      "source_doc_id": "squad_5727247c5951b619008f8669",
+      "retrieved_doc_ids": [
+        "squad_5727247c5951b619008f8669",
+        "finance_alpaca_33777",
+        "squad_5727133cdd62a815002e98bc",
+        "squad_572704df5951b619008f84ad",
+        "finance_alpaca_60555"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3619
+    },
+    {
+      "query_id": "gen_004",
+      "domain": "general",
+      "question": "When is it preferable to consider two group elements to be the same?",
+      "source_doc_id": "squad_572821b7ff5b5019007d9dac",
+      "retrieved_doc_ids": [
+        "squad_572821b7ff5b5019007d9dac",
+        "squad_5728062d3acd2414000df281",
+        "finance_alpaca_28126",
+        "squad_572812cd2ca10214002d9d48",
+        "squad_57281407ff5b5019007d9ca6"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3765
+    },
+    {
+      "query_id": "gen_005",
+      "domain": "general",
+      "question": "What made Arius's belief about Jesus different from Alexander's?",
+      "source_doc_id": "squad_571a901410f8ca1400305149",
+      "retrieved_doc_ids": [
+        "squad_571a901410f8ca1400305149",
+        "squad_571aeaf69499d21900609ba9",
+        "finance_alpaca_58523",
+        "squad_5726050338643c19005acf59",
+        "squad_571a8c844faf5e1900b8aa6b"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2676
+    },
+    {
+      "query_id": "gen_006",
+      "domain": "general",
+      "question": "What characteristics did samurais want their wives to have?",
+      "source_doc_id": "squad_5728f95d6aef051400154908",
+      "retrieved_doc_ids": [
+        "squad_5728f95d6aef051400154908",
+        "squad_5728fa232ca10214002dab62",
+        "squad_5728f7df4b864d1900165138",
+        "squad_5728f8484b864d1900165140",
+        "squad_5728f761af94a219006a9e85"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2116
+    },
+    {
+      "query_id": "gen_007",
+      "domain": "general",
+      "question": "What are some of the enviromental factors that have been linked to asthma?",
+      "source_doc_id": "squad_57280e8c4b864d190016433e",
+      "retrieved_doc_ids": [
+        "squad_572808852ca10214002d9c08",
+        "finance_alpaca_56101",
+        "squad_5728ccd02ca10214002da80c",
+        "squad_57280e8c4b864d190016433e",
+        "finance_alpaca_54369"
+      ],
+      "found_rank": 4,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": true,
+      "top1_distance": 0.3146
+    },
+    {
+      "query_id": "gen_008",
+      "domain": "general",
+      "question": "Where is the Chapultepec Zoo located?",
+      "source_doc_id": "squad_572742e2708984140094db89",
+      "retrieved_doc_ids": [
+        "squad_572742e2708984140094db89",
+        "squad_572691a7708984140094ca63",
+        "squad_5709f59f4103511400d594c4",
+        "finance_alpaca_35811",
+        "finance_alpaca_61299"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3462
+    },
+    {
+      "query_id": "gen_009",
+      "domain": "general",
+      "question": "When did the investigation of the signals transmitted by Compass -M1 begin?",
+      "source_doc_id": "squad_56e11a26e3433e1400422be6",
+      "retrieved_doc_ids": [
+        "squad_56e11a26e3433e1400422be6",
+        "squad_56e1161ccd28a01900c67579",
+        "squad_56e113edcd28a01900c67569",
+        "squad_56e11911e3433e1400422bd4",
+        "squad_56e11e2fcd28a01900c675fb"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.229
+    },
+    {
+      "query_id": "gen_010",
+      "domain": "general",
+      "question": "What did the abbot remain as a town built around the abbey?",
+      "source_doc_id": "squad_56e8d9ab99e8941900975ecd",
+      "retrieved_doc_ids": [
+        "squad_56e8d9ab99e8941900975ecd",
+        "squad_56e8d85b0b45c0140094cd0b",
+        "squad_5726b087708984140094cde1",
+        "squad_56fb853fb28b3419009f1dee",
+        "squad_56e8df710b45c0140094cd31"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3372
+    },
+    {
+      "query_id": "gen_011",
+      "domain": "general",
+      "question": "What is subject to the Orphan Drug Act?",
+      "source_doc_id": "squad_571af9329499d21900609bc5",
+      "retrieved_doc_ids": [
+        "squad_571af9329499d21900609bc5",
+        "squad_571ac3f89499d21900609afb",
+        "squad_57101271b654c5140001f7b7",
+        "finance_alpaca_20368",
+        "squad_5727965f708984140094e197"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3928
+    },
+    {
+      "query_id": "gen_012",
+      "domain": "general",
+      "question": "What events did Bermuda compete in at the 2004 Summer Olympics?",
+      "source_doc_id": "squad_57295b726aef051400154d56",
+      "retrieved_doc_ids": [
+        "squad_57295b726aef051400154d56",
+        "squad_56e890ee99e8941900975e9d",
+        "finance_alpaca_29015",
+        "squad_5731142905b4da19006bcd60",
+        "squad_572959aaaf94a219006aa2ff"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2989
+    },
+    {
+      "query_id": "gen_013",
+      "domain": "general",
+      "question": "When did the Russian Empire take over Central Asia?",
+      "source_doc_id": "squad_57339febd058e614000b5f0e",
+      "retrieved_doc_ids": [
+        "squad_57339febd058e614000b5f0e",
+        "squad_572ee375dfa6aa1500f8d499",
+        "squad_57300c2a04bcaa1900d77091",
+        "squad_56ddf11b66d3e219004dae3c",
+        "squad_57267801dd62a815002e860e"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3288
+    },
+    {
+      "query_id": "gen_014",
+      "domain": "general",
+      "question": "What is different about the use of Greek language today as opposed to the language of the past ?",
+      "source_doc_id": "squad_573091522461fd1900a9cea1",
+      "retrieved_doc_ids": [
+        "squad_572fdf30a23a5019007fcaa7",
+        "squad_56de515e4396321400ee27f3",
+        "squad_57308f8e2461fd1900a9ce97",
+        "squad_57266b20dd62a815002e8446",
+        "squad_572e995fdfa6aa1500f8d1c5"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3814
+    },
+    {
+      "query_id": "gen_015",
+      "domain": "general",
+      "question": "How many types of genetic origin testing currently exist?",
+      "source_doc_id": "squad_571a8e1c10f8ca1400305122",
+      "retrieved_doc_ids": [
+        "squad_571a8e1c10f8ca1400305122",
+        "squad_571de760b64a571400c71de0",
+        "squad_56dc656c14d3a41400c26857",
+        "finance_alpaca_31497",
+        "squad_571a99af4faf5e1900b8ab14"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4013
+    },
+    {
+      "query_id": "gen_016",
+      "domain": "general",
+      "question": "What was the \"escape\" character originally intended for?",
+      "source_doc_id": "squad_570bf1486b8089140040fae2",
+      "retrieved_doc_ids": [
+        "squad_570bf1486b8089140040fae2",
+        "finance_alpaca_33457",
+        "finance_alpaca_23283",
+        "finance_alpaca_53239",
+        "finance_alpaca_25513"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4829
+    },
+    {
+      "query_id": "gen_017",
+      "domain": "general",
+      "question": "What did the Royal Charter give to the Stationers' Company of London?",
+      "source_doc_id": "squad_5726d0935951b619008f7edb",
+      "retrieved_doc_ids": [
+        "squad_5726240738643c19005ad075",
+        "squad_56e70b3d6fe0821900b8eca2",
+        "squad_570c69aeb3d812140066d1e7",
+        "squad_57262557ec44d21400f3da05",
+        "squad_56de61a3cffd8e1900b4b838"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4604
+    },
+    {
+      "query_id": "gen_018",
+      "domain": "general",
+      "question": "Who invaded Britain when the Romans Left",
+      "source_doc_id": "squad_57268b59f1498d1400e8e346",
+      "retrieved_doc_ids": [
+        "squad_57302db9a23a5019007fcf19",
+        "squad_570b3fc26b8089140040f82e",
+        "squad_572fefcb947a6a140053ce2e",
+        "squad_57302bc5b2c2fd14005689d1",
+        "squad_5727cf404b864d1900163da0"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4304
+    },
+    {
+      "query_id": "gen_019",
+      "domain": "general",
+      "question": "What posses some challenges for the Chamorros who find it hard to keep their culture?",
+      "source_doc_id": "squad_572b57ee34ae481900deada3",
+      "retrieved_doc_ids": [
+        "squad_572b57ee34ae481900deada3",
+        "squad_572b56d4be1ee31400cb833b",
+        "squad_572b530a34ae481900dead87",
+        "squad_572b55f7f75d5e190021fd8c",
+        "finance_alpaca_21355"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3283
+    },
+    {
+      "query_id": "gen_020",
+      "domain": "general",
+      "question": "Why did parties that relied on donations or subscriptions run into problems?",
+      "source_doc_id": "squad_5727a68c3acd2414000de8df",
+      "retrieved_doc_ids": [
+        "squad_5727a68c3acd2414000de8df",
+        "finance_alpaca_20566",
+        "squad_5727a5812ca10214002d92be",
+        "finance_alpaca_41891",
+        "squad_572875602ca10214002da388"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3362
+    },
+    {
+      "query_id": "gen_021",
+      "domain": "general",
+      "question": "What was Whitehead's belief about God in relation to religion?",
+      "source_doc_id": "squad_573363194776f41900660987",
+      "retrieved_doc_ids": [
+        "squad_573363194776f41900660987",
+        "squad_573367034776f41900660a0b",
+        "squad_573361a8d058e614000b59a0",
+        "squad_573366074776f419006609e6",
+        "squad_573369bd4776f41900660a6a"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2981
+    },
+    {
+      "query_id": "gen_022",
+      "domain": "general",
+      "question": "What can make a person believe they know someone elses sexual orientation?",
+      "source_doc_id": "squad_571034a1a58dae1900cd6962",
+      "retrieved_doc_ids": [
+        "squad_570fa2a35ab6b81900390f49",
+        "squad_570fa1345ab6b81900390f35",
+        "squad_571034a1a58dae1900cd6962",
+        "squad_57103240a58dae1900cd695c",
+        "squad_57102bb6b654c5140001f887"
+      ],
+      "found_rank": 3,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4683
+    },
+    {
+      "query_id": "gen_023",
+      "domain": "general",
+      "question": "What are some of the every day tasks that a manager of a team has to deal with?",
+      "source_doc_id": "squad_572fef4204bcaa1900d76ee1",
+      "retrieved_doc_ids": [
+        "finance_alpaca_53076",
+        "finance_alpaca_61699",
+        "finance_alpaca_64367",
+        "finance_alpaca_25789",
+        "finance_alpaca_50930"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3721
+    },
+    {
+      "query_id": "gen_024",
+      "domain": "general",
+      "question": "Why is San Diego known as an iHub Innovation Center?",
+      "source_doc_id": "squad_57301f43b2c2fd14005688c7",
+      "retrieved_doc_ids": [
+        "squad_57301f43b2c2fd14005688c7",
+        "squad_573020aeb2c2fd14005688ed",
+        "squad_57301b33a23a5019007fcd6d",
+        "squad_572fc5b8b2c2fd140056843d",
+        "squad_573021e1947a6a140053d160"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3456
+    },
+    {
+      "query_id": "gen_025",
+      "domain": "general",
+      "question": "What was the problem with manufacturing the tungsten filament?",
+      "source_doc_id": "squad_57263203ec44d21400f3dc12",
+      "retrieved_doc_ids": [
+        "squad_57263203ec44d21400f3dc12",
+        "squad_5725de3489a1e219009abff4",
+        "squad_57262d97ec44d21400f3dbad",
+        "squad_5726419e38643c19005ad397",
+        "squad_57263583271a42140099d77f"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2393
+    },
+    {
+      "query_id": "gen_026",
+      "domain": "general",
+      "question": "What breed of duck is considered the first?",
+      "source_doc_id": "squad_572646a7708984140094c12d",
+      "retrieved_doc_ids": [
+        "squad_572646a7708984140094c12d",
+        "squad_572644e91125e71900ae1942",
+        "finance_alpaca_39664",
+        "finance_alpaca_40027",
+        "finance_alpaca_17774"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3788
+    },
+    {
+      "query_id": "gen_027",
+      "domain": "general",
+      "question": "What is considered to be neglected in American history?",
+      "source_doc_id": "squad_571e014555697319006390f0",
+      "retrieved_doc_ids": [
+        "finance_alpaca_31627",
+        "finance_alpaca_57568",
+        "finance_alpaca_60192",
+        "finance_alpaca_17004",
+        "finance_alpaca_43173"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4636
+    },
+    {
+      "query_id": "gen_028",
+      "domain": "general",
+      "question": "What is one way to implement destination control?",
+      "source_doc_id": "squad_572ebdfdc246551400ce45d6",
+      "retrieved_doc_ids": [
+        "finance_alpaca_56788",
+        "squad_572eb90bcb0c0d14000f14c2",
+        "finance_alpaca_56763",
+        "squad_572ebdfdc246551400ce45d6",
+        "finance_alpaca_63788"
+      ],
+      "found_rank": 4,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": true,
+      "top1_distance": 0.5053
+    },
+    {
+      "query_id": "gen_029",
+      "domain": "general",
+      "question": "What does the Exchange specialize in?",
+      "source_doc_id": "squad_5729587baf94a219006aa2f7",
+      "retrieved_doc_ids": [
+        "finance_alpaca_08899",
+        "finance_alpaca_16883",
+        "finance_alpaca_10248",
+        "finance_alpaca_15021",
+        "finance_alpaca_63958"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4151
+    },
+    {
+      "query_id": "gen_030",
+      "domain": "general",
+      "question": "What did the ruling in Hopwood v Texas set a precedent for in terms of admission policies?",
+      "source_doc_id": "squad_57276203f1498d1400e8f722",
+      "retrieved_doc_ids": [
+        "squad_57276e8cf1498d1400e8f7f4",
+        "squad_57276203f1498d1400e8f722",
+        "squad_572772165951b619008f8a11",
+        "squad_57275cf15951b619008f88c3",
+        "squad_570ffb75b654c5140001f711"
+      ],
+      "found_rank": 2,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.372
+    },
+    {
+      "query_id": "gen_031",
+      "domain": "general",
+      "question": "As an example, whose status was downgraded after the civil war?",
+      "source_doc_id": "squad_571df3d555697319006390c6",
+      "retrieved_doc_ids": [
+        "squad_56fb34c7f34c681400b0c213",
+        "squad_572f427604bcaa1900d767f1",
+        "finance_alpaca_52400",
+        "finance_alpaca_63181",
+        "finance_alpaca_37328"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.4392
+    },
+    {
+      "query_id": "gen_032",
+      "domain": "general",
+      "question": "What companies have developed iPod interfacing for their stereo systems?",
+      "source_doc_id": "squad_56cc83056d243a140015efd8",
+      "retrieved_doc_ids": [
+        "squad_56cc83056d243a140015efd8",
+        "squad_56cc81246d243a140015efc6",
+        "squad_56cc81e06d243a140015efd0",
+        "squad_56cd7a3f62d2951400fa6600",
+        "squad_56cc5f3f6d243a140015ef46"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3317
+    },
+    {
+      "query_id": "gen_033",
+      "domain": "general",
+      "question": "What order is the breakdown field strength for air dielectric capacitors of?",
+      "source_doc_id": "squad_572704df5951b619008f84ad",
+      "retrieved_doc_ids": [
+        "squad_572704df5951b619008f84ad",
+        "squad_572700fe708984140094d839",
+        "squad_57270c73f1498d1400e8f29c",
+        "squad_5727247c5951b619008f8669",
+        "squad_57270e2b708984140094d90b"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3636
+    },
+    {
+      "query_id": "gen_034",
+      "domain": "general",
+      "question": "What did Whitehead believe were essentially the only things that truly exist?",
+      "source_doc_id": "squad_573344744776f419006607de",
+      "retrieved_doc_ids": [
+        "squad_573338734776f419006607a2",
+        "squad_5733541ed058e614000b5866",
+        "squad_573363194776f41900660987",
+        "squad_57333fbad058e614000b57d6",
+        "squad_57331b0dd058e614000b56fa"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.3329
+    },
+    {
+      "query_id": "gen_035",
+      "domain": "general",
+      "question": "Why would a black-looking Arab consider himself white?",
+      "source_doc_id": "squad_57064d0675f01819005e7b24",
+      "retrieved_doc_ids": [
+        "squad_57064d0675f01819005e7b24",
+        "squad_5706b0492eaba6190074ac30",
+        "squad_57064d8c52bb8914006899ce",
+        "squad_5706511d52bb8914006899e0",
+        "squad_5707074190286e26004fc80f"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.317
+    },
+    {
+      "query_id": "gen_036",
+      "domain": "general",
+      "question": "Is Egypt able to sustain just from its own energy production?",
+      "source_doc_id": "squad_5731bee9e17f3d1400422387",
+      "retrieved_doc_ids": [
+        "squad_5731d2a9e99e3014001e6300",
+        "squad_5731bee9e17f3d1400422387",
+        "finance_alpaca_21308",
+        "finance_alpaca_39722",
+        "squad_5731bcdfe17f3d140042235d"
+      ],
+      "found_rank": 2,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3079
+    },
+    {
+      "query_id": "gen_037",
+      "domain": "general",
+      "question": "Without what could morale collapse occur according to Arthur Harris?",
+      "source_doc_id": "squad_573057112461fd1900a9cd71",
+      "retrieved_doc_ids": [
+        "squad_573057112461fd1900a9cd71",
+        "finance_alpaca_41908",
+        "finance_alpaca_27418",
+        "finance_alpaca_23476",
+        "squad_573056242461fd1900a9cd5d"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3893
+    },
+    {
+      "query_id": "gen_038",
+      "domain": "general",
+      "question": "Where did Joseph Swan demonstrate his lamp in January 1879?",
+      "source_doc_id": "squad_5725d2ee38643c19005acda1",
+      "retrieved_doc_ids": [
+        "squad_5725d2ee38643c19005acda1",
+        "squad_57264f1c5951b619008f6f81",
+        "squad_57264d1a5951b619008f6f5d",
+        "squad_5725d0b0ec44d21400f3d60b",
+        "squad_5725d74389a1e219009abf86"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4366
+    },
+    {
+      "query_id": "gen_039",
+      "domain": "general",
+      "question": "Why did the Japanses begin to breed quails in teh 20th century?",
+      "source_doc_id": "squad_572653db5951b619008f6fc9",
+      "retrieved_doc_ids": [
+        "squad_572653db5951b619008f6fc9",
+        "squad_57265269708984140094c253",
+        "squad_572644e91125e71900ae1942",
+        "squad_5725c085ec44d21400f3d4c3",
+        "squad_57263eda271a42140099d7cc"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.2799
+    },
+    {
+      "query_id": "gen_040",
+      "domain": "general",
+      "question": "Under what condition might the polarization of the dielectric be unable to follow the voltage?",
+      "source_doc_id": "squad_572715c2708984140094d989",
+      "retrieved_doc_ids": [
+        "squad_572715c2708984140094d989",
+        "squad_57302c9aa23a5019007fcefd",
+        "squad_57302473947a6a140053d189",
+        "squad_57306bf68ab72b1400f9c4da",
+        "squad_573026ab04bcaa1900d7724b"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.4728
+    },
+    {
+      "query_id": "gen_041",
+      "domain": "general",
+      "question": "What is the Premier League Championship trophy based on?",
+      "source_doc_id": "squad_572ff67204bcaa1900d76f3f",
+      "retrieved_doc_ids": [
+        "squad_572ff67204bcaa1900d76f3f",
+        "squad_5727323c708984140094dacf",
+        "squad_57279202dd62a815002ea0b2",
+        "squad_5725df1689a1e219009abffe",
+        "squad_572fd179947a6a140053ccf8"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3852
+    },
+    {
+      "query_id": "gen_042",
+      "domain": "general",
+      "question": "Which four classes made up the ancient -Chamorro society?",
+      "source_doc_id": "squad_572abfa0be1ee31400cb820f",
+      "retrieved_doc_ids": [
+        "squad_572abfa0be1ee31400cb820f",
+        "squad_572b57ee34ae481900deada3",
+        "squad_572b530a34ae481900dead87",
+        "squad_572b56d4be1ee31400cb833b",
+        "squad_572b55f7f75d5e190021fd8c"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.3761
+    },
+    {
+      "query_id": "gen_043",
+      "domain": "general",
+      "question": "What did the blast furnace help do to pig iron in the middle ages?",
+      "source_doc_id": "squad_5726bde15951b619008f7cc5",
+      "retrieved_doc_ids": [
+        "squad_572f9a2ba23a5019007fc7c9",
+        "squad_5726bde15951b619008f7cc5",
+        "squad_5726bb69dd62a815002e8e92",
+        "squad_56fb942cb28b3419009f1e52",
+        "squad_5726bc73dd62a815002e8ec4"
+      ],
+      "found_rank": 2,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.328
+    },
+    {
+      "query_id": "gen_044",
+      "domain": "general",
+      "question": "Where is the elevator motor found?",
+      "source_doc_id": "squad_572eb759dfa6aa1500f8d2f9",
+      "retrieved_doc_ids": [
+        "finance_alpaca_48079",
+        "squad_572eb759dfa6aa1500f8d2f9",
+        "squad_572eae7803f9891900756931",
+        "squad_572eb3abdfa6aa1500f8d2d3",
+        "squad_572e8f1d03f989190075678f"
+      ],
+      "found_rank": 2,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.446
+    },
+    {
+      "query_id": "gen_045",
+      "domain": "general",
+      "question": "Who receives the hishopric of Ostia?",
+      "source_doc_id": "squad_56ddec019a695914005b96ca",
+      "retrieved_doc_ids": [
+        "squad_56ddec019a695914005b96ca",
+        "squad_56ddf1f266d3e219004dae43",
+        "finance_alpaca_61460",
+        "squad_5731f0ffe99e3014001e63ec",
+        "finance_alpaca_30429"
+      ],
+      "found_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.512
+    },
+    {
+      "query_id": "gen_046",
+      "domain": "general",
+      "question": "To whom did Montini speak as an archbishop in the year 1957?",
+      "source_doc_id": "squad_5726b1fcdd62a815002e8d1c",
+      "retrieved_doc_ids": [
+        "squad_5726ad0d5951b619008f79d1",
+        "squad_5726b0d3f1498d1400e8e788",
+        "squad_5726b2a55951b619008f7ae7",
+        "squad_5726b1fcdd62a815002e8d1c",
+        "squad_57269bfff1498d1400e8e4c0"
+      ],
+      "found_rank": 4,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": true,
+      "top1_distance": 0.282
+    },
+    {
+      "query_id": "gen_047",
+      "domain": "general",
+      "question": "Which two title holders fought for political power in the early 1990s?",
+      "source_doc_id": "squad_5728eb37ff5b5019007da944",
+      "retrieved_doc_ids": [
+        "squad_5727a2d2ff5b5019007d9180",
+        "squad_57282dc02ca10214002d9ff8",
+        "finance_alpaca_19466",
+        "finance_alpaca_40082",
+        "squad_56f8c7fa9b226e1400dd0fcf"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.5638
+    },
+    {
+      "query_id": "gen_048",
+      "domain": "general",
+      "question": "What directional shore of Bermuda is home to the majority of its hotels?",
+      "source_doc_id": "squad_5726c6f1dd62a815002e8ff6",
+      "retrieved_doc_ids": [
+        "squad_5726be76f1498d1400e8e9e6",
+        "squad_5726c6f1dd62a815002e8ff6",
+        "squad_5726bd08dd62a815002e8eda",
+        "finance_alpaca_32048",
+        "squad_56e067a27aa994140058e453"
+      ],
+      "found_rank": 2,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "top1_distance": 0.39
+    },
+    {
+      "query_id": "gen_049",
+      "domain": "general",
+      "question": "Why is proper nutrition important?",
+      "source_doc_id": "squad_572a62e0b8ce0319002e2b0b",
+      "retrieved_doc_ids": [
+        "finance_alpaca_62990",
+        "finance_alpaca_50963",
+        "finance_alpaca_43389",
+        "finance_alpaca_61537",
+        "finance_alpaca_58817"
+      ],
+      "found_rank": null,
+      "in_top1": false,
+      "in_top3": false,
+      "in_top5": false,
+      "top1_distance": 0.2113
+    }
+  ]
+}
