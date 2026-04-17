@@ -13,6 +13,8 @@ import config
 from rag.defended_rag import HybridDefendedRAG
 from evaluation.attack_runner import AttackRunner
 from evaluation.results_reporter import run_full_report
+from rag.defended_rag import HybridDefendedRAG as BaselineRAG
+
 
 SYSTEM_NAME = "S3"
 RESULTS_DIR = os.path.join(config.RESULTS_DIR, "s3")

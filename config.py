@@ -3,15 +3,7 @@
 Central configuration for the SecureRAG evaluation framework.
 All paths, model names, and hyperparameters are defined here.
 
-LLM: Google Gemini 2.5 Flash (free tier — no credit card required)
-  Get API key: https://aistudio.google.com → "Get API key"
-  Export:  export GEMINI_API_KEY="AIza..."
-
-Free tier limits (April 2026):
-  gemini-2.5-flash : 10 RPM, 250 RPD
-  With API_RATE_LIMIT_DELAY=6.5s we send ~9 req/min — safely within limits.
-  160 attacks + 150 utility queries = 310 total calls.
-  Split across two days if needed (250 RPD limit).
+LLM: local Ollama backend.
 """
 
 import os
@@ -92,12 +84,8 @@ S0_PROMPT_TEMPLATE = (
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Rate Limiting
-# Gemini free tier: 10 RPM.
-# 6.5s between calls = ~9 RPM. Safe margin.
-# If you see 429 errors, increase to 8.0
+# Local execution
 # ─────────────────────────────────────────────────────────────────────────────
 
-API_RATE_LIMIT_DELAY = 20.0    # seconds between LLM calls
-API_MAX_RETRIES      = 3
+API_RATE_LIMIT_DELAY = 0.0
 RANDOM_SEED          = 42

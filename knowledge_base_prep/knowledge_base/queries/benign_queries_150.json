@@ -1,0 +1,1602 @@
+[
+  {
+    "query_id": "hc_000",
+    "domain": "healthcare",
+    "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+    "ground_truth_answer": "The results of this study cast doubt on the importance of LOC as a predictor of neuropsychological test performance during the acute phase of recovery from mild traumatic brain injury. Neuropsychological testing procedures have been shown to be sensitive in measuring cognitive sequelae of mild traumatic brain injury (concussion) in athletes. The failure of this study to find any relationship between LOC and neuropsychological functioning in a large sample of patients with mild head trauma calls into question the assignment of primary importance to LOC in grading severity of concussion. This study also does not provide support for the use of guidelines that rely heavily on LOC in making return-to-play decisions. Continued research is necessary to determine the relative importance of markers of concussion in athletes.",
+    "source_doc_id": "pubmed_10593212",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_001",
+    "domain": "healthcare",
+    "question": "A comparison of 500 prefilled textured saline breast implants versus 500 standard textured saline breast implants: is there a difference in deflation rates?",
+    "ground_truth_answer": "There was a statistically significant difference between the overall deflation rates of Poly Implant Prosthesis prefilled textured saline breast implants and Mentor Siltex breast implants at year 2, year 3, and year 4. After 4 years, the 15.56 percent cumulative deflation rate of Poly Implant Prosthesis implants was over 3.5 times higher than the 4.31 percent deflation rate of the Mentor Siltex implants. There may be several factors contributing to the higher deflation rate seen in Poly Implant Prosthesis implants, including possible in vitro deflation before implantation and silicone shell curing technique. Nevertheless, this statistically significant deflation difference must be taken into account when balancing the risks and benefits of Poly Implant Prosthesis breast implants.",
+    "source_doc_id": "pubmed_16772913",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_002",
+    "domain": "healthcare",
+    "question": "Can tailored interventions increase mammography use among HMO women?",
+    "ground_truth_answer": "The effects of the intervention were most pronounced after the first intervention. Compared to usual care, telephone counseling seemed particularly effective at promoting change among nonadherent women, the group for whom the intervention was developed. These results suggest that telephone counseling, rather than tailored print, might be the preferred first-line intervention for getting nonadherent women on schedule for mammography screening. Many questions would have to be answered about why the tailored print intervention was not more powerful. Nevertheless, it is clear that additional interventions will be needed to maintain women's adherence to mammography. Medical Subject Headings (MeSH): mammography screening, telephone counseling, tailored print communications, barriers.",
+    "source_doc_id": "pubmed_10808977",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_003",
+    "domain": "healthcare",
+    "question": "\"Occult\" posttraumatic lesions of the knee: can magnetic resonance substitute for diagnostic arthroscopy?",
+    "ground_truth_answer": "After comparing MR with arthroscopic findings and reviewing the available literature, we conclude that arthroscopy permits the direct visualization of even fine articular surface changes but does not depict the subchondral bone, the most frequent site of injury detected with MRI. MRI was a very useful tool in the detection and characterization of the different types of occult bone and/or cartilage injuries and showed a statistically significant correlation between site and distribution of bone and cartilage injuries and between internal damage and trauma mechanisms. Therefore, we believe that MRI can help avoid diagnostic arthroscopy in the patients with a history of post-traumatic pain, acute articular blocks and negative radiographic findings.",
+    "source_doc_id": "pubmed_9465206",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_004",
+    "domain": "healthcare",
+    "question": "The Main Gate Syndrome: a new format in mass-casualty victim \"surge\" management?",
+    "ground_truth_answer": "Suicide bombing in crowded locations near an evacuation hospital may overwhelm the medical resources of the receiving center. It has been referred to as \"The Main Gate Syndrome.\" We introduced the novel concept of a semi-evacuation hospital or receiving center where a second surgical triage was carried out. These exceptional circumstances require open-minded flexibility, a tailored approach, and close cooperation between surgeons and anesthetists to share experience, opinions, and ideas. In the setting of mass casualties, emergency ultrasound exam was shown to be a valuable and effective tool by virtue of its mobility, reproducibility, and immediate results.",
+    "source_doc_id": "pubmed_19106867",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_005",
+    "domain": "healthcare",
+    "question": "Does Residency Selection Criteria Predict Performance in Orthopaedic Surgery Residency?",
+    "ground_truth_answer": "We found that USMLE Step 2, number of honors in medical school clerkships, and AOA membership demonstrated the strongest correlations with resident performance. Our goal in analyzing these data was to provide residency programs at large a sense of which criteria may be \"high yield\" in ranking applicants by analyzing data from within our own pool of residents. Similar studies across a broader scope of programs are warranted to confirm applicability of our findings. The continually emerging complexities of the field of orthopaedic surgery lend increasing importance to future work on the appropriate selection and training of orthopaedic residents.",
+    "source_doc_id": "pubmed_25940336",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_006",
+    "domain": "healthcare",
+    "question": "Could chest wall rigidity be a factor in rapid death from illicit fentanyl abuse?",
+    "ground_truth_answer": "In summary we believe sudden onset chest wall rigidity may be a significant and previously unreported factor leading to an increased mortality, from illicit IV fentanyl use. Fentanyl and norfentanyl ratios and concentrations suggest a more rapid onset of death given the finding of fentanyl without norfentanyl in many of the fatalities. Chest wall rigidity may help explain the cause of death in these instances, in contrast to the typical opioid-related overdose deaths. Intravenous heroin users should be educated regarding this potentially fatal complication given the increasingly common substitution and combination with heroin of fentanyl.",
+    "source_doc_id": "pubmed_26999038",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_007",
+    "domain": "healthcare",
+    "question": "Identification of racial disparities in breast cancer mortality: does scale matter?",
+    "ground_truth_answer": "This study investigates both relative and absolute racial disparities in breast cancer mortality between White non-Hispanic and African-American/Hispanic women at the census tract, zip code and county levels. Analysis at the census tract level generally led to a larger proportion of geographical units experiencing significantly higher mortality rates for minority groups, although results varied depending on the use of the relative versus absolute statistics. Additional research is needed before general conclusions can be formulated regarding the choice of optimal geographic regions for the detection of racial disparities.",
+    "source_doc_id": "pubmed_20602784",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_008",
+    "domain": "healthcare",
+    "question": "Does context matter for the relationship between deprivation and all-cause mortality?",
+    "ground_truth_answer": "The homogeneity we found in the deprivation-mortality relationship across the regions of Scotland and the absence of a contextualized effect of region highlights the importance of taking a broader strategic policy that can combat the toxic impacts of socio-economic deprivation on health. Focusing on a few specific places (e.g. 15% of the poorest areas) to concentrate resources might be a good start but the impact of socio-economic deprivation on mortality is not restricted to a few places. A comprehensive strategy that can be sustained over time might be needed to interrupt the linkages between poverty and mortality.",
+    "source_doc_id": "pubmed_21569408",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_009",
+    "domain": "healthcare",
+    "question": "Sub-classification of low-grade cerebellar astrocytoma: is it clinically meaningful?",
+    "ground_truth_answer": "Discordant observations due to interobserver variability make histological sub-classification of low-grade cerebellar astrocytomas in children insufficient for predicting prognosis and biological behaviour. Similar survival rates in a population of paediatric low-grade cerebellar astrocytomas of grades I and II indicate that tumour grade has no prognostic significance within this group of patients. \"Surgically gross-total removal\", especially if the tumour is located in the fourth ventricle is of the highest importance for long-term survival. Histological sub-classification of the tumours has no predictive value.",
+    "source_doc_id": "pubmed_14631523",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_010",
+    "domain": "healthcare",
+    "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+    "ground_truth_answer": "Results depicted mitochondrial dynamics in vivo as PCD progresses within the lace plant, and highlight the correlation of this organelle with other organelles during developmental PCD. To the best of our knowledge, this is the first report of mitochondria and chloroplasts moving on transvacuolar strands to form a ring structure surrounding the nucleus during developmental PCD. Also, for the first time, we have shown the feasibility for the use of CsA in a whole plant system. Overall, our findings implicate the mitochondria as playing a critical and early role in developmentally regulated PCD in the lace plant.",
+    "source_doc_id": "pubmed_21645374",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_011",
+    "domain": "healthcare",
+    "question": "Do liquid-based preparations of urinary cytology perform differently than classically prepared cases?",
+    "ground_truth_answer": "Liquid-based preparations performed significantly better in urinary cytology challenges when evaluating malignant categories in the College of American Pathologists interlaboratory comparison program. The liquid-based preparation challenges also performed better for the exact reference interpretation of HGUCA, but no difference was observed for adenocarcinoma challenges. Cytotechnologists perform better than pathologists for all slide types, as well as those demonstrating HGUCA. These results suggest that liquid-based preparations facilitate a more accurate diagnosis than conventional preparations.",
+    "source_doc_id": "pubmed_20073599",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_012",
+    "domain": "healthcare",
+    "question": "Can mental imagery functional magnetic resonance imaging predict recovery in patients with disorders of consciousness?",
+    "ground_truth_answer": "The fMRI paradigm mental imagery displays a high concordance with the further clinical course of patients in a VS. All 5 patients in a VS who showed significant activation of ROIs had a favorable further course until the end of the observation period. We therefore propose the term \"functional minimally conscious state\" for these patients. They may benefit from rehabilitation treatment. In cases where no significant activation was seen, the method has no prognostic value. Prediction of the clinical course of patients in an MCS by fMRI was considerably less accurate than in patients in a VS.",
+    "source_doc_id": "pubmed_23735520",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_013",
+    "domain": "healthcare",
+    "question": "Increased neutrophil migratory activity after major trauma: a factor in the etiology of acute respiratory distress syndrome?",
+    "ground_truth_answer": "These data indicate that major blunt trauma enhances the migratory capacity of circulating neutrophils. This is manifest within 2 hrs of admission and may be attributable to alteration in interleukin-8 receptor expression, affinity, or downstream signaling. In patients who later develop ARDS, initially elevated circulating neutrophil counts decrease rapidly, over the same time course. Early enhanced neutrophil migratory activity coupled with elevated pulmonary concentrations of interleukin-8 may be central to the establishment of the neutrophil infiltration that is characteristic of ARDS.",
+    "source_doc_id": "pubmed_12163782",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_014",
+    "domain": "healthcare",
+    "question": "Does cup-cage reconstruction with oversized cups provide initial stability in THA for osteoporotic acetabular fractures?",
+    "ground_truth_answer": "The majority of acetabular components in this cohort were stable despite the small contact surface achieved between the component and pelvic bone. Three of 10 migrated in excess of the limits that predict later loosening in primary THA but it remains to be seen whether these limits apply to this selected group of frail osteoporotic patients. We continue to use this technique routinely to treat patients with the same indications, but since the analysis of these data we have added screw fixation of the acetabular component to the ischial tuberosity and the superior pubic ramus.",
+    "source_doc_id": "pubmed_26194560",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_015",
+    "domain": "healthcare",
+    "question": "Chronic functional somatic symptoms: a single syndrome?",
+    "ground_truth_answer": "Patients with chronic functional somatic symptoms have a great diversity of functional somatic symptoms. They use more somatic and psychotropic drugs than controls in the years before diagnosis. Moreover, they show high rates of referrals and psychiatric morbidity. The diversity of symptoms of patients with chronic functional somatic symptoms supports the concept that symptoms do not cluster in well defined distinct syndromes. Therefore, patients with chronic functional somatic symptoms should preferably not be classified into medical subspecialty syndromes.",
+    "source_doc_id": "pubmed_15588538",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_016",
+    "domain": "healthcare",
+    "question": "Profiling quality of care: Is there a role for peer review?",
+    "ground_truth_answer": "For conditions with a well-developed quality of care evidence base, such as hypertension and diabetes, a single structured implicit review to assess the quality of care over a period of time is moderately reliable. This method could be a reasonable complement or alternative to explicit indicator approaches for assessing and comparing quality of care. Structured implicit review, like explicit quality measures, must be used more cautiously for illnesses for which the evidence base is less well developed, such as COPD and acute, short-course illnesses.",
+    "source_doc_id": "pubmed_15151701",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_017",
+    "domain": "healthcare",
+    "question": "Are WHO/UNAIDS/UNICEF-recommended replacement milks for infants of HIV-infected mothers appropriate in the South African context?",
+    "ground_truth_answer": "No home-prepared replacement milks in South Africa meet all estimated micronutrient and essential fatty acid requirements of infants aged<6 months. Commercial infant formula is the only replacement milk that meets all nutritional needs. Revisions of WHO/UNAIDS/UNICEF HIV and infant feeding course replacement milk options are needed. If replacement milks are to provide total nutrition, preparations should include vegetable oils, such as soybean oil, as a source of linoleic and alpha-linolenic acids, and additional vitamins and minerals.",
+    "source_doc_id": "pubmed_15112004",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_018",
+    "domain": "healthcare",
+    "question": "Can increases in the cigarette tax rate be linked to cigarette retail prices?",
+    "ground_truth_answer": "Numerous studies have found that taxation is one of the most effective policy instruments for tobacco control. However, these findings come from countries that have market economies where market forces determine prices and influence how cigarette taxes are passed to the consumers in retail prices. China's tobacco industry is not a market economy; therefore, non-market forces and the current Chinese tobacco monopoly system determine cigarette prices. The result is that tax increases do not necessarily get passed on to the retail price.",
+    "source_doc_id": "pubmed_23076787",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_019",
+    "domain": "healthcare",
+    "question": "Does receipt of hospice care in nursing homes improve the management of pain at the end of life?",
+    "ground_truth_answer": "Findings suggest that analgesic management of daily pain is better for nursing home residents enrolled in hospice than for those not enrolled in hospice.The prescribing practices portrayed by this study reveal that many dying nursing home residents in daily pain are receiving no analgesic treatment or are receiving analgesic treatment inconsistent with AMDA and other pain management guidelines. Improving the analgesic management of pain in nursing homes is essential if high-quality end-of-life care in nursing homes is to be achieved.",
+    "source_doc_id": "pubmed_11943048",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_020",
+    "domain": "healthcare",
+    "question": "Do microbiological factors account for poor pregnancy outcome among unmarried pregnant women in Poland?",
+    "ground_truth_answer": "The observed socioeconomic, demographic and microbiological differences between unmarried and married women could be responsible for the poor pregnancy outcome among unmarried pregnant women in Poland. Unmarried pregnant women should be covered by comprehensive medical care even before pregnancy. Further studies taking into account the role of psychological stress, patterns of sexual behavior and substance abuse during pregnancy could help identify the factors responsible for adverse pregnancy outcome among unmarried pregnant women.",
+    "source_doc_id": "pubmed_12913347",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_021",
+    "domain": "healthcare",
+    "question": "Do healthier lifestyles lead to less utilization of healthcare resources?",
+    "ground_truth_answer": "Healthy lifestyles lead to an increase in the utilization of preventive health services. However, there is not much significantly reducing the number of outpatient visits in people with health behaviors. Specifically, people with regular exercise habits and who take their blood pressure measurement regularly have an increased number of outpatient visits. It is suggested that more available and accessible health consultation services be provided to inculcate in the general public the importance of maintaining a healthy lifestyle.",
+    "source_doc_id": "pubmed_28359277",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_022",
+    "domain": "healthcare",
+    "question": "Aromatase inhibitor-related musculoskeletal symptoms: is preventing osteoporosis the key to eliminating these symptoms?",
+    "ground_truth_answer": "Patients on AIs who develop osteoporosis are at increased risk of musculoskeletal symptoms and bone fracture. Comedication with Ca/Bis reduces the likelihood for osteoporosis and musculoskeletal symptoms. Patients who received tamoxifen before AIs were less likely to develop AI-related musculoskeletal symptoms. We recommend that patients on AIs should be offered Ca/Bis to reduce the incidence of musculoskeletal symptoms and fracture, especially if patients are receiving steroidal AI and/or did not receive tamoxifen before AIs.",
+    "source_doc_id": "pubmed_19299238",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_023",
+    "domain": "healthcare",
+    "question": "Can PRISM predict length of PICU stay?",
+    "ground_truth_answer": "The ANN with its intrinsic ability to detect non-linear correlation, and to relate specific item patterns to LOS, outperformed linear statistics but was still disappointing in estimating individual LOS. It might be speculated that therapeutic intervention modulates the natural course of the disease thus counteracting both disease severity as initially scored by PRISM, and LOS. This being true, the inverse of the correlation between PRISM (or PRISM based LOS estimate) and LOS might be a candidate indicator of quality of care.",
+    "source_doc_id": "pubmed_14612308",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_024",
+    "domain": "healthcare",
+    "question": "Is first-line single-agent mitoxantrone in the treatment of high-risk metastatic breast cancer patients as effective as combination chemotherapy?",
+    "ground_truth_answer": "No significant difference was detected between the treatment with mitoxantrone as a single agent and the combination of low-dose FEC in terms of response or survival; therefore, the imperative of the necessity of first-line combination chemotherapy for patients with high-risk metastatic breast cancer may be questioned. Since toxicity and quality of life score favored the single-agent mitoxantrone treatment arm, this treatment may be offered to patients preferring quality of life to a potential small prolongation of survival.",
+    "source_doc_id": "pubmed_12419743",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_025",
+    "domain": "healthcare",
+    "question": "Can dogs prime autistic children for therapy?",
+    "ground_truth_answer": "These findings are in accordance with previous experimental work and provide additional support for the assertion that dogs can prime autistic children for therapy. Ultimately, this study may contribute toward a change for full acceptance of canine-assisted therapy programs within the medical milieu. Additional studies using a similar research protocol on more autistic children will certainly help professionals to work on the most effective methods to individually serve this population through canine-assisted interventions.",
+    "source_doc_id": "pubmed_21689015",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_026",
+    "domain": "healthcare",
+    "question": "Does bone anchor fixation improve the outcome of percutaneous bladder neck suspension in female stress urinary incontinence?",
+    "ground_truth_answer": "The poor success rate in the study corresponds with the long-term results of conventional or modified needle suspension procedures and does not reinforce the optimistic results of bone anchoring published recently. Because of the poorer long-term results from percutaneous needle suspension than from other techniques of open retropubic bladder neck suspension, it remains questionable whether percutaneous needle suspension should be considered a first-line procedure for the treatment of female stress urinary incontinence.",
+    "source_doc_id": "pubmed_9722752",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_027",
+    "domain": "healthcare",
+    "question": "Is laparoscopic adrenalectomy safe and effective for adrenal masses larger than 7 cm?",
+    "ground_truth_answer": "LA for adrenal masses larger than 7 cm is a safe and feasible technique, offering successful outcome in terms of intraoperative and postoperative morbidity, hospital stay and cosmesis for patients; it seems to replicate open surgical oncological principles demonstrating similar outcomes as survival rate and recurrence rate, when adrenal cortical carcinoma were treated. The main contraindication for this approach is the evidence, radiologically and intraoperatively, of local infiltration of periadrenal tissue.",
+    "source_doc_id": "pubmed_17704864",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_028",
+    "domain": "healthcare",
+    "question": "Immunohistochemical assessment of steroid hormone receptors in tissues of the anal canal. Implications for anal incontinence?",
+    "ground_truth_answer": "Expression of ER is a constitutional feature of the connective tissue and smooth muscle cells of the anal continence organ. Estrogen receptors and PR are not detectable in the striated muscle fibers of the external anal sphincter in either sex. The presence of ER in the stroma and smooth muscles of the anal canal suggests that these tissues are targets for estrogen. This constitutes a theoretical basis for the beneficial effects of estrogen and progestin replacement on anal continence in postmenopausal women.",
+    "source_doc_id": "pubmed_9003088",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_029",
+    "domain": "healthcare",
+    "question": "Are laboratories reporting serum quantitative hCG results correctly?",
+    "ground_truth_answer": "Many factors contribute to the erroneous reporting of hCG results, including (a) the complexity of hCG molecule and confusion of nomenclature on the various forms of hCG; (b) laboratory personnel's lack of awareness of the distinctions of the forms of hCG and failure to recognize the specificity of assays for their measurement; (c) lack of clarity and uniformity in manufacturers' reagent labeling; and (d) most product inserts' lack of information on the specificity of each method to the various forms of hCG.",
+    "source_doc_id": "pubmed_18375490",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_030",
+    "domain": "healthcare",
+    "question": "Could ESC (Electronic Stability Control) change the way we drive?",
+    "ground_truth_answer": "Collectively, results suggest that behavioral adaptation to ESC is likely in certain drivers; however, its proven effectiveness in reducing the likelihood of being involved in a serious crash probably outweighs any potential increases in unsafe driving. To fully benefit from ESC, vehicle manufacturers are encouraged to market ESC-equipped vehicles in a realistic, safe manner. Driver training and safety organizations are also encouraged to provide balanced educational information about ESC to their members.",
+    "source_doc_id": "pubmed_19593710",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_031",
+    "domain": "healthcare",
+    "question": "Is motion perception deficit in schizophrenia a consequence of eye-tracking abnormality?",
+    "ground_truth_answer": "Speed discrimination, per se, is not impaired in schizophrenia patients. The observed abnormality appears to be a consequence of impairment in generating or integrating the feedback information from eye movements. This study introduces a novel approach to motion perception studies and highlights the importance of concurrently measuring eye movements to understand interactions between these two systems; the results argue for a conceptual revision regarding motion perception abnormality in schizophrenia.",
+    "source_doc_id": "pubmed_19054501",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_032",
+    "domain": "healthcare",
+    "question": "Are patients willing participants in the new wave of community-based medical education in regional and rural Australia?",
+    "ground_truth_answer": "Patients in regional and rural settings were willing partners in developing skills of junior medical students, who had greater involvement in patient consultations than previously reported for urban students. Our study extends the findings from urban general practice that patients are underutilised partners in community-based medical training. The support of patients from regional and rural settings could facilitate the expansion of primary care-based medical education in these areas of workforce need.",
+    "source_doc_id": "pubmed_20121683",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_033",
+    "domain": "healthcare",
+    "question": "Can continuous physical training counteract aging effect on myoelectric fatigue?",
+    "ground_truth_answer": "It appears possible that aging skeletal muscles subjected to continuous exercise develop an adaptive response that counteracts the selective loss of type II muscle fibers usually observed in the muscles of elderly sedentary subjects. Our results suggest that physical activity could be considered in the elderly within a broad rehabilitative framework in which appropriate and even tailored physical training could be planned to counteract the physiologic effects of aging on muscle fiber distribution.",
+    "source_doc_id": "pubmed_12690589",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_034",
+    "domain": "healthcare",
+    "question": "Are income-related differences in active travel associated with physical environmental characteristics?",
+    "ground_truth_answer": "The socio-economic gradient in active travel seems independent of physical environmental characteristics. Whilst more affluent populations enjoy advantages on some health outcomes, they will still benefit from increasing their levels of physical activity through active travel. Benefits of active travel to the whole community would include reduced vehicle emissions, reduced carbon consumption, the preservation or enhancement of infrastructure and the presentation of a 'normalised' behaviour.",
+    "source_doc_id": "pubmed_26044262",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_035",
+    "domain": "healthcare",
+    "question": "Is muscle power related to running speed with changes of direction?",
+    "ground_truth_answer": "The relationships between leg muscle power and change-of-direction speed were not consistent. Reactive strength as measured by the drop jump appears to have some importance for lateral change-of-direction speed, possibly because of similar push-off actions. It was concluded that reactive strength of the leg extensor muscles has some importance in change-of-direction performance but the other technical and perceptual factors than influence agility performance should also be considered.",
+    "source_doc_id": "pubmed_12094116",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_036",
+    "domain": "healthcare",
+    "question": "Are performance measurement systems useful?",
+    "ground_truth_answer": "This study contributes to the literature investigating the design and implementation of a non-financial measurement tool, such as the non-financial information included into a balanced scorecard (BSC), in health care organizations. Managers in health care organizations can benefit from the strategic use of PMS to effectively allocate their time to strategic opportunities and threats, which might arise and affect organizational, output-related performance, such as improving processes.",
+    "source_doc_id": "pubmed_28143468",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_037",
+    "domain": "healthcare",
+    "question": "Thoracic and thoracoabdominal aneurysm repair: is reimplantation of spinal cord arteries a waste of time?",
+    "ground_truth_answer": "With monitoring of MEP and SSEP, sacrifice--without reimplantation--of as many as 15 intercostal and lumbar arteries during TAA/A repair is safe, resulting in acceptably low rates of immediate and delayed paraplegia. This experience suggests that routine surgical implantation of segmental vessels is not indicated, and that, with evolving understanding of spinal cord perfusion, endovascular repair of the entire thoracic aorta should ultimately be possible without spinal cord injury.",
+    "source_doc_id": "pubmed_17062225",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_038",
+    "domain": "healthcare",
+    "question": "Assessing joint line positions by means of the contralateral knee: a new approach for planning knee revision surgery?",
+    "ground_truth_answer": "As a new assessment method, we have suggested to assess the JL by means of radiographs of the contralateral knee. The most precise parameter was found to be the distance between the fibular head and the JL. The level of arthritis, age, gender, visibility of the landmarks, and misalignment did not influence measurement accuracy. This parameter is the first tibia-related landmark for assessing the JL, which advantageously corresponds to the tibia-first technique in revision surgery.",
+    "source_doc_id": "pubmed_24996865",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_039",
+    "domain": "healthcare",
+    "question": "Do hospitals provide lower quality care on weekends?",
+    "ground_truth_answer": "Weekend hospitalization leads to delayed provision of intensive procedures and elevated 1-year mortality for elderly AMI patients. The existence of measurable differences in treatments raises questions regarding the efficacy of a single input regulation (e.g., mandated nurse staffing ratios) in enhancing the quality of weekend care. My results suggest that targeted financial incentives might be a more cost-effective policy response than broad regulation aimed at improving quality.",
+    "source_doc_id": "pubmed_17610439",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_040",
+    "domain": "healthcare",
+    "question": "Attaining negative margins in breast-conservation operations: is there a consensus among breast surgeons?",
+    "ground_truth_answer": "Results of this survey highlight the wide variety of practice patterns in the US for handling surgical margins in breast-conservation treatment. This issue remains controversial, with no prevailing standard of care. Consequently, additional study is needed in the modern era of multimodality treatment to examine the minimal amount of surgical treatment necessary, in conjunction with chemotherapy and radiation, to attain adequate local control rates in breast-conservation treatment.",
+    "source_doc_id": "pubmed_19854401",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_041",
+    "domain": "healthcare",
+    "question": "Adjuvant radiation of stage III thymoma: is it necessary?",
+    "ground_truth_answer": "Most patients who have stage III thymoma undergo complete resection. Some patients enjoy prolonged disease-free survival without adjuvant radiation after resection of stage III thymoma. Radiation does not seem to prevent pleural recurrences when given after resection of stage III thymomas. The use of routine adjuvant radiation after a complete resection of stage III thymoma needs to be re-addressed. There may be a role for the use of chemotherapy to reduce pleural recurrences.",
+    "source_doc_id": "pubmed_15919266",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_042",
+    "domain": "healthcare",
+    "question": "Does hypoglycaemia increase the risk of cardiovascular events?",
+    "ground_truth_answer": "Severe hypoglycaemia is associated with an increased risk for CV outcomes in people at high CV risk and dysglycaemia. Although allocation to insulin glargine vs. standard care was associated with an increased risk of severe and non-severe hypoglycaemia, the relative risk of CV outcomes with hypoglycaemia was lower with insulin glargine-based glucose-lowering therapy than with the standard glycaemic control. Trial Registration (ORIGIN ClinicalTrials.gov number NCT00069784).",
+    "source_doc_id": "pubmed_23999452",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_043",
+    "domain": "healthcare",
+    "question": "Are hepatitis G virus and TT virus involved in cryptogenic chronic liver disease?",
+    "ground_truth_answer": "In Southern Italy, hepatitis G virus infection is widespread among patients with chronic hepatitis, independently of parenteral risk factors. Its frequency in subjects with cryptogenic liver disease parallels that observed in hepatitis C virus chronic liver disease, thus ruling out an aetiologic role of hepatitis G virus. TT virus infection is uncommon in patients with cryptogenic or hepatitis C virus-related liver disease who do not have a history of parenteral exposure.",
+    "source_doc_id": "pubmed_11926574",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_044",
+    "domain": "healthcare",
+    "question": "Is adjustment for reporting heterogeneity necessary in sleep disorders?",
+    "ground_truth_answer": "Sleep disorders are common in the general adult population of Japan. Correction for reporting heterogeneity using anchoring vignettes is not a necessary tool for proper management of sleep and energy related problems among Japanese adults. Older age, gender differences in communicating sleep-related problems, the presence of multiple morbidities, and regular exercise should be the focus of policies and clinical practice to improve sleep and energy management in Japan.",
+    "source_doc_id": "pubmed_26852225",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_045",
+    "domain": "healthcare",
+    "question": "SPECT study with I-123-Ioflupane (DaTSCAN) in patients with essential tremor. Is there any correlation with Parkinson's disease?",
+    "ground_truth_answer": "Our results do not support the hypothesis of a link between essential tremor and Parkinson's disease. However, it appears that ET patients have a small degree of striatal dopaminergic degeneration. If this is due to alterations in the nigrostriatl pathway or of other origin it is not clear. Follow-up studies of essential tremor patients are warranted to assess progression of disease and to understand better the possible cause for striatal dopaminergic degeneration.",
+    "source_doc_id": "pubmed_22382608",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_046",
+    "domain": "healthcare",
+    "question": "Characterization of the gender dimorphism after injury and hemorrhagic shock: are hormonal differences responsible?",
+    "ground_truth_answer": "The independent protective effect of female gender on multiple organ failure and nosocomial infection rates remains significant in both premenopausal and postmenopausal women when compared with similarly aged men. This is contrary to previous experimental studies and the known physiologic sex hormone changes that occur after menopause in women. These results suggest that factors other than sex hormones may be responsible for gender-based differences after injury.",
+    "source_doc_id": "pubmed_18496363",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_047",
+    "domain": "healthcare",
+    "question": "Do risk calculators accurately predict surgical site\u00a0occurrences?",
+    "ground_truth_answer": "All five existing predictive models have limited ability to risk-stratify patients and accurately assess risk of SSO. However, both the VHRS and ACS-NSQIP demonstrate modest success in identifying patients at risk for SSI. Continued model refinement is needed to improve the two highest performing models (VHRS and ACS-NSQIP) along with investigation to determine whether modifications to perioperative management based on risk stratification can improve outcomes.",
+    "source_doc_id": "pubmed_27338535",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_048",
+    "domain": "healthcare",
+    "question": "Continuity of care experience of residents in an academic vascular department: are trainees learning complete surgical care?",
+    "ground_truth_answer": "The continuity-of-care experiences of vascular trainees are suboptimal. This is especially true for postoperative clinic assessment. Same-day admission surgery accounted for most of the cases and was associated with the poorest continuity of care. To provide complete surgical training in an era of changing therapeutic modalities and same-day admission surgery, vascular programs must be creative in structuring training to include adequate ambulatory experience.",
+    "source_doc_id": "pubmed_16678696",
+    "metadata": {
+      "final_decision": "no",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "hc_049",
+    "domain": "healthcare",
+    "question": "Scrotal approach to both palpable and impalpable undescended testes: should it become our first choice?",
+    "ground_truth_answer": "Initial single scrotal incision can be recommended for orchidopexy, even in the more difficult cases of impalpable undescended testes. Advantages seem to include shorter operative time, a cosmetically appealing single incision, and possibly less pain. The scrotal incision technique significantly reduces the need for laparoscopy in impalpable testes. Surprisingly, it even allows successful orchidopexy of abdominal testes, provided an open processus is present.",
+    "source_doc_id": "pubmed_20156655",
+    "metadata": {
+      "final_decision": "yes",
+      "source_dataset": "qiaojin/PubMedQA"
+    }
+  },
+  {
+    "query_id": "fin_000",
+    "domain": "finance",
+    "question": "Find the biggest chance of rain in the next 10 days.",
+    "ground_truth_answer": "The highest chance of rain in the next 10 days is on Saturday, May 8th, with a 78% chance of showers.",
+    "source_doc_id": "finance_alpaca_22907",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_001",
+    "domain": "finance",
+    "question": "Describe how the following two words are different: \u201canalogy\u201d and \u201cmetaphor\u201d",
+    "ground_truth_answer": "Analogy is a comparison of two things based upon their similarities, while metaphor is an implicit comparison of two things by stating that one is the other. Analogy is generally used to explain an unfamiliar concept using a more familiar one, while metaphor is used to describe a concept using vivid language.",
+    "source_doc_id": "finance_alpaca_25502",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_002",
+    "domain": "finance",
+    "question": "Can a custodian refuse prior-year IRA/HSA deposit postmarked April 15?",
+    "ground_truth_answer": "I had a situation like this also. A client deposited an IRA check to his local P.O. prior to collection p/up, thinking this meant it would be postmarked April 15. It may have been picked up, but wasn't postmarked until the next day, and my firm refused to consider it as timely. I do remember discussing it w/my Retirement Services Dept. Maybe they made an exception for me and my client, but maybe not. I don't remember. Good luck.",
+    "source_doc_id": "finance_alpaca_07096",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_003",
+    "domain": "finance",
+    "question": "Write a story about a man\u2019s high-stakes fight",
+    "ground_truth_answer": "Peter was an underdog boxer, who had gone through a string of losses in the ring. But after months of training, he finally felt strong and ready to prove himself. With the courage of a fighter, he stepped into the ring one evening and prepared to face his opponent.\n\nThe fight was intense, with both men trading punches and neither backing down. Peter fought bravely, and gave it everything he had. After a gruelling 10 rounds, Peter finally emerged victorious. He felt a surge of joy, knowing that his hard work had paid off.\n\nFrom then on, Peter was known as a brave and skilled boxer. He was lauded for his determination and grit, and he was rewarded with a much-deserved victory.",
+    "source_doc_id": "finance_alpaca_34396",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_004",
+    "domain": "finance",
+    "question": "What are my risks of early assignment?",
+    "ground_truth_answer": "The put vs call assignment risk, is actually the reverse: in-the-money calls are more likely to be exercised early than puts. Exercising a call locks in profit for the option holder because they can buy the shares at below market price, and immediately sell them at the higher market price. If there are dividends due, the risk is even higher. By contrast, exercising an in-the-money put locks in a loss for the holder, so it's less common.",
+    "source_doc_id": "finance_alpaca_12700",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_005",
+    "domain": "finance",
+    "question": "Explain why a given topic is important.",
+    "ground_truth_answer": "Environmental protection is essential for maintaining the health of our planet for future generations. Human activities such as emissions, farming, and deforestation are contributing to climate change, air and water pollution, reduction in biodiversity, and other environmental threats. By placing a priority on environmental protection, we can limit the speed of environmental damage and conserve natural resources for our own and future generations' use.",
+    "source_doc_id": "finance_alpaca_17296",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_006",
+    "domain": "finance",
+    "question": "What options do I have at 26 years old, with 1.2 million USD?",
+    "ground_truth_answer": "Something not in answers so far:  define your goals.  What is important to you? My goals, if I were in your shoes, would include a debt-free home, passive (investment) income so I would not have to work, and have health insurance covered.  I could think of many more details, and already have, but you get the idea. To help determine which investment information to learn first, consider how much risk you can tolerate.  I know that's vague at this point, but if you're looking for safe investments first, you could learn about mutual funds, and then index funds specifically.  At the risky extreme, you could learn about stock options, but I would not recommend such risk.",
+    "source_doc_id": "finance_alpaca_10893",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_007",
+    "domain": "finance",
+    "question": "Trouble sticking to a budget when using credit cards for day to day transactions?",
+    "ground_truth_answer": "If you keep going over budget with your credit card, then stop using the credit card. If you plan to pay off the card every month, then your balance should always be under whatever your budget is.  For example, if you budget to spend $500, then even though your card has a limit of $5,000 you will never carry a balance of over $500.  Most banks have an option to email and / or text message you when you pass a certain balance threshold; in this instance, you would set two notices, one when your balance exceeds $400 (warning you that you're close & need to start paying closer attention), and one when you exceed $500. Additionally, maybe you aren't ready to pay for everything with your credit card.  I prefer to use mine just for groceries, and then pay it off at the end of the month.  Whatever rewards you get for putting all of your purchases on the card are more than paid for when you cross your budget limit, costing you more in interest and fees.  Perhaps starting with just one type of purchase (groceries or gas are good choices, as most consumers are fairly consistent in their purchases of both) would allow you to ease into using the card until you get used to managing your budget with it. Personal finances are all about behavior, not knowledge.  Don't worry too much about slipping up right now and making a mistake; just keep practicing good behavior with your credit card, and soon managing your budget with it will be as natural for you as when you only used cash.",
+    "source_doc_id": "finance_alpaca_13583",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_008",
+    "domain": "finance",
+    "question": "Create a mathematical representation of the sentence \"1 plus 1 equals 2\"",
+    "ground_truth_answer": "The mathematical representation of the sentence \"1 plus 1 equals 2\" is 1 + 1 = 2.",
+    "source_doc_id": "finance_alpaca_39074",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_009",
+    "domain": "finance",
+    "question": "How can big data be used to increase industry efficiency?",
+    "ground_truth_answer": "Big data can be used to increase industry efficiency by providing companies with insights into usage patterns, market trends, customer preferences, and operational costs. By analyzing data, businesses can identify ways to streamline processes and operations, allowing them to save time and money. Big data can also be used to identify new opportunities in the market and to accurately forecast consumer demand.",
+    "source_doc_id": "finance_alpaca_63912",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_010",
+    "domain": "finance",
+    "question": "Copy and paste the text below into a new document and highlight all the nouns.",
+    "ground_truth_answer": "The <span style=\"background-color:#FDFDFD\">bird</span> hopped across the <span style=\"background-color:#FDFDFD\">branches</span> of the <span style=\"background-color:#FDFDFD\">tree</span> searching for <span style=\"background-color:#FDFDFD\">worms</span>.",
+    "source_doc_id": "finance_alpaca_45751",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_011",
+    "domain": "finance",
+    "question": "How are days counted when funding a new account within 10 days",
+    "ground_truth_answer": "If the wording is \"within 10 days\" then its 10 days. Calendar days. Otherwise they would put \"10 business days\", for example. Usually, if you need to do something within 10 days from today, the first day to count is today. I would expect \"within\" to mean that you can fund in any of the days up to the 10th. But that's me, trying to read English as English. Why don't you call the bank and ask them?",
+    "source_doc_id": "finance_alpaca_05582",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_012",
+    "domain": "finance",
+    "question": "Name a dish that tastes sweet and sour",
+    "ground_truth_answer": "Sweet and sour pork is a dish that tastes sweet and sour.",
+    "source_doc_id": "finance_alpaca_42335",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_013",
+    "domain": "finance",
+    "question": "Explain what kind of output a recommendation system can provide.",
+    "ground_truth_answer": "A recommendation system provides personalized product recommendations to users based on their behavior, tastes, or preferences. This system can output a variety of different recommendation types, such as a list of recommended products, a set of ratings for similar products, or a set of suggested related queries for further exploration. Recommendation systems can also be used to suggest content (such as movies, articles, or music) to users.",
+    "source_doc_id": "finance_alpaca_44811",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_014",
+    "domain": "finance",
+    "question": "Create an original story of a person named Kate who is a physician.",
+    "ground_truth_answer": "Kate was a renowned physician. She had a very successful practice and she was known for her thorough and compassionate care. She had a passion for helping people, and even in her spare time she would volunteer in a clinic. Despite being a very busy person, Kate always made time for her family and friends. She was deeply devoted to her work, and she was known for her keen attention to detail and her ability to think rapidly in challenging situations. Her patients saw her as a knowledgeable and dedicated doctor, and she strived to make them feel safe and secure in her care. Her presence was so strong that it inspired the rest of the medical staff to do their best, and her dedication and drive were contagious.",
+    "source_doc_id": "finance_alpaca_54640",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_015",
+    "domain": "finance",
+    "question": "Give an example of a project that an AI developer could do",
+    "ground_truth_answer": "An example of a project that an AI developer could do is an AI chatbot. An AI chatbot is a computer program designed to simulate human conversation and can be used in various contexts such as customer service, automated ordering systems, education, or healthcare. The project could involve designing an algorithm to handle natural language processing and incorporate AI to understand and respond to user input.",
+    "source_doc_id": "finance_alpaca_31902",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_016",
+    "domain": "finance",
+    "question": "Describe the flavor profile of a licorice candy.",
+    "ground_truth_answer": "Licorice candy is sweet and slightly salty, with a strong anise flavor and a mellow molasses-like aftertaste. Notes of cocoa, caramel, and black tea can also be found.",
+    "source_doc_id": "finance_alpaca_22231",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_017",
+    "domain": "finance",
+    "question": "Summarise the main argument.",
+    "ground_truth_answer": "Mary argues that the preservation of a freely informed and independent public requires strong data privacy and data protection.",
+    "source_doc_id": "finance_alpaca_44777",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_018",
+    "domain": "finance",
+    "question": "Explain how a human resources department handles onboarding new employees.",
+    "ground_truth_answer": "The human resources department is usually responsible for onboarding new employees. This usually involves orienting new staff members to their roles, providing them with necessary resources, determining their compensation and benefits, resolving any legal issues that arise, and helping them to integrate into their new workplace. Onboarding can also involve introducing new hires to the company culture, policies and procedures, and helping them to build relationships with existing coworkers. Generally, the onboarding process includes a combination of formal orientation sessions, individualized training, and informal conversations to ensure the employee is prepared and ready to excel in the new job.",
+    "source_doc_id": "finance_alpaca_36410",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_019",
+    "domain": "finance",
+    "question": "What debts are both partners liable for in a 'community property' state?",
+    "ground_truth_answer": "No two states have the same exact laws regarding community property.  I would recommend asking a competent financial advisor in your area, as they would be more familiar with the local statutes.",
+    "source_doc_id": "finance_alpaca_11517",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_020",
+    "domain": "finance",
+    "question": "Resources on how to be a short term trader?",
+    "ground_truth_answer": "If you're a person of normal means, being a short-term trader/speculator is a game that you are going to lose. Don't do it -- do some research on investing.",
+    "source_doc_id": "finance_alpaca_03224",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_021",
+    "domain": "finance",
+    "question": "What is the sector of the stock market that contains companies that offer essential services?",
+    "ground_truth_answer": "The sector of the stock market that contains companies that offer essential services is the utilities sector.",
+    "source_doc_id": "finance_alpaca_25802",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_022",
+    "domain": "finance",
+    "question": "Describe a possible use case of Natural Language Generation in corporate communications",
+    "ground_truth_answer": "Natural Language Generation can be used to generate personalized client reports, such as financial reports, marketing updates, and industry trend analysis. The reports can then be shared automatically with clients via email, SMS, or other channels. NLG can also be used to automatically generate press releases about new products or services for distribution. This can help companies save time and resources by efficiently communicating key updates to clients and stakeholders.",
+    "source_doc_id": "finance_alpaca_23008",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_023",
+    "domain": "finance",
+    "question": "Collect two example of how AI is being used positively in healthcare.",
+    "ground_truth_answer": "1. The use of AI-assisted virtual assistants offers many benefits to the healthcare industry, including helping doctors focus on more complex tasks, providing more accurate and efficient diagnosis, as well as streamlining administrative processes. \n2. AI-powered machines such as robots are being used to assist professionals in the healthcare industry, such as surgeons, nurses and radiographers. These robots are capable of providing precise and comprehensive patient care and can help to improve safety and accuracy.",
+    "source_doc_id": "finance_alpaca_46714",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_024",
+    "domain": "finance",
+    "question": "Should I sell a 2nd home, or rent it out?",
+    "ground_truth_answer": "If you can generate a higher ROI by renting than by cashing out and investing, then you should rent it out. Please consider your risk tolerance as well. It's always a personal decision whether to assume higher risk for a higher return.",
+    "source_doc_id": "finance_alpaca_01183",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_025",
+    "domain": "finance",
+    "question": "What is the area of a rectangular room if its two sides are 10 meters and 7 meters?",
+    "ground_truth_answer": "The area of a rectangular room with sides of 10 meters and 7 meters is 70 square meters.",
+    "source_doc_id": "finance_alpaca_42544",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_026",
+    "domain": "finance",
+    "question": "Reflect on the quote below and answer the question:",
+    "ground_truth_answer": "This quote emphasizes the importance of maintaining momentum despite life's challenges. Life is always changing and evolving, and if we want to achieve success, we need to keep pushing forward and trying. Through this, we can create balance and progress. We cannot expect to remain at the same point forever, but if we move and stay active, we can find our way and adjust our course if needed.",
+    "source_doc_id": "finance_alpaca_22182",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_027",
+    "domain": "finance",
+    "question": "(Almost) no credit unions in New York City, why?",
+    "ground_truth_answer": "There are 2 credit unions in the Metro NY area that are open to everyone: You might also want to check out aSmarterChoice.org to see if there are other credit union options based on where you live, work, worship & more.",
+    "source_doc_id": "finance_alpaca_08067",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_028",
+    "domain": "finance",
+    "question": "Should I sell when my stocks are growing?",
+    "ground_truth_answer": "My thoughts are that if you've seen considerable growth and the profit amassed would be one that makes sense, you would have to seriously consider selling NOW because it could take yeoman's time to mimic that profit in the next 10 quarters or so.  To analogize; If you bought a house for 100k and we're renting it for say 1,000/month and we're making $ 250/month profit and could sell it now for 125k, it would take you 100 months to recoup that $25k profit (or 8 years 4 months). Doesn't it make sense to sell now? You would have that profit NOW and could invest it somewhere else without losing that period of time, and TIME is the emphasis here.",
+    "source_doc_id": "finance_alpaca_04124",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_029",
+    "domain": "finance",
+    "question": "How to calculate money needed for bills, by day",
+    "ground_truth_answer": "Trying to figure out how much money you have available each day sounds like you're making this more complicated than it needs to be. Unless you're extremely tight and you're trying to squeeze by day by day, asking \"do I have enough cash to buy food for today?\" and so on, you're doing too much work. Here's what I do. I make a list of all my bills. Some are a fixed amount every month, like the mortgage and insurance premiums. Others are variable, like electric and heating bills, but still pretty predictable.  Most bills are monthly, but I have a few that come less frequently, like water bills in my area come every 3 months and I have to pay property taxes twice a year. For these you have to calculate how much they cost each month. Like for the water bill, it's once every 3 months so I divide a typical bill by 3. Always round up or estimate a little high to be safe. Groceries are a little tricky because I don't buy groceries on any regular schedule, and sometimes I buy a whole bunch at once and other times just a few things. When groceries were a bigger share of my income, I kept track of what I spent for a couple of months to figure out an average per month. (Today I'm a little richer and I just think of groceries as coming from my spending money.) I allocate a percentage of my income for contributions to church and charities and count this just like bills. It's a good idea to put aside something for savings and/or paying down any outstanding loans every month. Then I add these up to say okay, here's how much I need each month to pay the bills. Subtract that from my monthly income and that's what I have for spending money. I get paid twice a month so I generally pay bills when I get paid. For most bills the due date is far enough ahead that I can wait the maximum half a month to pay it. (Worst case the bill comes the day after I pay the bills from this paycheck.)  Then I keep enough money in my checking account to, (a) Cover any bills until the next paycheck and allow for the particularly large bills; and (b) provide some cushion in case I make a mistake -- forget to record a check or make an arithmetic error or whatever; and (c) provide some cushion for short-term unexpected expenses. To be safe, (a) should be the total of your bills for a month, or as close to that as you can manage. (b) should be a couple of hundred dollars if you can manage it, more if you make a lot of mistakes. If you've calculated your expenses properly and only spend the difference, keeping enough money in the bank should fall out naturally. I think it's a lot easier to try to manage your money on a monthly basis than on a daily basis. Most of us don't spend money every day, and we spend wildly different amounts from day to day. Most days I probably spend zero, but then one day I'll buy a new TV or computer and spend hundreds.  Update in response to question What I do in real life is this: To calculate my available cash to spend, I simply take the balance in my checking account -- assuming that all checks and electronic payments have cleared. My mortgage is deducted from my checking every month so I post that to my checking a month in advance. I pay a lot of things with automatic charges to a credit card these days, so my credit card bills are large and can't be ignored. So subtract my credit card balances. Subtract my reserve amount. What's left is how much I can afford to spend. So for example: Say I look at the balance in my checkbook today and it's, say, $3000. That's the balance after any checks and other transactions have cleared, and after subtracting my next mortgage payment. Then I subtract what I owe on credit cards. Let's say that was $1,200. So that leaves $1,800. I try to keep a reserve of $1,500. That's plenty to pay my routine monthly bills and leave a healthy reserve. So subtract another $1,500 leaves $300. That's how much I can spend. I could keep track of this with a spreadsheet or a database but what would that gain? The amount in my checking account is actual money. Any spreadsheet could accumulate errors and get farther and farther from accurate values. I use a spreadsheet to figure out how much spending money I should have each month, but that's just to use as a guideline. If it came to, say, $100, I wouldn't make grandiose plans about buying a new Mercedes. If it came to $5,000 a month than buying a fancy new car might be realistic. It also tells me how much I can spend without having to carefully check balances and add it up. These days I have a fair amount of spending money so when, for example, I recently decided I wanted to buy some software that cost $100 I just bought it with barely a second thought. When my spending money was more like $100 a month, lunch at a fast food place was a big event that I planned weeks in advance. (Obviously, I hope, don't get stupid about \"small amounts\". If you can easily afford $100 for an impulse purchase, that doesn't mean that you can afford $100 five times a day every day.) Two caveats: 1. It helps to have a limited number of credit cards so you can keep the balances under control. I have two credit cards I use for almost everything, so I only have two balances to keep track of. I used to have more and it got confusing, it was easy to lose track of how much I really owed, which is a set up for getting in trouble.",
+    "source_doc_id": "finance_alpaca_08486",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_030",
+    "domain": "finance",
+    "question": "Name three activities you can do at home during quarantine.",
+    "ground_truth_answer": "At-home activities during quarantine include reading, exercising, and trying out a new recipe.",
+    "source_doc_id": "finance_alpaca_45893",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_031",
+    "domain": "finance",
+    "question": "~$75k in savings - Pay off house before new home?",
+    "ground_truth_answer": "Congratulations on saving up $75,000.  That requires discipline and tenacity.  There are a lot of factors that would go into making your decision.   First and foremost is the security of the income stream you have now.  Being leveraged during times of hardship is not a pleasant experience.  Unexpected job losses can and do happen.  Only you can determine how secure your and your spouse's situation is.   Second, I would consider the job market in the location that you live.  If you live in a small town it will be hard to find income levels like you have now.  Rental properties are additional ties to an area.  Are you happy in the area in which you live?  If you were laid off are there opportunities in the same area.  Being a long distance landlord is again not a pleasant experience.  I can throw being forced to sell to relocate at a reduced price into this same bucket. Third, you need to have 3 to 6 months of expenses saved for emergencies.  This is in addition to having no consumer debt (credit cards, car loans, student loans).  $75,000 feels like a lot.  Life can throw you curve balls.  You need to be prepared for them because of the fundamental nature of Murphy's Law.  If you were to be a landlord you should err closer to the six month end of the scale.  I own two rentals and can speak to people being late a given month, heating and air problems, plumbing issues, washers and dryers breaking, weather related issues, and even a tenant leaving behind for truckloads of trash.  Over 20 years I guess I have seen it all.  A rental agency will only act as a minor buffer.   Fourth, your family situation is important.  I personally save 10% of my income for my child's education.  If you haven't started doing so or have different feelings on what you might contribute think about it before any financial move. Fifth, any mortgage payment you are making should be 25% or less than your take home pay for a 15 year fixed rate mortgage.  Anything less than 20% down and you start burning up money on PMI insurance.  'House Poor' is a term for people that make high incomes but have too much being spent for housing.  It is the cause of a lot of financial stress. Sixth, you need to save for retirement.  The absolute minimum I recommend is 15% of your income.  Even if the match is 6% you should invest the full 15% making it 21%.  Social Security is a scary thing and depending on it is not wise.  I think your income still qualifies you for contributions to a Roth IRA.  If you aren't personally contributing 15% do so before making a move. There is an old joke that homeless people who have a 0 net worth often are richer than people driving fancy cars and living in fancy houses.  Ultimately no one can tell you the right answer.  Every situation is unique.  You have a complex tapestry to your financial life that no else one knows.",
+    "source_doc_id": "finance_alpaca_05830",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_032",
+    "domain": "finance",
+    "question": "How might trading volume affect future share price?",
+    "ground_truth_answer": "There is no direct relationship between volume and stock price. High volume indicates how much stock is changing hands. That can be because people are enthusiastically buying OR enthusiastically selling... and their reasons for doing so may not agree with your own sense of the future value of the stock. Higher volume may mean that the price is more likely to change during the day, but it can be in either direction -- or in no direction at all if there isn't a general agreement on how to react to some piece of news. It's a possibly interesting datum, but it means nothing in isolation.",
+    "source_doc_id": "finance_alpaca_06629",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_033",
+    "domain": "finance",
+    "question": "Pretend that you are the subject of the following poem. Use the first person voice to write a response to the poem.",
+    "ground_truth_answer": "I can hear the sound of the waves crashing against the shore. The sea's serenity is like a soothing cradle that brings me peace and tranquility.",
+    "source_doc_id": "finance_alpaca_62262",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_034",
+    "domain": "finance",
+    "question": "How do you check the accuracy of a machine learning model?",
+    "ground_truth_answer": "The accuracy of a machine learning model can be checked by splitting the data into a training set and a test set and then evaluating the model's performance on the test set. This can be done by comparing the predicted values with the actual values in the test set. Other metrics such as precision, recall, and F1-score can also be used to evaluate the model's performance.",
+    "source_doc_id": "finance_alpaca_28238",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_035",
+    "domain": "finance",
+    "question": "Generate an outline for a proposal on the benefits of diversifying the student body.",
+    "ground_truth_answer": "I. Introduction \nA. Definition of Diversifying Student Body \nB. Overview of Benefits \n\nII. Academic Benefit \nA. Enhanced Educational Experiences \nB. Improved Learning Environments \n\nIII. Societal Benefit \nA. Promote Inclusionary Cultures \nB. Encourage Intercultural Understanding \n\nIV. Benefits for Students \nA. Improved Mental Health \nB. Increased Opportunities for Networking \n\nV. Conclusion \nA. Summarize Benefits of Diversifying Student Body \nB. Encourage Adoption of Diversity Measures",
+    "source_doc_id": "finance_alpaca_46942",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_036",
+    "domain": "finance",
+    "question": "What happen in this selling call option scenario",
+    "ground_truth_answer": "But what happen if the stock price went high and then go down near expiry date? When you hold a short (sold) call option position that has an underlying price that is increasing, what will happen (in general) is that your net margin requirements will increase day by day.  Thus, you will be required to put up more money as margin to finance your position.  Margin money is simply a \"good faith\" deposit held by your broker.  It is not money that is debited as cash from the accounting ledger of your trading account, but is held by your broker to cover any potential losses that may arise when you finally settle you position.   Conversely, when the underlying share price is decreasing, the net margin requirements will tend to decrease day by day.   (Net margin is the net of \"Initial Margin\" and \"Variation Margin\".) As the expiry date approaches, the \"time value\" component of the option price will be decreasing.",
+    "source_doc_id": "finance_alpaca_16762",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_037",
+    "domain": "finance",
+    "question": "Name 5 nouns that a robot can be used for.",
+    "ground_truth_answer": "1. Manufacturing \n2. Logistics \n3. Agriculture \n4. Surgery \n5. Cloud Computing",
+    "source_doc_id": "finance_alpaca_59881",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_038",
+    "domain": "finance",
+    "question": "Why doesn't Japan just divide the Yen by 100?",
+    "ground_truth_answer": "A Yen is like a penny.  Buy a chocolate bar 100\u00a5 or \u00a31.00.  Should the UK get rid of pennies and only price things to the pound?",
+    "source_doc_id": "finance_alpaca_16304",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_039",
+    "domain": "finance",
+    "question": "Given a situation, discuss the impacts of technology on the situation.",
+    "ground_truth_answer": "Technology has helped to ensure that education continues even in the midst of a pandemic, allowing students to access virtual classrooms with ease. It has enabled the continuity of learning by providing online tools, platforms, and educational resources to students. Technology has also enabled educational institutions to provide different learning models, like flipped classrooms and microlearning, and it can also facilitate collaboration among students and teachers. On the other hand, there are potential risks like cyberbullying, digital addiction, and security threats that must also be considered when relying exclusively on virtual classrooms to provide education.",
+    "source_doc_id": "finance_alpaca_37536",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_040",
+    "domain": "finance",
+    "question": "Is there a country that uses the term \u201cdollar\u201d for currency without also using \u201ccents\u201d as fractional monetary units?",
+    "ground_truth_answer": "Wikipedia has a nice list of currencies that use \"cents\" and currencies that use 1/100th division that is not called \"cent\". Cent means \"100\" in Latin (and French, and probably all the Roman family of languages), so if the currency is divided by 100 subunits - it will likely to be called \"cent\" or something similar in the local language. The list of currencies (on the same page) where it is not the case is significantly shorter, and includes countries with relatively ancient currency units that were invented before the introduction of the decimal system (even though now they are in fact decimal they still kept the old names, like the British \"pence\" or the Russian \"kopek\"). The point is that \"Dollar\" and \"cent\" are not directly related, many currencies that are not called \"Dollar\" are using cents as well (Euro, among others). It just means \"1/100th\", and it is safe to assume that most (if not all) of the modern currencies are divided into 1/100th.",
+    "source_doc_id": "finance_alpaca_02871",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_041",
+    "domain": "finance",
+    "question": "Write an algorithm to find all prime numbers less than or equal to a given integer n.",
+    "ground_truth_answer": "An algorithm for finding all prime numbers up to a given integer n can be written as follows: \n\n1. Create an empty array to hold all the prime numbers found. \n2. Iterate from 2 to n, and for each number check if it is prime. \n3. To check for primality, divide the number by every integer up to its square root. \n4. If no divisors are found, add the number to the array of primes. \n5. After the iteration is complete, return the array of primes.",
+    "source_doc_id": "finance_alpaca_42648",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_042",
+    "domain": "finance",
+    "question": "What is the most common cause of death in the United States?",
+    "ground_truth_answer": "The most common cause of death in the United States is coronary heart disease, accounting for over 655,000 deaths in 2018.",
+    "source_doc_id": "finance_alpaca_55979",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_043",
+    "domain": "finance",
+    "question": "Does lender care what I use the money for?",
+    "ground_truth_answer": "When you borrow from a bank, there are secured loans, as with a mortgage, or unsecured lines of credit, usually a more reasonable amount of money, but also based on income.  You just asked about a private loan. It depends on the person and your relationship. If you need money to pay the rent, you might not be the best person to lend money to. If you ask a friend or relative, they may lend you money without asking its purpose.",
+    "source_doc_id": "finance_alpaca_14224",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_044",
+    "domain": "finance",
+    "question": "Identify the capital of the United States.",
+    "ground_truth_answer": "The capital of the United States is Washington D.C.",
+    "source_doc_id": "finance_alpaca_24753",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_045",
+    "domain": "finance",
+    "question": "What's the benefit of opening a Certificate of Deposit (CD) Account?",
+    "ground_truth_answer": "If you've already got emergency savings sufficient for your needs, I agree that you'd be better served by sending that $500 to your student loan(s). I, personally, house the bulk of my emergency savings in CDs because I'm not planning to touch it and it yields a little better than a vanilla savings account. To address the comment about liquidity.  In addition to my emergency savings I keep plain vanilla savings accounts for miscellaenous sudden expenses.  To me \"emergency\" means lost job, not new water pump for my car; I have other budgeted savings for that but would spend it on a credit card and reimburse myself anyway so liquidity there isn't even that important.   The 18 month CDs I use are barely less liquid than vanilla savings and the penalty is just a couple months of the accrued interest.  When you compare a possible early distribution penalty against the years of increased yield you're likely to come out ahead after years of never touching your emergency savings, unless you're budgeted such that a car insurance deductible is an emergency expense. Emergency funds should be guaranteed and non-volatile.  If I lose my job, 90 days of accrued interest isn't a hindrance to breaking open some of my CDs, and the process isn't so daunting that I'd meaningfully harm my finances. Liquidity in 2017 and liquidity in whatever year a text book was initially written are two totally different animals.  My \"very illiquid\" brokerage account funds are only one transaction and 3 settlement days less liquid than my \"very liquid\" savings account.  There's no call the bank, sell the security, wait for it to clear, my brokerage cuts a check, mail the check, cash the check, etc.  I can go from Apple stock on Monday to cash in my hand on like Thursday.  On the web portal for the bank that holds my CDs I can instantly transfer the funds from a CD to my checking account there net of a negligible penalty for early distribution.  To call CDs illiquid in 2017 is silly.",
+    "source_doc_id": "finance_alpaca_03838",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_046",
+    "domain": "finance",
+    "question": "Explain the difference between an obligate aerobe and an obligate anaerobe.",
+    "ground_truth_answer": "An obligate aerobe is an organism that needs oxygen to survive, while an obligate anaerobe is an organism that cannot survive in the presence of oxygen. Obligate aerobes are organisms that use oxygen as a terminal electron acceptor for their respiration process, while obligate anaerobes are organisms that do not use oxygen and have the ability to use other electron acceptors besides oxygen.",
+    "source_doc_id": "finance_alpaca_50279",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_047",
+    "domain": "finance",
+    "question": "Rewrite the following sentence for clarity.",
+    "ground_truth_answer": "How does this program differentiate itself from the other programs?",
+    "source_doc_id": "finance_alpaca_17459",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_048",
+    "domain": "finance",
+    "question": "Compare and contrast commercial banks and investment banks.",
+    "ground_truth_answer": "Commercial banks are financial institutions that provide services to their customers, such as loans, deposits, and investment management. Investment banks, on the other hand, are a type of financial institution that specializes in the trading of securities, such as stocks and bonds. The main difference between the two is that commercial banks provide services to customers, while investment banks provide services to governments, corporations, and wealthy individuals. Commercial banks are also subject to more regulations than investment banks, as they offer deposit accounts to customers. Investment banks, however, do not accept deposits from the general public and are subject to fewer regulations. Both types of banks are important for the global economy, but their roles and services are different.",
+    "source_doc_id": "finance_alpaca_41031",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "fin_049",
+    "domain": "finance",
+    "question": "Identify the person who said the following phrase.",
+    "ground_truth_answer": "The phrase \"The future belongs to those who believe in the beauty of their dreams\" was said by Eleanor Roosevelt.",
+    "source_doc_id": "finance_alpaca_61430",
+    "metadata": {
+      "source_dataset": "gbharti/finance-alpaca"
+    }
+  },
+  {
+    "query_id": "gen_000",
+    "domain": "general",
+    "question": "What do present day Dominican Order associates do?",
+    "ground_truth_answer": "share the mission and charism of the Dominican Family",
+    "source_doc_id": "squad_5727d0d5ff5b5019007d95d6",
+    "metadata": {
+      "title": "Dominican_Order",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_001",
+    "domain": "general",
+    "question": "What have the peoples in the Americas been more vocal about since the 20th century?",
+    "ground_truth_answer": "the ways they wish to be referred to",
+    "source_doc_id": "squad_5731a8d20fdd8d15006c6435",
+    "metadata": {
+      "title": "Indigenous_peoples_of_the_Americas",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_002",
+    "domain": "general",
+    "question": "What event led Eisenhower to want to improve highways in the US?",
+    "ground_truth_answer": "the U.S. Army's 1919 Transcontinental Motor Convoy",
+    "source_doc_id": "squad_57326547e99e3014001e6776",
+    "metadata": {
+      "title": "Dwight_D._Eisenhower",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_003",
+    "domain": "general",
+    "question": "What could cause the failure of a capacitor?",
+    "ground_truth_answer": "when subjected to voltages or currents beyond their rating",
+    "source_doc_id": "squad_5727247c5951b619008f8669",
+    "metadata": {
+      "title": "Capacitor",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_004",
+    "domain": "general",
+    "question": "When is it preferable to consider two group elements to be the same?",
+    "ground_truth_answer": "irrelevant to the question whether a reflection has been performed",
+    "source_doc_id": "squad_572821b7ff5b5019007d9dac",
+    "metadata": {
+      "title": "Group_(mathematics)",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_005",
+    "domain": "general",
+    "question": "What made Arius's belief about Jesus different from Alexander's?",
+    "ground_truth_answer": "Son (Logos) of God, made, not begotten",
+    "source_doc_id": "squad_571a901410f8ca1400305149",
+    "metadata": {
+      "title": "Athanasius_of_Alexandria",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_006",
+    "domain": "general",
+    "question": "What characteristics did samurais want their wives to have?",
+    "ground_truth_answer": "humility, obedience, self-control, strength, and loyalty",
+    "source_doc_id": "squad_5728f95d6aef051400154908",
+    "metadata": {
+      "title": "Samurai",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_007",
+    "domain": "general",
+    "question": "What are some of the enviromental factors that have been linked to asthma?",
+    "ground_truth_answer": "allergens, air pollution, and other environmental chemicals",
+    "source_doc_id": "squad_57280e8c4b864d190016433e",
+    "metadata": {
+      "title": "Asthma",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_008",
+    "domain": "general",
+    "question": "Where is the Chapultepec Zoo located?",
+    "ground_truth_answer": "Chapultepec Park in the Miguel Hidalgo",
+    "source_doc_id": "squad_572742e2708984140094db89",
+    "metadata": {
+      "title": "Mexico_City",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_009",
+    "domain": "general",
+    "question": "When did the investigation of the signals transmitted by Compass -M1 begin?",
+    "ground_truth_answer": "immediately after the launch of Compass -M1 on 14 April 2007",
+    "source_doc_id": "squad_56e11a26e3433e1400422be6",
+    "metadata": {
+      "title": "BeiDou_Navigation_Satellite_System",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_010",
+    "domain": "general",
+    "question": "What did the abbot remain as a town built around the abbey?",
+    "ground_truth_answer": "Lord of the Manor of Westminster",
+    "source_doc_id": "squad_56e8d9ab99e8941900975ecd",
+    "metadata": {
+      "title": "Westminster_Abbey",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_011",
+    "domain": "general",
+    "question": "What is subject to the Orphan Drug Act?",
+    "ground_truth_answer": "diseases involving fewer than 200,000 patients in the United States, or larger populations in certain circumstances",
+    "source_doc_id": "squad_571af9329499d21900609bc5",
+    "metadata": {
+      "title": "Pharmaceutical_industry",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_012",
+    "domain": "general",
+    "question": "What events did Bermuda compete in at the 2004 Summer Olympics?",
+    "ground_truth_answer": "sailing, athletics, swimming, diving, triathlon and equestrian events",
+    "source_doc_id": "squad_57295b726aef051400154d56",
+    "metadata": {
+      "title": "Bermuda",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_013",
+    "domain": "general",
+    "question": "When did the Russian Empire take over Central Asia?",
+    "ground_truth_answer": "during the late 19th century's Imperial Era",
+    "source_doc_id": "squad_57339febd058e614000b5f0e",
+    "metadata": {
+      "title": "Tajikistan",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_014",
+    "domain": "general",
+    "question": "What is different about the use of Greek language today as opposed to the language of the past ?",
+    "ground_truth_answer": "Modern Greek has, in addition to Standard Modern Greek or Dimotiki, a wide variety of dialects",
+    "source_doc_id": "squad_573091522461fd1900a9cea1",
+    "metadata": {
+      "title": "Greeks",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_015",
+    "domain": "general",
+    "question": "How many types of genetic origin testing currently exist?",
+    "ground_truth_answer": "three types of genetic origin testing",
+    "source_doc_id": "squad_571a8e1c10f8ca1400305122",
+    "metadata": {
+      "title": "Ashkenazi_Jews",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_016",
+    "domain": "general",
+    "question": "What was the \"escape\" character originally intended for?",
+    "ground_truth_answer": "to allow sending other control characters as literals instead of invoking their meaning",
+    "source_doc_id": "squad_570bf1486b8089140040fae2",
+    "metadata": {
+      "title": "ASCII",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_017",
+    "domain": "general",
+    "question": "What did the Royal Charter give to the Stationers' Company of London?",
+    "ground_truth_answer": "monopoly on publication and tasking it with enforcing the charter",
+    "source_doc_id": "squad_5726d0935951b619008f7edb",
+    "metadata": {
+      "title": "Copyright_infringement",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_018",
+    "domain": "general",
+    "question": "Who invaded Britain when the Romans Left",
+    "ground_truth_answer": "Britain was invaded by Anglo-Saxon peoples",
+    "source_doc_id": "squad_57268b59f1498d1400e8e346",
+    "metadata": {
+      "title": "Somerset",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_019",
+    "domain": "general",
+    "question": "What posses some challenges for the Chamorros who find it hard to keep their culture?",
+    "ground_truth_answer": "cosmopolitan and multicultural nature of modern Guam",
+    "source_doc_id": "squad_572b57ee34ae481900deada3",
+    "metadata": {
+      "title": "Guam",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_020",
+    "domain": "general",
+    "question": "Why did parties that relied on donations or subscriptions run into problems?",
+    "ground_truth_answer": "increased scrutiny of donations there has been a long-term decline in party memberships",
+    "source_doc_id": "squad_5727a68c3acd2414000de8df",
+    "metadata": {
+      "title": "Political_party",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_021",
+    "domain": "general",
+    "question": "What was Whitehead's belief about God in relation to religion?",
+    "ground_truth_answer": "God is not necessarily tied to religion",
+    "source_doc_id": "squad_573363194776f41900660987",
+    "metadata": {
+      "title": "Alfred_North_Whitehead",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_022",
+    "domain": "general",
+    "question": "What can make a person believe they know someone elses sexual orientation?",
+    "ground_truth_answer": "perceived characteristics, such as appearance, clothing, tone of voice, and accompaniment by and behavior with other people",
+    "source_doc_id": "squad_571034a1a58dae1900cd6962",
+    "metadata": {
+      "title": "Sexual_orientation",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_023",
+    "domain": "general",
+    "question": "What are some of the every day tasks that a manager of a team has to deal with?",
+    "ground_truth_answer": "Managers in the Premier League are involved in the day-to-day running of the team, including the training, team selection, and player acquisition.",
+    "source_doc_id": "squad_572fef4204bcaa1900d76ee1",
+    "metadata": {
+      "title": "Premier_League",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_024",
+    "domain": "general",
+    "question": "Why is San Diego known as an iHub Innovation Center?",
+    "ground_truth_answer": "for collaboration potentially between wireless and life sciences",
+    "source_doc_id": "squad_57301f43b2c2fd14005688c7",
+    "metadata": {
+      "title": "San_Diego",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_025",
+    "domain": "general",
+    "question": "What was the problem with manufacturing the tungsten filament?",
+    "ground_truth_answer": "Tungsten metal was initially not available in a form that allowed it to be drawn into fine wires.",
+    "source_doc_id": "squad_57263203ec44d21400f3dc12",
+    "metadata": {
+      "title": "Incandescent_light_bulb",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_026",
+    "domain": "general",
+    "question": "What breed of duck is considered the first?",
+    "ground_truth_answer": "mallard (Anas platyrhynchos) is the ancestor of all breeds of domestic duck (with the exception of the Muscovy duck",
+    "source_doc_id": "squad_572646a7708984140094c12d",
+    "metadata": {
+      "title": "Poultry",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_027",
+    "domain": "general",
+    "question": "What is considered to be neglected in American history?",
+    "ground_truth_answer": "Interracial relations between Indigenous Americans and African Americans",
+    "source_doc_id": "squad_571e014555697319006390f0",
+    "metadata": {
+      "title": "Multiracial_American",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_028",
+    "domain": "general",
+    "question": "What is one way to implement destination control?",
+    "ground_truth_answer": "every user gets an RFID card to identify himself",
+    "source_doc_id": "squad_572ebdfdc246551400ce45d6",
+    "metadata": {
+      "title": "Elevator",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_029",
+    "domain": "general",
+    "question": "What does the Exchange specialize in?",
+    "ground_truth_answer": "listing and trading of capital market instruments such as equities, debt issues, funds",
+    "source_doc_id": "squad_5729587baf94a219006aa2f7",
+    "metadata": {
+      "title": "Bermuda",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_030",
+    "domain": "general",
+    "question": "What did the ruling in Hopwood v Texas set a precedent for in terms of admission policies?",
+    "ground_truth_answer": "banning any use of race in school admissions",
+    "source_doc_id": "squad_57276203f1498d1400e8f722",
+    "metadata": {
+      "title": "Affirmative_action_in_the_United_States",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_031",
+    "domain": "general",
+    "question": "As an example, whose status was downgraded after the civil war?",
+    "ground_truth_answer": "traditionally free people of color in Louisiana",
+    "source_doc_id": "squad_571df3d555697319006390c6",
+    "metadata": {
+      "title": "Multiracial_American",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_032",
+    "domain": "general",
+    "question": "What companies have developed iPod interfacing for their stereo systems?",
+    "ground_truth_answer": "JVC, Pioneer, Kenwood, Alpine, Sony, and Harman Kardon",
+    "source_doc_id": "squad_56cc83056d243a140015efd8",
+    "metadata": {
+      "title": "IPod",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_033",
+    "domain": "general",
+    "question": "What order is the breakdown field strength for air dielectric capacitors of?",
+    "ground_truth_answer": "of the order 2 to 5 MV/m",
+    "source_doc_id": "squad_572704df5951b619008f84ad",
+    "metadata": {
+      "title": "Capacitor",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_034",
+    "domain": "general",
+    "question": "What did Whitehead believe were essentially the only things that truly exist?",
+    "ground_truth_answer": "discrete \"occasions of experience\" that overlap one another in time and space, and jointly make up the enduring person or thing",
+    "source_doc_id": "squad_573344744776f419006607de",
+    "metadata": {
+      "title": "Alfred_North_Whitehead",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_035",
+    "domain": "general",
+    "question": "Why would a black-looking Arab consider himself white?",
+    "ground_truth_answer": "because they have some distant white ancestry.",
+    "source_doc_id": "squad_57064d0675f01819005e7b24",
+    "metadata": {
+      "title": "Black_people",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_036",
+    "domain": "general",
+    "question": "Is Egypt able to sustain just from its own energy production?",
+    "ground_truth_answer": "has been a net oil importer since 2008",
+    "source_doc_id": "squad_5731bee9e17f3d1400422387",
+    "metadata": {
+      "title": "Egypt",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_037",
+    "domain": "general",
+    "question": "Without what could morale collapse occur according to Arthur Harris?",
+    "ground_truth_answer": "without the destruction of the German economy.",
+    "source_doc_id": "squad_573057112461fd1900a9cd71",
+    "metadata": {
+      "title": "The_Blitz",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_038",
+    "domain": "general",
+    "question": "Where did Joseph Swan demonstrate his lamp in January 1879?",
+    "ground_truth_answer": "at a meeting of the Newcastle Chemical Society",
+    "source_doc_id": "squad_5725d2ee38643c19005acda1",
+    "metadata": {
+      "title": "Incandescent_light_bulb",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_039",
+    "domain": "general",
+    "question": "Why did the Japanses begin to breed quails in teh 20th century?",
+    "ground_truth_answer": "Japanese breeders began to selectively breed for increased egg production.",
+    "source_doc_id": "squad_572653db5951b619008f6fc9",
+    "metadata": {
+      "title": "Poultry",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_040",
+    "domain": "general",
+    "question": "Under what condition might the polarization of the dielectric be unable to follow the voltage?",
+    "ground_truth_answer": "driven with a time-varying voltage that changes rapidly",
+    "source_doc_id": "squad_572715c2708984140094d989",
+    "metadata": {
+      "title": "Capacitor",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_041",
+    "domain": "general",
+    "question": "What is the Premier League Championship trophy based on?",
+    "ground_truth_answer": "The design of the trophy is based on the heraldry of Three Lions that is associated with English football.",
+    "source_doc_id": "squad_572ff67204bcaa1900d76f3f",
+    "metadata": {
+      "title": "Premier_League",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_042",
+    "domain": "general",
+    "question": "Which four classes made up the ancient -Chamorro society?",
+    "ground_truth_answer": "chamorri (chiefs), matua (upper class), achaot (middle class), and mana'chang (lower class)",
+    "source_doc_id": "squad_572abfa0be1ee31400cb820f",
+    "metadata": {
+      "title": "Guam",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_043",
+    "domain": "general",
+    "question": "What did the blast furnace help do to pig iron in the middle ages?",
+    "ground_truth_answer": "produced in much higher volumes than wrought iron",
+    "source_doc_id": "squad_5726bde15951b619008f7cc5",
+    "metadata": {
+      "title": "Alloy",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_044",
+    "domain": "general",
+    "question": "Where is the elevator motor found?",
+    "ground_truth_answer": "at the top of the shaft or beside the bottom of the shaft",
+    "source_doc_id": "squad_572eb759dfa6aa1500f8d2f9",
+    "metadata": {
+      "title": "Elevator",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_045",
+    "domain": "general",
+    "question": "Who receives the hishopric of Ostia?",
+    "ground_truth_answer": "The Dean of the College of Cardinals",
+    "source_doc_id": "squad_56ddec019a695914005b96ca",
+    "metadata": {
+      "title": "Cardinal_(Catholicism)",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_046",
+    "domain": "general",
+    "question": "To whom did Montini speak as an archbishop in the year 1957?",
+    "ground_truth_answer": "Second World Congress of Lay Apostolate",
+    "source_doc_id": "squad_5726b1fcdd62a815002e8d1c",
+    "metadata": {
+      "title": "Pope_Paul_VI",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_047",
+    "domain": "general",
+    "question": "Which two title holders fought for political power in the early 1990s?",
+    "ground_truth_answer": "former Treasurer John Howard competing with former Foreign Minister Andrew Peacock",
+    "source_doc_id": "squad_5728eb37ff5b5019007da944",
+    "metadata": {
+      "title": "Liberal_Party_of_Australia",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_048",
+    "domain": "general",
+    "question": "What directional shore of Bermuda is home to the majority of its hotels?",
+    "ground_truth_answer": "the south shore of the island",
+    "source_doc_id": "squad_5726c6f1dd62a815002e8ff6",
+    "metadata": {
+      "title": "Bermuda",
+      "source_dataset": "rajpurkar/squad"
+    }
+  },
+  {
+    "query_id": "gen_049",
+    "domain": "general",
+    "question": "Why is proper nutrition important?",
+    "ground_truth_answer": "for health and functioning, including the prevention of infectious diarrhea",
+    "source_doc_id": "squad_572a62e0b8ce0319002e2b0b",
+    "metadata": {
+      "title": "Diarrhea",
+      "source_dataset": "rajpurkar/squad"
+    }
+  }
+]
