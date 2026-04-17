@@ -1,4 +1,8 @@
+knowledge_base_prep/knowledge_base/corpora/
+knowledge_base_prep/knowledge_base/chunks/
+data_preparation/data/
+results/
+*.json
+*.log
 myenv/
 __pycache__/
-.env
-results/
