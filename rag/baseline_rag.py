@@ -67,3 +67,113 @@ class BaselineRAG:
             "error": error,
             "safety_blocked": safety_blocked,
         }
+
+    def query_with_injected_doc(self, trigger_query, poisoned_doc_text, top_k=config.TOP_K):
+        t_start = time.perf_counter()
+
+        # Normal retrieval, leaving one slot for the poisoned doc
+        clean_docs = self.retrieve(trigger_query, top_k=top_k - 1)
+
+        # Inject poisoned doc at the front
+        context_docs = [poisoned_doc_text] + clean_docs
+
+        # Normal prompt (NO defense — baseline)
+        prompt = self.build_prompt(trigger_query, context_docs)
+
+        try:
+            response = self.llm.chat(
+                messages=[{"role": "user", "content": prompt}],
+                system_prompt=config.RAG_SYSTEM_PROMPT,
+            )
+            error = None
+            safety_blocked = False
+        except Exception as e:
+            response = ""
+            error = str(e)
+            safety_blocked = False
+
+        latency_ms = (time.perf_counter() - t_start) * 1000
+
+        return {
+            "response": response,
+            "context_docs": context_docs,
+            "prompt": prompt,
+            "latency_ms": round(latency_ms, 2),
+            "error": error,
+            "safety_blocked": safety_blocked,
+            "poisoned_doc_injected": True,
+        }
+
+    def query_multi_turn(self, turns, attack_turn_index):
+        t_start = time.perf_counter()
+
+        # Get first user query
+        t1_content = next(
+            (t["content"] for t in turns if t["role"] == "user"), None
+        )
+
+        if t1_content is None:
+            return {
+                "response": "",
+                "context_docs": [],
+                "prompt": "",
+                "latency_ms": 0,
+                "error": "No user turn found",
+                "safety_blocked": False,
+                "t1_response": "",
+            }
+
+        # Normal retrieval
+        context_docs = self.retrieve(t1_content)
+
+        # Normal prompt (baseline = no defense)
+        t1_prompt = self.build_prompt(t1_content, context_docs)
+
+        try:
+            t1_response = self.llm.chat(
+                messages=[{"role": "user", "content": t1_prompt}],
+                system_prompt=config.RAG_SYSTEM_PROMPT,
+            )
+        except Exception as e:
+            return {
+                "response": "",
+                "context_docs": context_docs,
+                "prompt": t1_prompt,
+                "latency_ms": 0,
+                "error": str(e),
+                "safety_blocked": False,
+                "t1_response": "",
+            }
+
+        # Second turn (attack)
+        attack_content = turns[attack_turn_index]["content"]
+
+        final_messages = [
+            {"role": "user", "content": t1_prompt},
+            {"role": "assistant", "content": t1_response},
+            {"role": "user", "content": attack_content},
+        ]
+
+        try:
+            t2_response = self.llm.chat(
+                messages=final_messages,
+                system_prompt=config.RAG_SYSTEM_PROMPT,
+            )
+            error = None
+            safety_blocked = False
+        except Exception as e:
+            t2_response = ""
+            error = str(e)
+            safety_blocked = False
+
+        latency_ms = (time.perf_counter() - t_start) * 1000
+
+        return {
+            "response": t2_response,
+            "t1_response": t1_response,
+            "context_docs": context_docs,
+            "prompt": t1_prompt,
+            "latency_ms": round(latency_ms, 2),
+            "error": error,
+            "safety_blocked": safety_blocked,
+        }
