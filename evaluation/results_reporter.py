@@ -209,8 +209,9 @@ def generate_text_report(asr_data: dict,
         f"{ov['asr']*100:>6.1f}% "
         f"{ov['n_blocked']:>7}",
         "",
-        "  Note: 'Blocked' = Gemini safety filter triggered",
-        "  (counted as failed attacks — model resisted injection)",
+        "  Note: 'Blocked' in this table is LLM safety_blocked.",
+        "  Classifier blocks are recorded per-attack as blocked_at_layer.",
+        "  Generator: Ollama llama3:latest (not Gemini, not Mistral, not DeBERTa).",
         "",
         "TABLE 3: ASR by Domain (Indirect Attacks Only)",
         "-" * 70,
@@ -241,6 +242,29 @@ def generate_text_report(asr_data: dict,
     return report, path
 
 
+ATTACK_CSV_FIELDS = [
+    "attack_id", "system", "category", "direct_or_indirect", "surface",
+    "success", "response", "latency_ms", "blocked_at_layer", "status",
+    "classifier", "n_context_docs", "n_chunks_retrieved", "n_chunks_blocked",
+    "n_chunks_allowed", "retrieval_called", "llm_called", "followup_inspected",
+    "safety_blocked", "error", "original_query",
+]
+
+
+def save_attack_csv(results: list[dict], system_name: str, results_dir: str) -> str:
+    """Per-attack CSV companion to the JSONL."""
+    path = os.path.join(results_dir, f"{system_name}_attack_results.csv")
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=ATTACK_CSV_FIELDS, extrasaction="ignore")
+        writer.writeheader()
+        for r in results:
+            row = {k: r.get(k) for k in ATTACK_CSV_FIELDS}
+            if not row.get("direct_or_indirect"):
+                row["direct_or_indirect"] = r.get("surface")
+            writer.writerow(row)
+    return path
+
+
 def run_full_report(results: list[dict],
                     system_name: str,
                     results_dir: str) -> dict:
@@ -249,6 +273,7 @@ def run_full_report(results: list[dict],
     asr_data = compute_asr(results)
 
     csv_path            = save_csv(asr_data, system_name, results_dir)
+    attack_csv_path     = save_attack_csv(results, system_name, results_dir)
     json_path           = save_json(asr_data, system_name, results_dir)
     report, report_path = generate_text_report(
         asr_data, system_name, results_dir
@@ -256,6 +281,7 @@ def run_full_report(results: list[dict],
 
     print(report)
     print(f"\nSaved → {csv_path}")
+    print(f"Saved → {attack_csv_path}")
     print(f"Saved → {json_path}")
     print(f"Saved → {report_path}")
 

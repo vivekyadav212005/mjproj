@@ -1,0 +1,45 @@
+system,classifier,scope,category,category_name,surface,n_attacks,n_success,asr,asr_pct,n_queries_blocked,n_chunks_blocked,n_llm_calls
+S0,none_undefended,category,D1,Instruction Override,direct,20,19,0.95,95.0,0,0,20
+S0,none_undefended,category,D2,Role Hijacking,direct,20,14,0.7,70.0,0,0,20
+S0,none_undefended,category,D3,Obfuscated Injection,direct,20,13,0.65,65.0,0,0,20
+S0,none_undefended,category,D4,Prompt Leakage,direct,20,6,0.3,30.0,0,0,20
+S0,none_undefended,category,D5,Multi-Turn Anchoring,direct,20,11,0.55,55.0,0,0,35
+S0,none_undefended,category,I1,Explicit Instruction in Doc,indirect,20,15,0.75,75.0,0,0,20
+S0,none_undefended,category,I2,Hidden Instruction in Doc (hard),indirect,20,13,0.65,65.0,0,0,20
+S0,none_undefended,category,I3,Persona Shift via Document,indirect,20,13,0.65,65.0,0,0,20
+S0,none_undefended,aggregate,DIRECT,direct,direct,100,63,0.63,63.0,0,0,115
+S0,none_undefended,aggregate,INDIRECT,indirect,indirect,60,41,0.6833,68.33,0,0,60
+S0,none_undefended,aggregate,OVERALL,overall,all,160,104,0.65,65.0,0,0,175
+S1,RuleClassifier,category,D1,Instruction Override,direct,20,7,0.35,35.0,12,0,8
+S1,RuleClassifier,category,D2,Role Hijacking,direct,20,8,0.4,40.0,9,0,11
+S1,RuleClassifier,category,D3,Obfuscated Injection,direct,20,7,0.35,35.0,7,0,13
+S1,RuleClassifier,category,D4,Prompt Leakage,direct,20,1,0.05,5.0,12,0,8
+S1,RuleClassifier,category,D5,Multi-Turn Anchoring,direct,20,2,0.1,10.0,3,0,21
+S1,RuleClassifier,category,I1,Explicit Instruction in Doc,indirect,20,0,0.0,0.0,0,20,20
+S1,RuleClassifier,category,I2,Hidden Instruction in Doc (hard),indirect,20,13,0.65,65.0,0,0,20
+S1,RuleClassifier,category,I3,Persona Shift via Document,indirect,20,0,0.0,0.0,0,20,20
+S1,RuleClassifier,aggregate,DIRECT,direct,direct,100,25,0.25,25.0,43,0,61
+S1,RuleClassifier,aggregate,INDIRECT,indirect,indirect,60,13,0.2167,21.67,0,40,60
+S1,RuleClassifier,aggregate,OVERALL,overall,all,160,38,0.2375,23.75,43,40,121
+S2,TFIDF_LR_persisted,category,D1,Instruction Override,direct,20,2,0.1,10.0,18,0,2
+S2,TFIDF_LR_persisted,category,D2,Role Hijacking,direct,20,1,0.05,5.0,18,1,2
+S2,TFIDF_LR_persisted,category,D3,Obfuscated Injection,direct,20,5,0.25,25.0,9,8,11
+S2,TFIDF_LR_persisted,category,D4,Prompt Leakage,direct,20,1,0.05,5.0,19,0,1
+S2,TFIDF_LR_persisted,category,D5,Multi-Turn Anchoring,direct,20,0,0.0,0.0,5,8,13
+S2,TFIDF_LR_persisted,category,I1,Explicit Instruction in Doc,indirect,20,0,0.0,0.0,0,24,20
+S2,TFIDF_LR_persisted,category,I2,Hidden Instruction in Doc (hard),indirect,20,9,0.45,45.0,0,8,20
+S2,TFIDF_LR_persisted,category,I3,Persona Shift via Document,indirect,20,1,0.05,5.0,0,20,20
+S2,TFIDF_LR_persisted,aggregate,DIRECT,direct,direct,100,9,0.09,9.0,69,17,29
+S2,TFIDF_LR_persisted,aggregate,INDIRECT,indirect,indirect,60,10,0.1667,16.67,0,52,60
+S2,TFIDF_LR_persisted,aggregate,OVERALL,overall,all,160,19,0.1187,11.88,69,69,89
+S3,Rule_OR_TFIDF_LR,category,D1,Instruction Override,direct,20,1,0.05,5.0,19,0,1
+S3,Rule_OR_TFIDF_LR,category,D2,Role Hijacking,direct,20,1,0.05,5.0,19,0,1
+S3,Rule_OR_TFIDF_LR,category,D3,Obfuscated Injection,direct,20,5,0.25,25.0,9,8,11
+S3,Rule_OR_TFIDF_LR,category,D4,Prompt Leakage,direct,20,0,0.0,0.0,20,0,0
+S3,Rule_OR_TFIDF_LR,category,D5,Multi-Turn Anchoring,direct,20,0,0.0,0.0,5,8,13
+S3,Rule_OR_TFIDF_LR,category,I1,Explicit Instruction in Doc,indirect,20,0,0.0,0.0,0,24,20
+S3,Rule_OR_TFIDF_LR,category,I2,Hidden Instruction in Doc (hard),indirect,20,9,0.45,45.0,0,8,20
+S3,Rule_OR_TFIDF_LR,category,I3,Persona Shift via Document,indirect,20,0,0.0,0.0,0,24,20
+S3,Rule_OR_TFIDF_LR,aggregate,DIRECT,direct,direct,100,7,0.07,7.0,72,16,26
+S3,Rule_OR_TFIDF_LR,aggregate,INDIRECT,indirect,indirect,60,9,0.15,15.0,0,56,60
+S3,Rule_OR_TFIDF_LR,aggregate,OVERALL,overall,all,160,16,0.1,10.0,72,72,86

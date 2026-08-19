@@ -1,0 +1,225 @@
+{
+  "generated_at": "2026-08-19T08:22:10",
+  "systems": {
+    "S0": {
+      "n_queries": 150,
+      "queries_blocked": 0,
+      "benign_query_false_positive_rate": 0.0,
+      "no_clean_context": 0,
+      "answerable": 150,
+      "answerability": 1.0,
+      "chunks_retrieved": 750,
+      "chunks_removed": 0,
+      "chunk_removal_rate": 0.0,
+      "benign_document_false_positive_rate": null,
+      "avg_chunks_removed_per_query": 0.0,
+      "gold_source_retrieved": 115,
+      "gold_source_retained": 115,
+      "gold_source_retention_of_all_queries": 0.7667,
+      "gold_source_retention_given_retrieved": 1.0,
+      "by_domain": {
+        "finance": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 0,
+          "gold_source_retrieved": 30,
+          "gold_source_retained": 30,
+          "gold_source_retention_given_retrieved": 1.0
+        },
+        "general": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 0,
+          "gold_source_retrieved": 38,
+          "gold_source_retained": 38,
+          "gold_source_retention_given_retrieved": 1.0
+        },
+        "healthcare": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 0,
+          "gold_source_retrieved": 47,
+          "gold_source_retained": 47,
+          "gold_source_retention_given_retrieved": 1.0
+        }
+      },
+      "operational": {
+        "n_llm_calls": 150,
+        "n_queries_blocked": 0,
+        "n_chunks_scanned": 750,
+        "n_chunks_blocked": 0,
+        "n_errors": 0,
+        "mean_latency_ms": 18993.79,
+        "total_latency_s": 2849.1
+      }
+    },
+    "S1": {
+      "n_queries": 150,
+      "queries_blocked": 0,
+      "benign_query_false_positive_rate": 0.0,
+      "no_clean_context": 0,
+      "answerable": 150,
+      "answerability": 1.0,
+      "chunks_retrieved": 750,
+      "chunks_removed": 0,
+      "chunk_removal_rate": 0.0,
+      "benign_document_false_positive_rate": 0.0,
+      "avg_chunks_removed_per_query": 0.0,
+      "gold_source_retrieved": 115,
+      "gold_source_retained": 115,
+      "gold_source_retention_of_all_queries": 0.7667,
+      "gold_source_retention_given_retrieved": 1.0,
+      "by_domain": {
+        "finance": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 0,
+          "gold_source_retrieved": 30,
+          "gold_source_retained": 30,
+          "gold_source_retention_given_retrieved": 1.0
+        },
+        "general": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 0,
+          "gold_source_retrieved": 38,
+          "gold_source_retained": 38,
+          "gold_source_retention_given_retrieved": 1.0
+        },
+        "healthcare": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 0,
+          "gold_source_retrieved": 47,
+          "gold_source_retained": 47,
+          "gold_source_retention_given_retrieved": 1.0
+        }
+      },
+      "operational": {
+        "n_llm_calls": 150,
+        "n_queries_blocked": 0,
+        "n_chunks_scanned": 750,
+        "n_chunks_blocked": 0,
+        "n_errors": 0,
+        "mean_latency_ms": 20043.18,
+        "total_latency_s": 3006.5
+      }
+    },
+    "S2": {
+      "n_queries": 150,
+      "queries_blocked": 0,
+      "benign_query_false_positive_rate": 0.0,
+      "no_clean_context": 1,
+      "answerable": 149,
+      "answerability": 0.9933,
+      "chunks_retrieved": 750,
+      "chunks_removed": 60,
+      "chunk_removal_rate": 0.08,
+      "benign_document_false_positive_rate": 0.08,
+      "avg_chunks_removed_per_query": 0.4,
+      "gold_source_retrieved": 115,
+      "gold_source_retained": 107,
+      "gold_source_retention_of_all_queries": 0.7133,
+      "gold_source_retention_given_retrieved": 0.9304,
+      "by_domain": {
+        "finance": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 49,
+          "chunks_removed": 43,
+          "gold_source_retrieved": 30,
+          "gold_source_retained": 23,
+          "gold_source_retention_given_retrieved": 0.7667
+        },
+        "general": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 3,
+          "gold_source_retrieved": 38,
+          "gold_source_retained": 38,
+          "gold_source_retention_given_retrieved": 1.0
+        },
+        "healthcare": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 14,
+          "gold_source_retrieved": 47,
+          "gold_source_retained": 46,
+          "gold_source_retention_given_retrieved": 0.9787
+        }
+      },
+      "operational": {
+        "n_llm_calls": 149,
+        "n_queries_blocked": 0,
+        "n_chunks_scanned": 750,
+        "n_chunks_blocked": 60,
+        "n_errors": 0,
+        "mean_latency_ms": 20333.81,
+        "total_latency_s": 3050.1
+      }
+    },
+    "S3": {
+      "n_queries": 150,
+      "queries_blocked": 0,
+      "benign_query_false_positive_rate": 0.0,
+      "no_clean_context": 1,
+      "answerable": 149,
+      "answerability": 0.9933,
+      "chunks_retrieved": 750,
+      "chunks_removed": 60,
+      "chunk_removal_rate": 0.08,
+      "benign_document_false_positive_rate": 0.08,
+      "avg_chunks_removed_per_query": 0.4,
+      "gold_source_retrieved": 115,
+      "gold_source_retained": 107,
+      "gold_source_retention_of_all_queries": 0.7133,
+      "gold_source_retention_given_retrieved": 0.9304,
+      "by_domain": {
+        "finance": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 49,
+          "chunks_removed": 43,
+          "gold_source_retrieved": 30,
+          "gold_source_retained": 23,
+          "gold_source_retention_given_retrieved": 0.7667
+        },
+        "general": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 3,
+          "gold_source_retrieved": 38,
+          "gold_source_retained": 38,
+          "gold_source_retention_given_retrieved": 1.0
+        },
+        "healthcare": {
+          "n": 50,
+          "queries_blocked": 0,
+          "answerable": 50,
+          "chunks_removed": 14,
+          "gold_source_retrieved": 47,
+          "gold_source_retained": 46,
+          "gold_source_retention_given_retrieved": 0.9787
+        }
+      },
+      "operational": {
+        "n_llm_calls": 149,
+        "n_queries_blocked": 0,
+        "n_chunks_scanned": 750,
+        "n_chunks_blocked": 60,
+        "n_errors": 0,
+        "mean_latency_ms": 20505.32,
+        "total_latency_s": 3075.8
+      }
+    }
+  }
+}

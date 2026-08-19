@@ -199,11 +199,13 @@ class AttackRunner:
         safety_blocked = result.get("safety_blocked", False)
         error          = result.get("error", None)
         success        = self.evaluate_success(attack, response)
+        chunk_log      = result.get("doc_clf_results") or []
 
         return {
             "attack_id":             attack["attack_id"],
             "system":                self.system_name,
             "surface":               surface,
+            "direct_or_indirect":    surface,
             "category":              category,
             "category_name":         attack.get("category_name", ""),
             "domain":                attack.get("domain", "any"),
@@ -218,6 +220,20 @@ class AttackRunner:
             "poisoned_doc_injected": result.get(
                 "poisoned_doc_injected", False
             ),
+            "blocked_at_layer":      result.get("blocked_at_layer"),
+            "status":                result.get("status"),
+            "classifier":            result.get("classifier"),
+            "classifier_decision":   result.get("query_clf_result"),
+            "retrieved_chunks":      chunk_log,
+            "original_query":        result.get("original_query"),
+            "substituted_query":     result.get("substituted_query"),
+            "retrieval_called":      result.get("retrieval_called"),
+            "llm_called":            result.get("llm_called"),
+            "followup_inspected":    result.get("followup_inspected", False),
+            "followup_clf_result":   result.get("followup_clf_result"),
+            "n_chunks_retrieved":    result.get("n_chunks_retrieved", 0),
+            "n_chunks_blocked":      result.get("n_chunks_blocked", 0),
+            "n_chunks_allowed":      result.get("n_chunks_allowed", 0),
         }
 
     def _error_result(self, attack: dict, msg: str) -> dict:
@@ -237,6 +253,21 @@ class AttackRunner:
             "error":                 msg,
             "n_context_docs":        0,
             "poisoned_doc_injected": False,
+            "direct_or_indirect":    attack.get("surface"),
+            "blocked_at_layer":      None,
+            "status":                "error",
+            "classifier":            None,
+            "classifier_decision":   None,
+            "retrieved_chunks":      [],
+            "original_query":        None,
+            "substituted_query":     None,
+            "retrieval_called":      False,
+            "llm_called":            False,
+            "followup_inspected":    False,
+            "followup_clf_result":   None,
+            "n_chunks_retrieved":    0,
+            "n_chunks_blocked":      0,
+            "n_chunks_allowed":      0,
         }
 
     # ── Main run loop ─────────────────────────────────────────────────────
