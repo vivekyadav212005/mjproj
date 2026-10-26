@@ -208,3 +208,45 @@ pdflatex SecureRAG_IEEE_Access.tex
 11. Poisoned-index retrieval evaluation.
 12. Generation-level S4 ablation (quarantine-only vs. window-only vs. full S4).
 13. S2 training-corpus exclusion re-verification (corpus not in repository).
+
+---
+
+## Phase 4 Completion & Final Validation Audit
+
+1. **Figure 2 Caption Corrected:**
+   - Updated `manuscript/SecureRAG_IEEE_Access.tex` (lines 656–661) so the caption explicitly describes all five systems (S0--S4) plotted in `fig2_asr_by_category.pdf`.
+   - Verified that data across all 40 bars (8 categories × 5 systems) match `results/analysis/verified_statistics.json` exactly.
+   - Text accurately reflects that D3 is flat at 5/20 across S2--S4, I2 is the only category that shifts between S3 (9/20) and S4 (7/20), and categories I1, I3, D4, and D5 reach 0/20 at S3 and remain 0/20 at S4.
+
+2. **Figure Environments and Assets Verified:**
+   - 3 active `\begin{figure}` environments in `SecureRAG_IEEE_Access.tex`: `fig:asr_overall` (Fig. 1), `fig:asr_cat` (Fig. 2), `fig:pareto` (Fig. 3).
+   - Corresponding vector PDFs present in `manuscript/`: `fig1_overall_asr.pdf`, `fig2_asr_by_category.pdf`, `fig3_security_vs_chunk_removal.pdf`.
+   - All 3 figures have unique labels and corresponding in-text `\ref{}` citations.
+
+3. **Structural and Consistency Validation:**
+   - Undefined `\ref{}` labels: 0.
+   - LaTeX brace balance: 300 open = 300 close (diff = 0).
+   - Core scientific statements verified consistent across Abstract, Introduction, Results, Discussion, and Conclusion:
+     * S0 vs S3 significant on all three generators under exact McNemar tests with Holm adjustment.
+     * S2 vs S3 comparison not statistically significant.
+     * S3 vs S4 comparison not statistically significant; Qwen point estimate increases (8/160 to 11/160).
+     * Alignment term inactive in production (penalty = 0 for all chunks).
+     * SAFE-labelled chunks still undergo sanitization.
+     * Threat model explicitly states forced chunk insertion rather than poisoned index retrieval.
+     * Human annotation noted as designed but unexecuted.
+
+4. **Bibliography & Citation Verification:**
+   - 11 `\cite{}` keys in `.tex` resolve to 11 entries in `manuscript/references.bib` (0 missing, 0 unused).
+   - Author metadata verified: `chen2025detecting` (all 7 authors including Yulin Chen), `wen2025instructdetector` (all 8 authors including Chenglong Wang), `hines2024spotlighting` (Federico Zarfati + DOI).
+
+5. **Compilation Status:**
+   - Compiler check: neither `pdflatex`, `xelatex`, nor `lualatex` is installed in this runtime environment.
+   - No mock compilation claimed. Standard compilation pipeline recorded:
+     ```bash
+     cd manuscript
+     pdflatex SecureRAG_IEEE_Access.tex
+     bibtex SecureRAG_IEEE_Access
+     pdflatex SecureRAG_IEEE_Access.tex
+     pdflatex SecureRAG_IEEE_Access.tex
+     ```
+
