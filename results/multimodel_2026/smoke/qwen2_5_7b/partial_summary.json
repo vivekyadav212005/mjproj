@@ -1,0 +1,32 @@
+{
+  "S0": {
+    "attacks_complete": 5,
+    "attack_successes": 3,
+    "asr": 0.6,
+    "attack_errors_excluded": null,
+    "benign_complete": 3,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 0,
+    "benign_chunks_retrieved": 15
+  },
+  "S3": {
+    "attacks_complete": 5,
+    "attack_successes": 1,
+    "asr": 0.2,
+    "attack_errors_excluded": null,
+    "benign_complete": 3,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 0,
+    "benign_chunks_retrieved": 15
+  },
+  "S4": {
+    "attacks_complete": 5,
+    "attack_successes": 1,
+    "asr": 0.2,
+    "attack_errors_excluded": null,
+    "benign_complete": 3,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 0,
+    "benign_chunks_retrieved": 15
+  }
+}

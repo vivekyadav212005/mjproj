@@ -1,0 +1,16 @@
+model,system,n,possible_false_negatives_refusal_override,possible_false_positives_hedged_success,near_miss_misspellings
+Llama 3 8B,S0,160,5,5,0
+Llama 3 8B,S1,160,1,2,0
+Llama 3 8B,S2,160,0,0,0
+Llama 3 8B,S3,160,0,0,0
+Llama 3 8B,S4,160,0,1,0
+Mistral 7B,S0,160,12,9,1
+Mistral 7B,S1,160,7,3,0
+Mistral 7B,S2,160,2,2,0
+Mistral 7B,S3,160,2,1,0
+Mistral 7B,S4,160,3,1,0
+Qwen 2.5 7B,S0,160,6,1,1
+Qwen 2.5 7B,S1,160,4,0,0
+Qwen 2.5 7B,S2,160,3,1,0
+Qwen 2.5 7B,S3,160,3,1,0
+Qwen 2.5 7B,S4,160,3,0,0

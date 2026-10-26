@@ -164,7 +164,14 @@ class S4AdaptiveRAG(BaselineRAG, BaseHelpers):
             risk_score = risk_res["risk_score"]
             risk_level = risk_res["risk_level"]  # SAFE, SUSPICIOUS, MALICIOUS
 
-            # 5. Quarantine/Sanitize logic
+            # 5. Quarantine/sanitize logic.
+            # Implemented behavior, which the October 2026 logs follow:
+            # MALICIOUS quarantines the whole chunk. Any other chunk that
+            # has at least one classifier-blocked window is sanitized, even
+            # when risk_level is SAFE. The 0.45 suspicious threshold is
+            # recorded in `policy` but does not gate sanitization.
+            # On the frozen logs the alignment penalty was 0 for every
+            # chunk, and the MALICIOUS set matched document_score >= 0.80.
             if risk_level == "MALICIOUS":
                 quarantine_state = "quarantined"
                 final_text = ""
@@ -204,6 +211,9 @@ class S4AdaptiveRAG(BaselineRAG, BaseHelpers):
 
             doc_clf_results.append({
                 "chunk_id": chunk["chunk_id"],
+                "doc_id": chunk.get("doc_id"),
+                "distance": dist,
+                "injected": bool(chunk.get("injected")),
                 "classifier": self.CLASSIFIER_NAME,
                 "rule_score": doc_decision.get("rule_score"),
                 "ml_score": doc_decision.get("ml_score"),

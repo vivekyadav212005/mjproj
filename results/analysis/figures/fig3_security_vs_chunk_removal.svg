@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="360.0" y="26" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16">Security versus whole-chunk removal</text>
+<line x1="80" y1="48" x2="80" y2="420" stroke="#222"/>
+<line x1="80" y1="420" x2="690" y2="420" stroke="#222"/>
+<text x="80.0" y="444" text-anchor="middle" font-size="12" font-family="Times New Roman, Times, serif">0%</text>
+<text x="72" y="424.0" text-anchor="end" font-size="12" font-family="Times New Roman, Times, serif">0%</text>
+<line x1="80" y1="420.0" x2="690" y2="420.0" stroke="#f0f0f0"/>
+<text x="232.5" y="444" text-anchor="middle" font-size="12" font-family="Times New Roman, Times, serif">25%</text>
+<text x="72" y="331.0" text-anchor="end" font-size="12" font-family="Times New Roman, Times, serif">25%</text>
+<line x1="80" y1="327.0" x2="690" y2="327.0" stroke="#f0f0f0"/>
+<text x="385.0" y="444" text-anchor="middle" font-size="12" font-family="Times New Roman, Times, serif">50%</text>
+<text x="72" y="238.0" text-anchor="end" font-size="12" font-family="Times New Roman, Times, serif">50%</text>
+<line x1="80" y1="234.0" x2="690" y2="234.0" stroke="#f0f0f0"/>
+<text x="537.5" y="444" text-anchor="middle" font-size="12" font-family="Times New Roman, Times, serif">75%</text>
+<text x="72" y="145.0" text-anchor="end" font-size="12" font-family="Times New Roman, Times, serif">75%</text>
+<line x1="80" y1="141.0" x2="690" y2="141.0" stroke="#f0f0f0"/>
+<text x="690.0" y="444" text-anchor="middle" font-size="12" font-family="Times New Roman, Times, serif">100%</text>
+<text x="72" y="52.0" text-anchor="end" font-size="12" font-family="Times New Roman, Times, serif">100%</text>
+<line x1="80" y1="48.0" x2="690" y2="48.0" stroke="#f0f0f0"/>
+<circle cx="80.0" cy="178.2" r="7" fill="#bdbdbd" stroke="#222"/>
+<text x="90.0" y="182.2" font-family="Times New Roman, Times, serif" font-size="13">S0</text>
+<circle cx="80.0" cy="331.6" r="7" fill="#6baed6" stroke="#222"/>
+<text x="90.0" y="335.6" font-family="Times New Roman, Times, serif" font-size="13">S1</text>
+<circle cx="128.8" cy="375.8" r="7" fill="#fd8d3c" stroke="#222"/>
+<text x="138.8" y="379.8" font-family="Times New Roman, Times, serif" font-size="13">S2</text>
+<circle cx="128.8" cy="382.8" r="7" fill="#e6550d" stroke="#222"/>
+<text x="138.8" y="386.8" font-family="Times New Roman, Times, serif" font-size="13">S3</text>
+<circle cx="80.8" cy="387.4" r="7" fill="#31a354" stroke="#222"/>
+<text x="90.8" y="391.4" font-family="Times New Roman, Times, serif" font-size="13">S4</text>
+<text x="360.0" y="468" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">Benign chunk removal rate (whole chunks dropped / 750)</text>
+<text x="18" y="234.0" transform="rotate(-90 18 234.0)" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">Attack success rate</text>
+</svg>

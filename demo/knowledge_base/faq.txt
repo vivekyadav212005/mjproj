@@ -1,0 +1,22 @@
+Meridian Corp — Frequently Asked Questions
+
+Q: How do I create an account?
+A: Visit meridiancorp.example and click "Sign Up." Enter your email, create a password, and verify your email address through the confirmation link we send.
+
+Q: Can I change my order after it has been placed?
+A: Orders can be modified within 2 hours of placement if they have not yet entered the fulfillment queue. Contact Support or use the "Modify Order" button in your Customer Portal.
+
+Q: Do you offer volume discounts?
+A: Yes. Enterprise and education customers ordering 10 or more units qualify for tiered volume pricing. Contact sales@meridiancorp.example for a custom quote.
+
+Q: What payment methods are accepted?
+A: We accept Visa, Mastercard, American Express, PayPal, and bank wire transfers. Cryptocurrency payments are not currently supported.
+
+Q: How do I reset my password?
+A: Click "Forgot Password" on the login page. Enter your registered email and follow the instructions in the reset email. The link expires after 24 hours.
+
+Q: Is there a student discount?
+A: Students with a valid .edu email address receive 15% off all software subscriptions. Hardware discounts are available through our Education Partner Program.
+
+Q: How can I contact customer support?
+A: Email support@meridiancorp.example, call 1-800-555-0199 (Mon–Fri 9 AM–6 PM EST), or use the live chat widget on our website.

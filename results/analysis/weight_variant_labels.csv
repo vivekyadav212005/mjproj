@@ -1,0 +1,15 @@
+variant,split,weights,n,SAFE,SUSPICIOUS,MALICIOUS,spec_quarantine
+published,attack,"[0.35, 0.45, 0.15, 0.05]",430,366,35,29,29
+published,benign,"[0.35, 0.45, 0.15, 0.05]",750,719,30,1,1
+no_alignment,attack,"[0.35, 0.45, 0.15, 0.0]",430,366,35,29,29
+no_alignment,benign,"[0.35, 0.45, 0.15, 0.0]",750,719,30,1,1
+alignment_only_weight_increased,attack,"[0.35, 0.45, 0.15, 1.0]",430,366,35,29,29
+alignment_only_weight_increased,benign,"[0.35, 0.45, 0.15, 1.0]",750,719,30,1,1
+document_only,attack,"[1.0, 0.0, 0.0, 0.0]",430,363,38,29,29
+document_only,benign,"[1.0, 0.0, 0.0, 0.0]",750,707,42,1,1
+window_only,attack,"[0.0, 1.0, 0.0, 0.0]",430,348,46,36,36
+window_only,benign,"[0.0, 1.0, 0.0, 0.0]",750,650,98,2,2
+proportion_only,attack,"[0.0, 0.0, 1.0, 0.0]",430,409,17,4,4
+proportion_only,benign,"[0.0, 0.0, 1.0, 0.0]",750,725,20,5,5
+equal_without_alignment,attack,"[0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0]",430,368,60,2,2
+equal_without_alignment,benign,"[0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0]",750,723,25,2,2

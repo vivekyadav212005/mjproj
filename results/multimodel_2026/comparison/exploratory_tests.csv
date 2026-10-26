@@ -1,0 +1,16 @@
+k1,n1,k2,n2,p_value,family,model,contrast,system
+63,100,41,60,0.6078141138460086,exploratory_direct_vs_indirect,Llama 3 8B,S0 direct vs indirect,S0
+25,100,13,60,0.7035120844866046,exploratory_direct_vs_indirect,Llama 3 8B,S1 direct vs indirect,S1
+9,100,10,60,0.20599753721966266,exploratory_direct_vs_indirect,Llama 3 8B,S2 direct vs indirect,S2
+7,100,9,60,0.11169788160786003,exploratory_direct_vs_indirect,Llama 3 8B,S3 direct vs indirect,S3
+7,100,7,60,0.38847725327249494,exploratory_direct_vs_indirect,Llama 3 8B,S4 direct vs indirect,S4
+51,100,3,60,3.243147816165247e-10,exploratory_direct_vs_indirect,Mistral 7B,S0 direct vs indirect,S0
+21,100,3,60,0.005765489101269617,exploratory_direct_vs_indirect,Mistral 7B,S1 direct vs indirect,S1
+5,100,1,60,0.4114192112345243,exploratory_direct_vs_indirect,Mistral 7B,S2 direct vs indirect,S2
+3,100,1,60,1.0,exploratory_direct_vs_indirect,Mistral 7B,S3 direct vs indirect,S3
+3,100,1,60,1.0,exploratory_direct_vs_indirect,Mistral 7B,S4 direct vs indirect,S4
+65,100,4,60,7.068393685955045e-13,exploratory_direct_vs_indirect,Qwen 2.5 7B,S0 direct vs indirect,S0
+28,100,4,60,0.0009354117326737712,exploratory_direct_vs_indirect,Qwen 2.5 7B,S1 direct vs indirect,S1
+6,100,2,60,0.7110775920818093,exploratory_direct_vs_indirect,Qwen 2.5 7B,S2 direct vs indirect,S2
+4,100,2,60,1.0,exploratory_direct_vs_indirect,Qwen 2.5 7B,S3 direct vs indirect,S3
+4,100,3,60,1.0,exploratory_direct_vs_indirect,Qwen 2.5 7B,S4 direct vs indirect,S4

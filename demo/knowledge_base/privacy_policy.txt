@@ -1,0 +1,23 @@
+Meridian Corp — Privacy Policy
+Effective Date: January 1, 2025
+
+1. Information We Collect
+We collect personal information that you provide directly, including your name, email address, shipping address, and payment details. We also collect usage data such as pages visited, features used, and device identifiers.
+
+2. How We Use Your Information
+Personal data is used to fulfill orders, provide customer support, improve our products, and send transactional communications. We do not sell personal information to third parties.
+
+3. Data Retention
+Account information is retained for the duration of your account plus 12 months after closure. Transaction records are retained for 7 years to comply with financial regulations. Usage analytics are aggregated and anonymized after 90 days.
+
+4. Security Measures
+All personal data is encrypted in transit (TLS 1.3) and at rest (AES-256). Access to customer data is restricted to authorized personnel through role-based access controls and multi-factor authentication.
+
+5. Your Rights
+You may request access to, correction of, or deletion of your personal data at any time by contacting privacy@meridiancorp.example. We respond to verified requests within 30 days. You may also opt out of marketing communications via the unsubscribe link in any email.
+
+6. Third-Party Services
+We use select third-party processors for payment handling and shipping logistics. These processors are contractually bound to handle your data in accordance with this policy and applicable data-protection laws.
+
+7. Cookies
+Our website uses essential cookies required for site functionality and optional analytics cookies. You can manage cookie preferences through the banner displayed on your first visit.

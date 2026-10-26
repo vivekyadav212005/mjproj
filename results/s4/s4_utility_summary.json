@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-05T12:19:43",
+  "system": "S4",
+  "utility": {
+    "n_queries": 150,
+    "queries_blocked": 0,
+    "benign_query_false_positive_rate": 0.0,
+    "no_clean_context": 0,
+    "answerable": 150,
+    "answerability": 1.0,
+    "chunks_retrieved": 750,
+    "chunks_removed": 1,
+    "chunk_removal_rate": 0.0013,
+    "benign_document_false_positive_rate": 0.0013,
+    "avg_chunks_removed_per_query": 0.0067,
+    "gold_source_retrieved": 115,
+    "gold_source_retained": 115,
+    "gold_source_retention_of_all_queries": 0.7667,
+    "gold_source_retention_given_retrieved": 1.0,
+    "operational": {
+      "n_llm_calls": 150,
+      "n_queries_blocked": 0,
+      "n_chunks_scanned": 750,
+      "n_chunks_blocked": 1,
+      "n_errors": 0,
+      "mean_latency_ms": 17784.31,
+      "total_latency_s": 2667.6,
+      "total_windows_removed": 193,
+      "total_quarantined_chunks": 1,
+      "total_sanitized_chunks": 141
+    }
+  }
+}

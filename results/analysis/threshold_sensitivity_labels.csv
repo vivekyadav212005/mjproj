@@ -1,0 +1,10 @@
+suspicious_threshold,malicious_threshold,n_attack_chunks_scanned,SAFE,SUSPICIOUS,MALICIOUS,note
+0.35,0.7,430,350,49,31,label counts only; attack success was not recomputed
+0.35,0.8,430,350,51,29,label counts only; attack success was not recomputed
+0.35,0.9,430,350,80,0,label counts only; attack success was not recomputed
+0.45,0.7,430,366,33,31,label counts only; attack success was not recomputed
+0.45,0.8,430,366,35,29,label counts only; attack success was not recomputed
+0.45,0.9,430,366,64,0,label counts only; attack success was not recomputed
+0.55,0.7,430,381,18,31,label counts only; attack success was not recomputed
+0.55,0.8,430,381,20,29,label counts only; attack success was not recomputed
+0.55,0.9,430,381,49,0,label counts only; attack success was not recomputed

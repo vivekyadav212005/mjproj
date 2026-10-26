@@ -1,0 +1,6 @@
+system,queries,queries_blocked,queries_with_any_chunk_removed,chunks_removed,chunks_retrieved,chunk_removal_rate,no_clean_context,answerable,gold_retrieved,gold_retained,gold_retention_given_retrieved,mean_latency_ms
+S0,150,0,0,0,750,0.0,0,150,115,115,1.0,18993.79
+S1,150,0,0,0,750,0.0,0,150,115,115,1.0,20043.18
+S2,150,0,37,60,750,0.08,1,149,115,107,0.930435,20333.81
+S3,150,0,37,60,750,0.08,1,149,115,107,0.930435,20505.32
+S4,150,0,1,1,750,0.001333,0,150,115,115,1.0,17784.31

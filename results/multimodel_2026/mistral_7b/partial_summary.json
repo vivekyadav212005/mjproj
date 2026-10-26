@@ -1,0 +1,52 @@
+{
+  "S0": {
+    "attacks_complete": 160,
+    "attack_successes": 54,
+    "asr": 0.3375,
+    "attack_errors_excluded": null,
+    "benign_complete": 150,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 0,
+    "benign_chunks_retrieved": 750
+  },
+  "S1": {
+    "attacks_complete": 160,
+    "attack_successes": 24,
+    "asr": 0.15,
+    "attack_errors_excluded": null,
+    "benign_complete": 150,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 0,
+    "benign_chunks_retrieved": 750
+  },
+  "S2": {
+    "attacks_complete": 160,
+    "attack_successes": 6,
+    "asr": 0.0375,
+    "attack_errors_excluded": null,
+    "benign_complete": 150,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 60,
+    "benign_chunks_retrieved": 750
+  },
+  "S3": {
+    "attacks_complete": 160,
+    "attack_successes": 4,
+    "asr": 0.025,
+    "attack_errors_excluded": null,
+    "benign_complete": 150,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 60,
+    "benign_chunks_retrieved": 750
+  },
+  "S4": {
+    "attacks_complete": 160,
+    "attack_successes": 4,
+    "asr": 0.025,
+    "attack_errors_excluded": null,
+    "benign_complete": 150,
+    "benign_query_blocked": 0,
+    "benign_chunks_removed": 1,
+    "benign_chunks_retrieved": 750
+  }
+}

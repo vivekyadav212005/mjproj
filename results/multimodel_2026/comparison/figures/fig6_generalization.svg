@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="550.0" y="28" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="18">Cross-model generalization: no defense, combined filter, sentence window</text>
+<line x1="78" y1="468.0" x2="1076" y2="468.0" stroke="#eeeeee"/>
+<text x="70" y="472.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">0%</text>
+<line x1="78" y1="386.0" x2="1076" y2="386.0" stroke="#eeeeee"/>
+<text x="70" y="390.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">20%</text>
+<line x1="78" y1="304.0" x2="1076" y2="304.0" stroke="#eeeeee"/>
+<text x="70" y="308.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">40%</text>
+<line x1="78" y1="222.0" x2="1076" y2="222.0" stroke="#eeeeee"/>
+<text x="70" y="226.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">60%</text>
+<line x1="78" y1="140.0" x2="1076" y2="140.0" stroke="#eeeeee"/>
+<text x="70" y="144.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">80%</text>
+<line x1="78" y1="58.0" x2="1076" y2="58.0" stroke="#eeeeee"/>
+<text x="70" y="62.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">100%</text>
+<line x1="78" y1="58" x2="78" y2="468" stroke="#222"/>
+<line x1="78" y1="468" x2="1076" y2="468" stroke="#222"/>
+<rect x="130.9" y="201.5" width="65.0" height="266.5" fill="#4d4d4d"/>
+<line x1="163.4" y1="232.9" x2="163.4" y2="173.0" stroke="#111"/>
+<line x1="159.4" y1="232.9" x2="167.4" y2="232.9" stroke="#111"/>
+<line x1="159.4" y1="173.0" x2="167.4" y2="173.0" stroke="#111"/>
+<rect x="206.5" y="329.6" width="65.0" height="138.4" fill="#e6550d"/>
+<line x1="239.0" y1="357.8" x2="239.0" y2="298.3" stroke="#111"/>
+<line x1="235.0" y1="357.8" x2="243.0" y2="357.8" stroke="#111"/>
+<line x1="235.0" y1="298.3" x2="243.0" y2="298.3" stroke="#111"/>
+<rect x="282.1" y="291.2" width="65.0" height="176.8" fill="#2b8cbe"/>
+<line x1="314.6" y1="321.6" x2="314.6" y2="259.4" stroke="#111"/>
+<line x1="310.6" y1="321.6" x2="318.6" y2="321.6" stroke="#111"/>
+<line x1="310.6" y1="259.4" x2="318.6" y2="259.4" stroke="#111"/>
+<text x="244.3" y="498" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">S0</text>
+<rect x="463.6" y="427.0" width="65.0" height="41.0" fill="#4d4d4d"/>
+<line x1="496.1" y1="442.4" x2="496.1" y2="403.9" stroke="#111"/>
+<line x1="492.1" y1="442.4" x2="500.1" y2="442.4" stroke="#111"/>
+<line x1="492.1" y1="403.9" x2="500.1" y2="403.9" stroke="#111"/>
+<rect x="539.2" y="457.8" width="65.0" height="10.2" fill="#e6550d"/>
+<line x1="571.7" y1="464.0" x2="571.7" y2="442.4" stroke="#111"/>
+<line x1="567.7" y1="464.0" x2="575.7" y2="464.0" stroke="#111"/>
+<line x1="567.7" y1="442.4" x2="575.7" y2="442.4" stroke="#111"/>
+<rect x="614.8" y="452.6" width="65.0" height="15.4" fill="#2b8cbe"/>
+<line x1="647.3" y1="460.9" x2="647.3" y2="435.5" stroke="#111"/>
+<line x1="643.3" y1="460.9" x2="651.3" y2="460.9" stroke="#111"/>
+<line x1="643.3" y1="435.5" x2="651.3" y2="435.5" stroke="#111"/>
+<text x="577.0" y="498" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">S3</text>
+<rect x="796.3" y="432.1" width="65.0" height="35.9" fill="#4d4d4d"/>
+<line x1="828.8" y1="446.3" x2="828.8" y2="410.0" stroke="#111"/>
+<line x1="824.8" y1="446.3" x2="832.8" y2="446.3" stroke="#111"/>
+<line x1="824.8" y1="410.0" x2="832.8" y2="410.0" stroke="#111"/>
+<rect x="871.9" y="457.8" width="65.0" height="10.2" fill="#e6550d"/>
+<line x1="904.4" y1="464.0" x2="904.4" y2="442.4" stroke="#111"/>
+<line x1="900.4" y1="464.0" x2="908.4" y2="464.0" stroke="#111"/>
+<line x1="900.4" y1="442.4" x2="908.4" y2="442.4" stroke="#111"/>
+<rect x="947.5" y="450.1" width="65.0" height="17.9" fill="#2b8cbe"/>
+<line x1="980.0" y1="459.2" x2="980.0" y2="432.1" stroke="#111"/>
+<line x1="976.0" y1="459.2" x2="984.0" y2="459.2" stroke="#111"/>
+<line x1="976.0" y1="432.1" x2="984.0" y2="432.1" stroke="#111"/>
+<text x="909.7" y="498" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">S4</text>
+<rect x="78" y="532" width="12" height="12" fill="#4d4d4d"/>
+<text x="94" y="543" font-family="Times New Roman, Times, serif" font-size="13">Llama 3 8B</text>
+<rect x="258" y="532" width="12" height="12" fill="#e6550d"/>
+<text x="274" y="543" font-family="Times New Roman, Times, serif" font-size="13">Mistral 7B</text>
+<rect x="438" y="532" width="12" height="12" fill="#2b8cbe"/>
+<text x="454" y="543" font-family="Times New Roman, Times, serif" font-size="13">Qwen 2.5 7B</text>
+<text x="20" y="263.0" transform="rotate(-90 20 263.0)" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">Attack success rate</text>
+</svg>

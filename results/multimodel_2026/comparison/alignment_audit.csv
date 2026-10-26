@@ -1,0 +1,7 @@
+model,split,n_chunks,alignment_missing,penalty_nonzero,penalty_max,max_alignment_contribution
+Llama 3 8B,attack,430,60,0,0.0,0.0
+Llama 3 8B,benign,750,0,0,0.0,0.0
+Mistral 7B,attack,430,60,0,0.0,0.0
+Mistral 7B,benign,750,0,0,0.0,0.0
+Qwen 2.5 7B,attack,430,60,0,0.0,0.0
+Qwen 2.5 7B,benign,750,0,0,0.0,0.0

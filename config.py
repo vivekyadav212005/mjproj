@@ -9,11 +9,13 @@ LLM: local Ollama backend.
 import os
 
 # ─────────────────────────────────────────────────────────────────────────────
-# LLM — Gemini 2.5 Flash only
+# LLM — local Ollama. The final S0–S4 runs used llama3:latest
+# (8B, Q4_0) via final_experiment/final_systems.py and the S4 runner.
+# GEMINI_* names remain only so older entry points import.
 # ─────────────────────────────────────────────────────────────────────────────
 
 LLM_PROVIDER   = "gemini"
-GEMINI_MODEL   = "gemini-2.5-flash"   # stable preview tag
+GEMINI_MODEL   = "gemini-2.5-flash"   # unused by the frozen Ollama runs
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # Temperature=0 for full reproducibility across runs

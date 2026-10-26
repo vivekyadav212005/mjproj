@@ -179,6 +179,42 @@ class TestS4AdaptiveRAG(unittest.TestCase):
         self.assertEqual(audit[0]["policy"], "MALICIOUS")
         self.assertEqual(audit[0]["quarantine_state"], "quarantined")
 
+    def test_safe_risk_still_sanitizes_a_blocked_window(self):
+        """Document the implemented policy, which is stricter than the write-up.
+
+        A window the classifier blocks is removed even when the weighted
+        risk stays below the 0.45 SAFE/SUSPICIOUS threshold.
+        """
+        def classify(text):
+            blocked = "WINDOW_TRIGGER" in text and len(text) < 80
+            return {
+                "score": 0.60 if blocked else 0.10,
+                "blocked": blocked,
+                "rule_score": 0.0,
+                "ml_score": 0.60 if blocked else 0.10,
+                "triggered_groups": [],
+                "decided_by": "ml" if blocked else None,
+            }
+
+        self.rag.classifier.classify = classify
+        text = (
+            "Quarterly revenue was 12 million and operating margin was stable. " * 4
+            + "WINDOW_TRIGGER token. "
+            + "The dividend remains unchanged."
+        )
+        self.mock_collection.query.return_value = {
+            "ids": [["doc_1"]],
+            "documents": [[text]],
+            "distances": [[0.2]],
+            "metadatas": [[{"doc_id": "finance.txt"}]],
+        }
+        res = self.rag.query("What was quarterly revenue?")
+        audit = res["s4_audit"][0]
+        self.assertEqual(audit["policy"], "SAFE")
+        self.assertEqual(audit["quarantine_state"], "sanitized")
+        self.assertLess(audit["risk"], 0.45)
+        self.assertGreater(audit["window_counts"]["suspicious"], 0)
+
     def test_multi_turn_followup_blocking(self):
         self.mock_collection.query.return_value = {
             "ids": [["doc_1"]],

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="24" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="16">Attack success rate by category</text>
+<line x1="70" y1="430.0" x2="960" y2="430.0" stroke="#eeeeee"/>
+<text x="62" y="434.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">0%</text>
+<line x1="70" y1="336.5" x2="960" y2="336.5" stroke="#eeeeee"/>
+<text x="62" y="340.5" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">25%</text>
+<line x1="70" y1="243.0" x2="960" y2="243.0" stroke="#eeeeee"/>
+<text x="62" y="247.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">50%</text>
+<line x1="70" y1="149.5" x2="960" y2="149.5" stroke="#eeeeee"/>
+<text x="62" y="153.5" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">75%</text>
+<line x1="70" y1="56.0" x2="960" y2="56.0" stroke="#eeeeee"/>
+<text x="62" y="60.0" text-anchor="end" font-family="Times New Roman, Times, serif" font-size="12">100%</text>
+<rect x="77.2" y="74.7" width="16.1" height="355.3" fill="#bdbdbd"/>
+<rect x="95.1" y="299.1" width="16.1" height="130.9" fill="#6baed6"/>
+<rect x="113.1" y="392.6" width="16.1" height="37.4" fill="#fd8d3c"/>
+<rect x="131.0" y="411.3" width="16.1" height="18.7" fill="#e6550d"/>
+<rect x="149.0" y="411.3" width="16.1" height="18.7" fill="#31a354"/>
+<text x="125.6" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">D1</text>
+<rect x="188.4" y="168.2" width="16.1" height="261.8" fill="#bdbdbd"/>
+<rect x="206.4" y="280.4" width="16.1" height="149.6" fill="#6baed6"/>
+<rect x="224.3" y="411.3" width="16.1" height="18.7" fill="#fd8d3c"/>
+<rect x="242.3" y="411.3" width="16.1" height="18.7" fill="#e6550d"/>
+<rect x="260.2" y="411.3" width="16.1" height="18.7" fill="#31a354"/>
+<text x="236.9" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">D2</text>
+<rect x="299.7" y="186.9" width="16.1" height="243.1" fill="#bdbdbd"/>
+<rect x="317.6" y="299.1" width="16.1" height="130.9" fill="#6baed6"/>
+<rect x="335.6" y="336.5" width="16.1" height="93.5" fill="#fd8d3c"/>
+<rect x="353.5" y="336.5" width="16.1" height="93.5" fill="#e6550d"/>
+<rect x="371.5" y="336.5" width="16.1" height="93.5" fill="#31a354"/>
+<text x="348.1" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">D3</text>
+<rect x="410.9" y="317.8" width="16.1" height="112.2" fill="#bdbdbd"/>
+<rect x="428.9" y="411.3" width="16.1" height="18.7" fill="#6baed6"/>
+<rect x="446.8" y="411.3" width="16.1" height="18.7" fill="#fd8d3c"/>
+<rect x="464.8" y="430.0" width="16.1" height="0.0" fill="#e6550d"/>
+<rect x="482.7" y="430.0" width="16.1" height="0.0" fill="#31a354"/>
+<text x="459.4" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">D4</text>
+<rect x="522.2" y="224.3" width="16.1" height="205.7" fill="#bdbdbd"/>
+<rect x="540.1" y="392.6" width="16.1" height="37.4" fill="#6baed6"/>
+<rect x="558.1" y="430.0" width="16.1" height="0.0" fill="#fd8d3c"/>
+<rect x="576.0" y="430.0" width="16.1" height="0.0" fill="#e6550d"/>
+<rect x="594.0" y="430.0" width="16.1" height="0.0" fill="#31a354"/>
+<text x="570.6" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">D5</text>
+<rect x="633.4" y="149.5" width="16.1" height="280.5" fill="#bdbdbd"/>
+<rect x="651.4" y="430.0" width="16.1" height="0.0" fill="#6baed6"/>
+<rect x="669.3" y="430.0" width="16.1" height="0.0" fill="#fd8d3c"/>
+<rect x="687.3" y="430.0" width="16.1" height="0.0" fill="#e6550d"/>
+<rect x="705.2" y="430.0" width="16.1" height="0.0" fill="#31a354"/>
+<text x="681.9" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">I1</text>
+<rect x="744.7" y="186.9" width="16.1" height="243.1" fill="#bdbdbd"/>
+<rect x="762.6" y="186.9" width="16.1" height="243.1" fill="#6baed6"/>
+<rect x="780.6" y="261.7" width="16.1" height="168.3" fill="#fd8d3c"/>
+<rect x="798.5" y="261.7" width="16.1" height="168.3" fill="#e6550d"/>
+<rect x="816.5" y="299.1" width="16.1" height="130.9" fill="#31a354"/>
+<text x="793.1" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">I2</text>
+<rect x="855.9" y="186.9" width="16.1" height="243.1" fill="#bdbdbd"/>
+<rect x="873.9" y="430.0" width="16.1" height="0.0" fill="#6baed6"/>
+<rect x="891.8" y="411.3" width="16.1" height="18.7" fill="#fd8d3c"/>
+<rect x="909.8" y="430.0" width="16.1" height="0.0" fill="#e6550d"/>
+<rect x="927.7" y="430.0" width="16.1" height="0.0" fill="#31a354"/>
+<text x="904.4" y="458" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">I3</text>
+<rect x="70" y="476" width="12" height="12" fill="#bdbdbd"/>
+<text x="86" y="486" font-family="Times New Roman, Times, serif" font-size="12">S0</text>
+<rect x="160" y="476" width="12" height="12" fill="#6baed6"/>
+<text x="176" y="486" font-family="Times New Roman, Times, serif" font-size="12">S1</text>
+<rect x="250" y="476" width="12" height="12" fill="#fd8d3c"/>
+<text x="266" y="486" font-family="Times New Roman, Times, serif" font-size="12">S2</text>
+<rect x="340" y="476" width="12" height="12" fill="#e6550d"/>
+<text x="356" y="486" font-family="Times New Roman, Times, serif" font-size="12">S3</text>
+<rect x="430" y="476" width="12" height="12" fill="#31a354"/>
+<text x="446" y="486" font-family="Times New Roman, Times, serif" font-size="12">S4</text>
+<text x="16" y="243.0" transform="rotate(-90 16 243.0)" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="13">Attack success rate</text>
+</svg>

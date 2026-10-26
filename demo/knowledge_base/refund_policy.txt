@@ -1,0 +1,17 @@
+Meridian Corp — Refund Policy
+Effective Date: January 1, 2025
+
+1. Eligibility
+Customers may request a full refund within 30 calendar days of the original purchase date. The product must be unused and returned in its original packaging. Digital subscriptions may be refunded within 14 days if fewer than 50 API calls have been made.
+
+2. Process
+To initiate a refund, submit a request through the Customer Portal at portal.meridiancorp.example or contact Support at support@meridiancorp.example. Include your order number and the reason for the return. Our team will acknowledge receipt within 2 business days.
+
+3. Refund Timeline
+Approved refunds are processed within 5–10 business days. Credit-card refunds appear on the next billing cycle. Wire-transfer refunds are issued to the originating bank account.
+
+4. Exceptions
+Custom-manufactured hardware, professional-services engagements billed by the hour, and promotional bundles marked "final sale" are not eligible for refund. Partial refunds may be issued at the discretion of the Returns Committee for items returned after the 30-day window but before 60 days.
+
+5. Restocking Fee
+A 15% restocking fee applies to physical products returned after the original seal has been broken, unless the return is due to a manufacturing defect confirmed by our Quality Assurance team.

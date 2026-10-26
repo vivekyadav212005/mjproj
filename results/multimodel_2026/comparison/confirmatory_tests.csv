@@ -1,0 +1,25 @@
+b,c,n_discordant,p_value,family,model,contrast,first,second,both_success,neither_success,n,first_only_success,second_only_success,p_holm,significant_holm_0_05,system
+88,0,88,4.601761192576427e-16,confirmatory_within_model,Llama 3 8B,S0 vs S3,S0,S3,16,56,160,88,0,1.0584050742925781e-14,True,
+90,0,90,1.2793974524745824e-15,confirmatory_within_model,Llama 3 8B,S0 vs S4,S0,S4,14,56,160,90,0,2.686734650196623e-14,True,
+22,0,22,4.76837158203125e-07,confirmatory_within_model,Llama 3 8B,S1 vs S3,S1,S3,16,122,160,22,0,7.62939453125e-06,True,
+3,0,3,0.25,confirmatory_within_model,Llama 3 8B,S2 vs S3,S2,S3,16,141,160,3,0,1.0,False,
+3,1,4,0.625,confirmatory_within_model,Llama 3 8B,S3 vs S4,S3,S4,13,143,160,3,1,1.0,False,
+51,1,52,2.353672812205332e-14,confirmatory_within_model,Mistral 7B,S0 vs S3,S0,S3,3,105,160,51,1,4.707345624410664e-13,True,
+52,2,54,1.6497914145929826e-13,confirmatory_within_model,Mistral 7B,S0 vs S4,S0,S4,2,104,160,52,2,3.134603687726667e-12,True,
+21,1,22,1.0967254638671875e-05,confirmatory_within_model,Mistral 7B,S1 vs S3,S1,S3,3,135,160,21,1,0.00016450881958007812,True,
+2,0,2,0.5,confirmatory_within_model,Mistral 7B,S2 vs S3,S2,S3,4,154,160,2,0,1.0,False,
+1,1,2,1.0,confirmatory_within_model,Mistral 7B,S3 vs S4,S3,S4,3,155,160,1,1,1.0,False,
+63,0,63,4.373671563806525e-16,confirmatory_within_model,Qwen 2.5 7B,S0 vs S3,S0,S3,6,91,160,63,0,1.049681175313566e-14,True,
+62,0,62,8.474124180146703e-16,confirmatory_within_model,Qwen 2.5 7B,S0 vs S4,S0,S4,7,91,160,62,0,1.8643073196322746e-14,True,
+26,0,26,2.9802322387695312e-08,confirmatory_within_model,Qwen 2.5 7B,S1 vs S3,S1,S3,6,128,160,26,0,5.066394805908203e-07,True,
+2,0,2,0.5,confirmatory_within_model,Qwen 2.5 7B,S2 vs S3,S2,S3,6,152,160,2,0,1.0,False,
+0,1,1,1.0,confirmatory_within_model,Qwen 2.5 7B,S3 vs S4,S3,S4,6,153,160,0,1,1.0,False,
+61,11,72,1.5488945360571046e-09,confirmatory_across_models,Llama 3 8B vs Mistral 7B,S0: Llama 3 8B vs Mistral 7B,Llama 3 8B,Mistral 7B,43,45,160,61,11,2.7880101649027883e-08,True,S0
+49,14,63,1.112302300044902e-05,confirmatory_across_models,Llama 3 8B vs Qwen 2.5 7B,S0: Llama 3 8B vs Qwen 2.5 7B,Llama 3 8B,Qwen 2.5 7B,55,42,160,49,14,0.00016450881958007812,True,S0
+9,24,33,0.013530986849218607,confirmatory_across_models,Mistral 7B vs Qwen 2.5 7B,S0: Mistral 7B vs Qwen 2.5 7B,Mistral 7B,Qwen 2.5 7B,45,82,160,9,24,0.13530986849218607,False,S0
+12,0,12,0.00048828125,confirmatory_across_models,Llama 3 8B vs Mistral 7B,S3: Llama 3 8B vs Mistral 7B,Llama 3 8B,Mistral 7B,4,144,160,12,0,0.00634765625,True,S3
+10,0,10,0.001953125,confirmatory_across_models,Llama 3 8B vs Qwen 2.5 7B,S3: Llama 3 8B vs Qwen 2.5 7B,Llama 3 8B,Qwen 2.5 7B,6,144,160,10,0,0.0234375,True,S3
+2,4,6,0.6875,confirmatory_across_models,Mistral 7B vs Qwen 2.5 7B,S3: Mistral 7B vs Qwen 2.5 7B,Mistral 7B,Qwen 2.5 7B,2,152,160,2,4,1.0,False,S3
+10,0,10,0.001953125,confirmatory_across_models,Llama 3 8B vs Mistral 7B,S4: Llama 3 8B vs Mistral 7B,Llama 3 8B,Mistral 7B,4,146,160,10,0,0.0234375,True,S4
+7,0,7,0.015625,confirmatory_across_models,Llama 3 8B vs Qwen 2.5 7B,S4: Llama 3 8B vs Qwen 2.5 7B,Llama 3 8B,Qwen 2.5 7B,7,146,160,7,0,0.140625,False,S4
+1,4,5,0.375,confirmatory_across_models,Mistral 7B vs Qwen 2.5 7B,S4: Mistral 7B vs Qwen 2.5 7B,Mistral 7B,Qwen 2.5 7B,3,152,160,1,4,1.0,False,S4
